@@ -12,87 +12,42 @@ namespace Supermarket.Test
         [UseReporter(typeof(DiffReporter))]
         public void ApproveReceiptCalculation()
         {
-            string[] productNames =
-            {
-                "toothbrush",
-                "apples"
-            };
-            double[] productPrices =
-            {
-                0.99,
-                1.99,
-            };
-            double[] itemQuantities =
-            {
+            CombinationApprovals.VerifyAllCombinations(
+            CallCheckoutAndGetReceipt,
+            new double[] {
                 1,
-                2.5,
                 5
-            };
-            ProductUnit[] productUnits =
-            {
+            },
+            new[] {
                 ProductUnit.Each,
                 ProductUnit.Kilo
-            };
-            bool[] useSpecialOfferType =
-            {
-                true,
-                false
-            };
-            SpecialOfferType[] specialOfferTypes =
-            {
+            },
+            new[] {
                 SpecialOfferType.TenPercentDiscount,
                 SpecialOfferType.FiveForAmount,
                 SpecialOfferType.ThreeForTwo,
                 SpecialOfferType.TwoForAmount
-            };
-            int[] numberOfProductAmounts =
-            {
-                1,
-                2,
-                3
-            };
-            double[] specialOfferArguments =
-            {
+            },
+            new[] {
                 10.0
-            };
-
-            CombinationApprovals.VerifyAllCombinations(
-            CallCheckoutAndGetReceipt,
-            productNames,
-            productPrices,
-            itemQuantities,
-            productUnits,
-            useSpecialOfferType,
-            specialOfferTypes,
-            specialOfferArguments,
-            numberOfProductAmounts);
+            });
         }
 
         private string CallCheckoutAndGetReceipt(
-            string productName,
-            double productPrice,
             double itemQuantity,
             ProductUnit productUnit,
-            bool useSpecialOffer,
             SpecialOfferType specialOfferType,
-            double specialOfferArgument,
-            int numberOfProducts)
+            double specialOfferArgument)
         {
             var catalog = new FakeCatalog();
             var cart = new ShoppingCart();
             var teller = new Teller(catalog);
 
-            for (int i = 0; i < numberOfProducts; i++)
-            {
-                var product = new Product($"{productName}-{i}", productUnit);
-                catalog.AddProduct(product, productPrice);
-                cart.AddItem(product);
-                cart.AddItemQuantity(product, itemQuantity);
-                if (useSpecialOffer)
-                {
-                    teller.AddSpecialOffer(specialOfferType, product, specialOfferArgument);
-                }
-            }
+            var product = new Product($"chocolate", productUnit);
+            catalog.AddProduct(product, 1.00);
+            cart.AddItem(product);
+            cart.AddItemQuantity(product, itemQuantity);
+            teller.AddSpecialOffer(specialOfferType, product, specialOfferArgument);
 
             var receipt = teller.CheckOutArticlesFrom(cart);
             return new ReceiptPrinter().PrintReceipt(receipt);
