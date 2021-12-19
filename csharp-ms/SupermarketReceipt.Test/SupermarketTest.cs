@@ -1,5 +1,6 @@
-using System;
-using System.Collections.Generic;
+using ApprovalTests.Combinations;
+using ApprovalTests.Reporters;
+using ApprovalUtilities.Utilities;
 using SupermarketReceipt;
 using Xunit;
 
@@ -7,35 +8,94 @@ namespace Supermarket.Test
 {
     public class SupermarketTest
     {
-   
         [Fact]
-        public void TenPercentDiscount()
+        [UseReporter(typeof(DiffReporter))]
+        public void ApproveReceiptCalculation()
         {
-            // ARRANGE
-            SupermarketCatalog catalog = new FakeCatalog();
-            var toothbrush = new Product("toothbrush", ProductUnit.Each);
-            catalog.AddProduct(toothbrush, 0.99);
-            var apples = new Product("apples", ProductUnit.Kilo);
-            catalog.AddProduct(apples, 1.99);
+            string[] productNames =
+            {
+                "toothbrush",
+                "apples"
+            };
+            double[] productPrices =
+            {
+                0.99,
+                1.99,
+            };
+            double[] itemQuantities =
+            {
+                1,
+                2.5,
+                5
+            };
+            ProductUnit[] productUnits =
+            {
+                ProductUnit.Each,
+                ProductUnit.Kilo
+            };
+            bool[] useSpecialOfferType =
+            {
+                true,
+                false
+            };
+            SpecialOfferType[] specialOfferTypes =
+            {
+                SpecialOfferType.TenPercentDiscount,
+                SpecialOfferType.FiveForAmount,
+                SpecialOfferType.ThreeForTwo,
+                SpecialOfferType.TwoForAmount
+            };
+            int[] numberOfProductAmounts =
+            {
+                1,
+                2,
+                3
+            };
+            double[] specialOfferArguments =
+            {
+                10.0
+            };
 
+            CombinationApprovals.VerifyAllCombinations(
+            CallCheckoutAndGetReceipt,
+            productNames,
+            productPrices,
+            itemQuantities,
+            productUnits,
+            useSpecialOfferType,
+            specialOfferTypes,
+            specialOfferArguments,
+            numberOfProductAmounts);
+        }
+
+        private string CallCheckoutAndGetReceipt(
+            string productName,
+            double productPrice,
+            double itemQuantity,
+            ProductUnit productUnit,
+            bool useSpecialOffer,
+            SpecialOfferType specialOfferType,
+            double specialOfferArgument,
+            int numberOfProducts)
+        {
+            var catalog = new FakeCatalog();
             var cart = new ShoppingCart();
-            cart.AddItemQuantity(apples, 2.5);
-
             var teller = new Teller(catalog);
-            teller.AddSpecialOffer(SpecialOfferType.TenPercentDiscount, toothbrush, 10.0);
 
-            // ACT
-            var receipt = teller.ChecksOutArticlesFrom(cart);
+            for (int i = 0; i < numberOfProducts; i++)
+            {
+                var product = new Product($"{productName}-{i}", productUnit);
+                catalog.AddProduct(product, productPrice);
+                cart.AddItem(product);
+                cart.AddItemQuantity(product, itemQuantity);
+                if (useSpecialOffer)
+                {
+                    teller.AddSpecialOffer(specialOfferType, product, specialOfferArgument);
+                }
+            }
 
-            // ASSERT
-            Assert.Equal(4.975, receipt.GetTotalPrice());
-            Assert.Equal(new List<Discount>(), receipt.GetDiscounts());
-            Assert.Single(receipt.GetItems());
-            var receiptItem = receipt.GetItems()[0];
-            Assert.Equal(apples, receiptItem.Product);
-            Assert.Equal(1.99, receiptItem.Price);
-            Assert.Equal(2.5 * 1.99, receiptItem.TotalPrice);
-            Assert.Equal(2.5, receiptItem.Quantity);
+            var receipt = teller.CheckOutArticlesFrom(cart);
+            return new ReceiptPrinter().PrintReceipt(receipt);
         }
     }
 }

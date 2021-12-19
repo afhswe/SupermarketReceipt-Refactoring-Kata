@@ -1,0 +1,5232 @@
+﻿[toothbrush,0.99,1,Each,True,TenPercentDiscount,10,1] => toothbrush-0                        0.99
+toothbrush-0                        0.99
+10% off(toothbrush-0)              -0.20
+
+Total:                              1.78
+
+[toothbrush,0.99,1,Each,True,TenPercentDiscount,10,2] => toothbrush-0                        0.99
+toothbrush-0                        0.99
+toothbrush-1                        0.99
+toothbrush-1                        0.99
+10% off(toothbrush-0)              -0.20
+10% off(toothbrush-1)              -0.20
+
+Total:                              3.56
+
+[toothbrush,0.99,1,Each,True,TenPercentDiscount,10,3] => toothbrush-0                        0.99
+toothbrush-0                        0.99
+toothbrush-1                        0.99
+toothbrush-1                        0.99
+toothbrush-2                        0.99
+toothbrush-2                        0.99
+10% off(toothbrush-0)              -0.20
+10% off(toothbrush-1)              -0.20
+10% off(toothbrush-2)              -0.20
+
+Total:                              5.35
+
+[toothbrush,0.99,1,Each,True,FiveForAmount,10,1] => toothbrush-0                        0.99
+toothbrush-0                        0.99
+
+Total:                              1.98
+
+[toothbrush,0.99,1,Each,True,FiveForAmount,10,2] => toothbrush-0                        0.99
+toothbrush-0                        0.99
+toothbrush-1                        0.99
+toothbrush-1                        0.99
+
+Total:                              3.96
+
+[toothbrush,0.99,1,Each,True,FiveForAmount,10,3] => toothbrush-0                        0.99
+toothbrush-0                        0.99
+toothbrush-1                        0.99
+toothbrush-1                        0.99
+toothbrush-2                        0.99
+toothbrush-2                        0.99
+
+Total:                              5.94
+
+[toothbrush,0.99,1,Each,True,ThreeForTwo,10,1] => toothbrush-0                        0.99
+toothbrush-0                        0.99
+
+Total:                              1.98
+
+[toothbrush,0.99,1,Each,True,ThreeForTwo,10,2] => toothbrush-0                        0.99
+toothbrush-0                        0.99
+toothbrush-1                        0.99
+toothbrush-1                        0.99
+
+Total:                              3.96
+
+[toothbrush,0.99,1,Each,True,ThreeForTwo,10,3] => toothbrush-0                        0.99
+toothbrush-0                        0.99
+toothbrush-1                        0.99
+toothbrush-1                        0.99
+toothbrush-2                        0.99
+toothbrush-2                        0.99
+
+Total:                              5.94
+
+[toothbrush,0.99,1,Each,True,TwoForAmount,10,1] => toothbrush-0                        0.99
+toothbrush-0                        0.99
+2 for 10(toothbrush-0)              8.02
+
+Total:                             10.00
+
+[toothbrush,0.99,1,Each,True,TwoForAmount,10,2] => toothbrush-0                        0.99
+toothbrush-0                        0.99
+toothbrush-1                        0.99
+toothbrush-1                        0.99
+2 for 10(toothbrush-0)              8.02
+2 for 10(toothbrush-1)              8.02
+
+Total:                             20.00
+
+[toothbrush,0.99,1,Each,True,TwoForAmount,10,3] => toothbrush-0                        0.99
+toothbrush-0                        0.99
+toothbrush-1                        0.99
+toothbrush-1                        0.99
+toothbrush-2                        0.99
+toothbrush-2                        0.99
+2 for 10(toothbrush-0)              8.02
+2 for 10(toothbrush-1)              8.02
+2 for 10(toothbrush-2)              8.02
+
+Total:                             30.00
+
+[toothbrush,0.99,1,Each,False,TenPercentDiscount,10,1] => toothbrush-0                        0.99
+toothbrush-0                        0.99
+
+Total:                              1.98
+
+[toothbrush,0.99,1,Each,False,TenPercentDiscount,10,2] => toothbrush-0                        0.99
+toothbrush-0                        0.99
+toothbrush-1                        0.99
+toothbrush-1                        0.99
+
+Total:                              3.96
+
+[toothbrush,0.99,1,Each,False,TenPercentDiscount,10,3] => toothbrush-0                        0.99
+toothbrush-0                        0.99
+toothbrush-1                        0.99
+toothbrush-1                        0.99
+toothbrush-2                        0.99
+toothbrush-2                        0.99
+
+Total:                              5.94
+
+[toothbrush,0.99,1,Each,False,FiveForAmount,10,1] => toothbrush-0                        0.99
+toothbrush-0                        0.99
+
+Total:                              1.98
+
+[toothbrush,0.99,1,Each,False,FiveForAmount,10,2] => toothbrush-0                        0.99
+toothbrush-0                        0.99
+toothbrush-1                        0.99
+toothbrush-1                        0.99
+
+Total:                              3.96
+
+[toothbrush,0.99,1,Each,False,FiveForAmount,10,3] => toothbrush-0                        0.99
+toothbrush-0                        0.99
+toothbrush-1                        0.99
+toothbrush-1                        0.99
+toothbrush-2                        0.99
+toothbrush-2                        0.99
+
+Total:                              5.94
+
+[toothbrush,0.99,1,Each,False,ThreeForTwo,10,1] => toothbrush-0                        0.99
+toothbrush-0                        0.99
+
+Total:                              1.98
+
+[toothbrush,0.99,1,Each,False,ThreeForTwo,10,2] => toothbrush-0                        0.99
+toothbrush-0                        0.99
+toothbrush-1                        0.99
+toothbrush-1                        0.99
+
+Total:                              3.96
+
+[toothbrush,0.99,1,Each,False,ThreeForTwo,10,3] => toothbrush-0                        0.99
+toothbrush-0                        0.99
+toothbrush-1                        0.99
+toothbrush-1                        0.99
+toothbrush-2                        0.99
+toothbrush-2                        0.99
+
+Total:                              5.94
+
+[toothbrush,0.99,1,Each,False,TwoForAmount,10,1] => toothbrush-0                        0.99
+toothbrush-0                        0.99
+
+Total:                              1.98
+
+[toothbrush,0.99,1,Each,False,TwoForAmount,10,2] => toothbrush-0                        0.99
+toothbrush-0                        0.99
+toothbrush-1                        0.99
+toothbrush-1                        0.99
+
+Total:                              3.96
+
+[toothbrush,0.99,1,Each,False,TwoForAmount,10,3] => toothbrush-0                        0.99
+toothbrush-0                        0.99
+toothbrush-1                        0.99
+toothbrush-1                        0.99
+toothbrush-2                        0.99
+toothbrush-2                        0.99
+
+Total:                              5.94
+
+[toothbrush,0.99,1,Kilo,True,TenPercentDiscount,10,1] => toothbrush-0                        0.99
+toothbrush-0                        0.99
+10% off(toothbrush-0)              -0.20
+
+Total:                              1.78
+
+[toothbrush,0.99,1,Kilo,True,TenPercentDiscount,10,2] => toothbrush-0                        0.99
+toothbrush-0                        0.99
+toothbrush-1                        0.99
+toothbrush-1                        0.99
+10% off(toothbrush-0)              -0.20
+10% off(toothbrush-1)              -0.20
+
+Total:                              3.56
+
+[toothbrush,0.99,1,Kilo,True,TenPercentDiscount,10,3] => toothbrush-0                        0.99
+toothbrush-0                        0.99
+toothbrush-1                        0.99
+toothbrush-1                        0.99
+toothbrush-2                        0.99
+toothbrush-2                        0.99
+10% off(toothbrush-0)              -0.20
+10% off(toothbrush-1)              -0.20
+10% off(toothbrush-2)              -0.20
+
+Total:                              5.35
+
+[toothbrush,0.99,1,Kilo,True,FiveForAmount,10,1] => toothbrush-0                        0.99
+toothbrush-0                        0.99
+
+Total:                              1.98
+
+[toothbrush,0.99,1,Kilo,True,FiveForAmount,10,2] => toothbrush-0                        0.99
+toothbrush-0                        0.99
+toothbrush-1                        0.99
+toothbrush-1                        0.99
+
+Total:                              3.96
+
+[toothbrush,0.99,1,Kilo,True,FiveForAmount,10,3] => toothbrush-0                        0.99
+toothbrush-0                        0.99
+toothbrush-1                        0.99
+toothbrush-1                        0.99
+toothbrush-2                        0.99
+toothbrush-2                        0.99
+
+Total:                              5.94
+
+[toothbrush,0.99,1,Kilo,True,ThreeForTwo,10,1] => toothbrush-0                        0.99
+toothbrush-0                        0.99
+
+Total:                              1.98
+
+[toothbrush,0.99,1,Kilo,True,ThreeForTwo,10,2] => toothbrush-0                        0.99
+toothbrush-0                        0.99
+toothbrush-1                        0.99
+toothbrush-1                        0.99
+
+Total:                              3.96
+
+[toothbrush,0.99,1,Kilo,True,ThreeForTwo,10,3] => toothbrush-0                        0.99
+toothbrush-0                        0.99
+toothbrush-1                        0.99
+toothbrush-1                        0.99
+toothbrush-2                        0.99
+toothbrush-2                        0.99
+
+Total:                              5.94
+
+[toothbrush,0.99,1,Kilo,True,TwoForAmount,10,1] => toothbrush-0                        0.99
+toothbrush-0                        0.99
+2 for 10(toothbrush-0)              8.02
+
+Total:                             10.00
+
+[toothbrush,0.99,1,Kilo,True,TwoForAmount,10,2] => toothbrush-0                        0.99
+toothbrush-0                        0.99
+toothbrush-1                        0.99
+toothbrush-1                        0.99
+2 for 10(toothbrush-0)              8.02
+2 for 10(toothbrush-1)              8.02
+
+Total:                             20.00
+
+[toothbrush,0.99,1,Kilo,True,TwoForAmount,10,3] => toothbrush-0                        0.99
+toothbrush-0                        0.99
+toothbrush-1                        0.99
+toothbrush-1                        0.99
+toothbrush-2                        0.99
+toothbrush-2                        0.99
+2 for 10(toothbrush-0)              8.02
+2 for 10(toothbrush-1)              8.02
+2 for 10(toothbrush-2)              8.02
+
+Total:                             30.00
+
+[toothbrush,0.99,1,Kilo,False,TenPercentDiscount,10,1] => toothbrush-0                        0.99
+toothbrush-0                        0.99
+
+Total:                              1.98
+
+[toothbrush,0.99,1,Kilo,False,TenPercentDiscount,10,2] => toothbrush-0                        0.99
+toothbrush-0                        0.99
+toothbrush-1                        0.99
+toothbrush-1                        0.99
+
+Total:                              3.96
+
+[toothbrush,0.99,1,Kilo,False,TenPercentDiscount,10,3] => toothbrush-0                        0.99
+toothbrush-0                        0.99
+toothbrush-1                        0.99
+toothbrush-1                        0.99
+toothbrush-2                        0.99
+toothbrush-2                        0.99
+
+Total:                              5.94
+
+[toothbrush,0.99,1,Kilo,False,FiveForAmount,10,1] => toothbrush-0                        0.99
+toothbrush-0                        0.99
+
+Total:                              1.98
+
+[toothbrush,0.99,1,Kilo,False,FiveForAmount,10,2] => toothbrush-0                        0.99
+toothbrush-0                        0.99
+toothbrush-1                        0.99
+toothbrush-1                        0.99
+
+Total:                              3.96
+
+[toothbrush,0.99,1,Kilo,False,FiveForAmount,10,3] => toothbrush-0                        0.99
+toothbrush-0                        0.99
+toothbrush-1                        0.99
+toothbrush-1                        0.99
+toothbrush-2                        0.99
+toothbrush-2                        0.99
+
+Total:                              5.94
+
+[toothbrush,0.99,1,Kilo,False,ThreeForTwo,10,1] => toothbrush-0                        0.99
+toothbrush-0                        0.99
+
+Total:                              1.98
+
+[toothbrush,0.99,1,Kilo,False,ThreeForTwo,10,2] => toothbrush-0                        0.99
+toothbrush-0                        0.99
+toothbrush-1                        0.99
+toothbrush-1                        0.99
+
+Total:                              3.96
+
+[toothbrush,0.99,1,Kilo,False,ThreeForTwo,10,3] => toothbrush-0                        0.99
+toothbrush-0                        0.99
+toothbrush-1                        0.99
+toothbrush-1                        0.99
+toothbrush-2                        0.99
+toothbrush-2                        0.99
+
+Total:                              5.94
+
+[toothbrush,0.99,1,Kilo,False,TwoForAmount,10,1] => toothbrush-0                        0.99
+toothbrush-0                        0.99
+
+Total:                              1.98
+
+[toothbrush,0.99,1,Kilo,False,TwoForAmount,10,2] => toothbrush-0                        0.99
+toothbrush-0                        0.99
+toothbrush-1                        0.99
+toothbrush-1                        0.99
+
+Total:                              3.96
+
+[toothbrush,0.99,1,Kilo,False,TwoForAmount,10,3] => toothbrush-0                        0.99
+toothbrush-0                        0.99
+toothbrush-1                        0.99
+toothbrush-1                        0.99
+toothbrush-2                        0.99
+toothbrush-2                        0.99
+
+Total:                              5.94
+
+[toothbrush,0.99,2.5,Each,True,TenPercentDiscount,10,1] => toothbrush-0                        0.99
+toothbrush-0                        2.48
+  0.99 * 2
+10% off(toothbrush-0)              -0.35
+
+Total:                              3.12
+
+[toothbrush,0.99,2.5,Each,True,TenPercentDiscount,10,2] => toothbrush-0                        0.99
+toothbrush-0                        2.48
+  0.99 * 2
+toothbrush-1                        0.99
+toothbrush-1                        2.48
+  0.99 * 2
+10% off(toothbrush-0)              -0.35
+10% off(toothbrush-1)              -0.35
+
+Total:                              6.24
+
+[toothbrush,0.99,2.5,Each,True,TenPercentDiscount,10,3] => toothbrush-0                        0.99
+toothbrush-0                        2.48
+  0.99 * 2
+toothbrush-1                        0.99
+toothbrush-1                        2.48
+  0.99 * 2
+toothbrush-2                        0.99
+toothbrush-2                        2.48
+  0.99 * 2
+10% off(toothbrush-0)              -0.35
+10% off(toothbrush-1)              -0.35
+10% off(toothbrush-2)              -0.35
+
+Total:                              9.36
+
+[toothbrush,0.99,2.5,Each,True,FiveForAmount,10,1] => toothbrush-0                        0.99
+toothbrush-0                        2.48
+  0.99 * 2
+
+Total:                              3.46
+
+[toothbrush,0.99,2.5,Each,True,FiveForAmount,10,2] => toothbrush-0                        0.99
+toothbrush-0                        2.48
+  0.99 * 2
+toothbrush-1                        0.99
+toothbrush-1                        2.48
+  0.99 * 2
+
+Total:                              6.93
+
+[toothbrush,0.99,2.5,Each,True,FiveForAmount,10,3] => toothbrush-0                        0.99
+toothbrush-0                        2.48
+  0.99 * 2
+toothbrush-1                        0.99
+toothbrush-1                        2.48
+  0.99 * 2
+toothbrush-2                        0.99
+toothbrush-2                        2.48
+  0.99 * 2
+
+Total:                             10.39
+
+[toothbrush,0.99,2.5,Each,True,ThreeForTwo,10,1] => toothbrush-0                        0.99
+toothbrush-0                        2.48
+  0.99 * 2
+3 for 2(toothbrush-0)              -1.48
+
+Total:                              1.98
+
+[toothbrush,0.99,2.5,Each,True,ThreeForTwo,10,2] => toothbrush-0                        0.99
+toothbrush-0                        2.48
+  0.99 * 2
+toothbrush-1                        0.99
+toothbrush-1                        2.48
+  0.99 * 2
+3 for 2(toothbrush-0)              -1.48
+3 for 2(toothbrush-1)              -1.48
+
+Total:                              3.96
+
+[toothbrush,0.99,2.5,Each,True,ThreeForTwo,10,3] => toothbrush-0                        0.99
+toothbrush-0                        2.48
+  0.99 * 2
+toothbrush-1                        0.99
+toothbrush-1                        2.48
+  0.99 * 2
+toothbrush-2                        0.99
+toothbrush-2                        2.48
+  0.99 * 2
+3 for 2(toothbrush-0)              -1.48
+3 for 2(toothbrush-1)              -1.48
+3 for 2(toothbrush-2)              -1.48
+
+Total:                              5.94
+
+[toothbrush,0.99,2.5,Each,True,TwoForAmount,10,1] => toothbrush-0                        0.99
+toothbrush-0                        2.48
+  0.99 * 2
+2 for 10(toothbrush-0)              7.53
+
+Total:                             10.99
+
+[toothbrush,0.99,2.5,Each,True,TwoForAmount,10,2] => toothbrush-0                        0.99
+toothbrush-0                        2.48
+  0.99 * 2
+toothbrush-1                        0.99
+toothbrush-1                        2.48
+  0.99 * 2
+2 for 10(toothbrush-0)              7.53
+2 for 10(toothbrush-1)              7.53
+
+Total:                             21.98
+
+[toothbrush,0.99,2.5,Each,True,TwoForAmount,10,3] => toothbrush-0                        0.99
+toothbrush-0                        2.48
+  0.99 * 2
+toothbrush-1                        0.99
+toothbrush-1                        2.48
+  0.99 * 2
+toothbrush-2                        0.99
+toothbrush-2                        2.48
+  0.99 * 2
+2 for 10(toothbrush-0)              7.53
+2 for 10(toothbrush-1)              7.53
+2 for 10(toothbrush-2)              7.53
+
+Total:                             32.97
+
+[toothbrush,0.99,2.5,Each,False,TenPercentDiscount,10,1] => toothbrush-0                        0.99
+toothbrush-0                        2.48
+  0.99 * 2
+
+Total:                              3.46
+
+[toothbrush,0.99,2.5,Each,False,TenPercentDiscount,10,2] => toothbrush-0                        0.99
+toothbrush-0                        2.48
+  0.99 * 2
+toothbrush-1                        0.99
+toothbrush-1                        2.48
+  0.99 * 2
+
+Total:                              6.93
+
+[toothbrush,0.99,2.5,Each,False,TenPercentDiscount,10,3] => toothbrush-0                        0.99
+toothbrush-0                        2.48
+  0.99 * 2
+toothbrush-1                        0.99
+toothbrush-1                        2.48
+  0.99 * 2
+toothbrush-2                        0.99
+toothbrush-2                        2.48
+  0.99 * 2
+
+Total:                             10.39
+
+[toothbrush,0.99,2.5,Each,False,FiveForAmount,10,1] => toothbrush-0                        0.99
+toothbrush-0                        2.48
+  0.99 * 2
+
+Total:                              3.46
+
+[toothbrush,0.99,2.5,Each,False,FiveForAmount,10,2] => toothbrush-0                        0.99
+toothbrush-0                        2.48
+  0.99 * 2
+toothbrush-1                        0.99
+toothbrush-1                        2.48
+  0.99 * 2
+
+Total:                              6.93
+
+[toothbrush,0.99,2.5,Each,False,FiveForAmount,10,3] => toothbrush-0                        0.99
+toothbrush-0                        2.48
+  0.99 * 2
+toothbrush-1                        0.99
+toothbrush-1                        2.48
+  0.99 * 2
+toothbrush-2                        0.99
+toothbrush-2                        2.48
+  0.99 * 2
+
+Total:                             10.39
+
+[toothbrush,0.99,2.5,Each,False,ThreeForTwo,10,1] => toothbrush-0                        0.99
+toothbrush-0                        2.48
+  0.99 * 2
+
+Total:                              3.46
+
+[toothbrush,0.99,2.5,Each,False,ThreeForTwo,10,2] => toothbrush-0                        0.99
+toothbrush-0                        2.48
+  0.99 * 2
+toothbrush-1                        0.99
+toothbrush-1                        2.48
+  0.99 * 2
+
+Total:                              6.93
+
+[toothbrush,0.99,2.5,Each,False,ThreeForTwo,10,3] => toothbrush-0                        0.99
+toothbrush-0                        2.48
+  0.99 * 2
+toothbrush-1                        0.99
+toothbrush-1                        2.48
+  0.99 * 2
+toothbrush-2                        0.99
+toothbrush-2                        2.48
+  0.99 * 2
+
+Total:                             10.39
+
+[toothbrush,0.99,2.5,Each,False,TwoForAmount,10,1] => toothbrush-0                        0.99
+toothbrush-0                        2.48
+  0.99 * 2
+
+Total:                              3.46
+
+[toothbrush,0.99,2.5,Each,False,TwoForAmount,10,2] => toothbrush-0                        0.99
+toothbrush-0                        2.48
+  0.99 * 2
+toothbrush-1                        0.99
+toothbrush-1                        2.48
+  0.99 * 2
+
+Total:                              6.93
+
+[toothbrush,0.99,2.5,Each,False,TwoForAmount,10,3] => toothbrush-0                        0.99
+toothbrush-0                        2.48
+  0.99 * 2
+toothbrush-1                        0.99
+toothbrush-1                        2.48
+  0.99 * 2
+toothbrush-2                        0.99
+toothbrush-2                        2.48
+  0.99 * 2
+
+Total:                             10.39
+
+[toothbrush,0.99,2.5,Kilo,True,TenPercentDiscount,10,1] => toothbrush-0                        0.99
+toothbrush-0                        2.48
+  0.99 * 2.500
+10% off(toothbrush-0)              -0.35
+
+Total:                              3.12
+
+[toothbrush,0.99,2.5,Kilo,True,TenPercentDiscount,10,2] => toothbrush-0                        0.99
+toothbrush-0                        2.48
+  0.99 * 2.500
+toothbrush-1                        0.99
+toothbrush-1                        2.48
+  0.99 * 2.500
+10% off(toothbrush-0)              -0.35
+10% off(toothbrush-1)              -0.35
+
+Total:                              6.24
+
+[toothbrush,0.99,2.5,Kilo,True,TenPercentDiscount,10,3] => toothbrush-0                        0.99
+toothbrush-0                        2.48
+  0.99 * 2.500
+toothbrush-1                        0.99
+toothbrush-1                        2.48
+  0.99 * 2.500
+toothbrush-2                        0.99
+toothbrush-2                        2.48
+  0.99 * 2.500
+10% off(toothbrush-0)              -0.35
+10% off(toothbrush-1)              -0.35
+10% off(toothbrush-2)              -0.35
+
+Total:                              9.36
+
+[toothbrush,0.99,2.5,Kilo,True,FiveForAmount,10,1] => toothbrush-0                        0.99
+toothbrush-0                        2.48
+  0.99 * 2.500
+
+Total:                              3.46
+
+[toothbrush,0.99,2.5,Kilo,True,FiveForAmount,10,2] => toothbrush-0                        0.99
+toothbrush-0                        2.48
+  0.99 * 2.500
+toothbrush-1                        0.99
+toothbrush-1                        2.48
+  0.99 * 2.500
+
+Total:                              6.93
+
+[toothbrush,0.99,2.5,Kilo,True,FiveForAmount,10,3] => toothbrush-0                        0.99
+toothbrush-0                        2.48
+  0.99 * 2.500
+toothbrush-1                        0.99
+toothbrush-1                        2.48
+  0.99 * 2.500
+toothbrush-2                        0.99
+toothbrush-2                        2.48
+  0.99 * 2.500
+
+Total:                             10.39
+
+[toothbrush,0.99,2.5,Kilo,True,ThreeForTwo,10,1] => toothbrush-0                        0.99
+toothbrush-0                        2.48
+  0.99 * 2.500
+3 for 2(toothbrush-0)              -1.48
+
+Total:                              1.98
+
+[toothbrush,0.99,2.5,Kilo,True,ThreeForTwo,10,2] => toothbrush-0                        0.99
+toothbrush-0                        2.48
+  0.99 * 2.500
+toothbrush-1                        0.99
+toothbrush-1                        2.48
+  0.99 * 2.500
+3 for 2(toothbrush-0)              -1.48
+3 for 2(toothbrush-1)              -1.48
+
+Total:                              3.96
+
+[toothbrush,0.99,2.5,Kilo,True,ThreeForTwo,10,3] => toothbrush-0                        0.99
+toothbrush-0                        2.48
+  0.99 * 2.500
+toothbrush-1                        0.99
+toothbrush-1                        2.48
+  0.99 * 2.500
+toothbrush-2                        0.99
+toothbrush-2                        2.48
+  0.99 * 2.500
+3 for 2(toothbrush-0)              -1.48
+3 for 2(toothbrush-1)              -1.48
+3 for 2(toothbrush-2)              -1.48
+
+Total:                              5.94
+
+[toothbrush,0.99,2.5,Kilo,True,TwoForAmount,10,1] => toothbrush-0                        0.99
+toothbrush-0                        2.48
+  0.99 * 2.500
+2 for 10(toothbrush-0)              7.53
+
+Total:                             10.99
+
+[toothbrush,0.99,2.5,Kilo,True,TwoForAmount,10,2] => toothbrush-0                        0.99
+toothbrush-0                        2.48
+  0.99 * 2.500
+toothbrush-1                        0.99
+toothbrush-1                        2.48
+  0.99 * 2.500
+2 for 10(toothbrush-0)              7.53
+2 for 10(toothbrush-1)              7.53
+
+Total:                             21.98
+
+[toothbrush,0.99,2.5,Kilo,True,TwoForAmount,10,3] => toothbrush-0                        0.99
+toothbrush-0                        2.48
+  0.99 * 2.500
+toothbrush-1                        0.99
+toothbrush-1                        2.48
+  0.99 * 2.500
+toothbrush-2                        0.99
+toothbrush-2                        2.48
+  0.99 * 2.500
+2 for 10(toothbrush-0)              7.53
+2 for 10(toothbrush-1)              7.53
+2 for 10(toothbrush-2)              7.53
+
+Total:                             32.97
+
+[toothbrush,0.99,2.5,Kilo,False,TenPercentDiscount,10,1] => toothbrush-0                        0.99
+toothbrush-0                        2.48
+  0.99 * 2.500
+
+Total:                              3.46
+
+[toothbrush,0.99,2.5,Kilo,False,TenPercentDiscount,10,2] => toothbrush-0                        0.99
+toothbrush-0                        2.48
+  0.99 * 2.500
+toothbrush-1                        0.99
+toothbrush-1                        2.48
+  0.99 * 2.500
+
+Total:                              6.93
+
+[toothbrush,0.99,2.5,Kilo,False,TenPercentDiscount,10,3] => toothbrush-0                        0.99
+toothbrush-0                        2.48
+  0.99 * 2.500
+toothbrush-1                        0.99
+toothbrush-1                        2.48
+  0.99 * 2.500
+toothbrush-2                        0.99
+toothbrush-2                        2.48
+  0.99 * 2.500
+
+Total:                             10.39
+
+[toothbrush,0.99,2.5,Kilo,False,FiveForAmount,10,1] => toothbrush-0                        0.99
+toothbrush-0                        2.48
+  0.99 * 2.500
+
+Total:                              3.46
+
+[toothbrush,0.99,2.5,Kilo,False,FiveForAmount,10,2] => toothbrush-0                        0.99
+toothbrush-0                        2.48
+  0.99 * 2.500
+toothbrush-1                        0.99
+toothbrush-1                        2.48
+  0.99 * 2.500
+
+Total:                              6.93
+
+[toothbrush,0.99,2.5,Kilo,False,FiveForAmount,10,3] => toothbrush-0                        0.99
+toothbrush-0                        2.48
+  0.99 * 2.500
+toothbrush-1                        0.99
+toothbrush-1                        2.48
+  0.99 * 2.500
+toothbrush-2                        0.99
+toothbrush-2                        2.48
+  0.99 * 2.500
+
+Total:                             10.39
+
+[toothbrush,0.99,2.5,Kilo,False,ThreeForTwo,10,1] => toothbrush-0                        0.99
+toothbrush-0                        2.48
+  0.99 * 2.500
+
+Total:                              3.46
+
+[toothbrush,0.99,2.5,Kilo,False,ThreeForTwo,10,2] => toothbrush-0                        0.99
+toothbrush-0                        2.48
+  0.99 * 2.500
+toothbrush-1                        0.99
+toothbrush-1                        2.48
+  0.99 * 2.500
+
+Total:                              6.93
+
+[toothbrush,0.99,2.5,Kilo,False,ThreeForTwo,10,3] => toothbrush-0                        0.99
+toothbrush-0                        2.48
+  0.99 * 2.500
+toothbrush-1                        0.99
+toothbrush-1                        2.48
+  0.99 * 2.500
+toothbrush-2                        0.99
+toothbrush-2                        2.48
+  0.99 * 2.500
+
+Total:                             10.39
+
+[toothbrush,0.99,2.5,Kilo,False,TwoForAmount,10,1] => toothbrush-0                        0.99
+toothbrush-0                        2.48
+  0.99 * 2.500
+
+Total:                              3.46
+
+[toothbrush,0.99,2.5,Kilo,False,TwoForAmount,10,2] => toothbrush-0                        0.99
+toothbrush-0                        2.48
+  0.99 * 2.500
+toothbrush-1                        0.99
+toothbrush-1                        2.48
+  0.99 * 2.500
+
+Total:                              6.93
+
+[toothbrush,0.99,2.5,Kilo,False,TwoForAmount,10,3] => toothbrush-0                        0.99
+toothbrush-0                        2.48
+  0.99 * 2.500
+toothbrush-1                        0.99
+toothbrush-1                        2.48
+  0.99 * 2.500
+toothbrush-2                        0.99
+toothbrush-2                        2.48
+  0.99 * 2.500
+
+Total:                             10.39
+
+[toothbrush,0.99,5,Each,True,TenPercentDiscount,10,1] => toothbrush-0                        0.99
+toothbrush-0                        4.95
+  0.99 * 5
+10% off(toothbrush-0)              -0.59
+
+Total:                              5.35
+
+[toothbrush,0.99,5,Each,True,TenPercentDiscount,10,2] => toothbrush-0                        0.99
+toothbrush-0                        4.95
+  0.99 * 5
+toothbrush-1                        0.99
+toothbrush-1                        4.95
+  0.99 * 5
+10% off(toothbrush-0)              -0.59
+10% off(toothbrush-1)              -0.59
+
+Total:                             10.69
+
+[toothbrush,0.99,5,Each,True,TenPercentDiscount,10,3] => toothbrush-0                        0.99
+toothbrush-0                        4.95
+  0.99 * 5
+toothbrush-1                        0.99
+toothbrush-1                        4.95
+  0.99 * 5
+toothbrush-2                        0.99
+toothbrush-2                        4.95
+  0.99 * 5
+10% off(toothbrush-0)              -0.59
+10% off(toothbrush-1)              -0.59
+10% off(toothbrush-2)              -0.59
+
+Total:                             16.04
+
+[toothbrush,0.99,5,Each,True,FiveForAmount,10,1] => toothbrush-0                        0.99
+toothbrush-0                        4.95
+  0.99 * 5
+5 for 10(toothbrush-0)              5.05
+
+Total:                             10.99
+
+[toothbrush,0.99,5,Each,True,FiveForAmount,10,2] => toothbrush-0                        0.99
+toothbrush-0                        4.95
+  0.99 * 5
+toothbrush-1                        0.99
+toothbrush-1                        4.95
+  0.99 * 5
+5 for 10(toothbrush-0)              5.05
+5 for 10(toothbrush-1)              5.05
+
+Total:                             21.98
+
+[toothbrush,0.99,5,Each,True,FiveForAmount,10,3] => toothbrush-0                        0.99
+toothbrush-0                        4.95
+  0.99 * 5
+toothbrush-1                        0.99
+toothbrush-1                        4.95
+  0.99 * 5
+toothbrush-2                        0.99
+toothbrush-2                        4.95
+  0.99 * 5
+5 for 10(toothbrush-0)              5.05
+5 for 10(toothbrush-1)              5.05
+5 for 10(toothbrush-2)              5.05
+
+Total:                             32.97
+
+[toothbrush,0.99,5,Each,True,ThreeForTwo,10,1] => toothbrush-0                        0.99
+toothbrush-0                        4.95
+  0.99 * 5
+3 for 2(toothbrush-0)              -1.98
+
+Total:                              3.96
+
+[toothbrush,0.99,5,Each,True,ThreeForTwo,10,2] => toothbrush-0                        0.99
+toothbrush-0                        4.95
+  0.99 * 5
+toothbrush-1                        0.99
+toothbrush-1                        4.95
+  0.99 * 5
+3 for 2(toothbrush-0)              -1.98
+3 for 2(toothbrush-1)              -1.98
+
+Total:                              7.92
+
+[toothbrush,0.99,5,Each,True,ThreeForTwo,10,3] => toothbrush-0                        0.99
+toothbrush-0                        4.95
+  0.99 * 5
+toothbrush-1                        0.99
+toothbrush-1                        4.95
+  0.99 * 5
+toothbrush-2                        0.99
+toothbrush-2                        4.95
+  0.99 * 5
+3 for 2(toothbrush-0)              -1.98
+3 for 2(toothbrush-1)              -1.98
+3 for 2(toothbrush-2)              -1.98
+
+Total:                             11.88
+
+[toothbrush,0.99,5,Each,True,TwoForAmount,10,1] => toothbrush-0                        0.99
+toothbrush-0                        4.95
+  0.99 * 5
+2 for 10(toothbrush-0)             24.06
+
+Total:                             30.00
+
+[toothbrush,0.99,5,Each,True,TwoForAmount,10,2] => toothbrush-0                        0.99
+toothbrush-0                        4.95
+  0.99 * 5
+toothbrush-1                        0.99
+toothbrush-1                        4.95
+  0.99 * 5
+2 for 10(toothbrush-0)             24.06
+2 for 10(toothbrush-1)             24.06
+
+Total:                             60.00
+
+[toothbrush,0.99,5,Each,True,TwoForAmount,10,3] => toothbrush-0                        0.99
+toothbrush-0                        4.95
+  0.99 * 5
+toothbrush-1                        0.99
+toothbrush-1                        4.95
+  0.99 * 5
+toothbrush-2                        0.99
+toothbrush-2                        4.95
+  0.99 * 5
+2 for 10(toothbrush-0)             24.06
+2 for 10(toothbrush-1)             24.06
+2 for 10(toothbrush-2)             24.06
+
+Total:                             90.00
+
+[toothbrush,0.99,5,Each,False,TenPercentDiscount,10,1] => toothbrush-0                        0.99
+toothbrush-0                        4.95
+  0.99 * 5
+
+Total:                              5.94
+
+[toothbrush,0.99,5,Each,False,TenPercentDiscount,10,2] => toothbrush-0                        0.99
+toothbrush-0                        4.95
+  0.99 * 5
+toothbrush-1                        0.99
+toothbrush-1                        4.95
+  0.99 * 5
+
+Total:                             11.88
+
+[toothbrush,0.99,5,Each,False,TenPercentDiscount,10,3] => toothbrush-0                        0.99
+toothbrush-0                        4.95
+  0.99 * 5
+toothbrush-1                        0.99
+toothbrush-1                        4.95
+  0.99 * 5
+toothbrush-2                        0.99
+toothbrush-2                        4.95
+  0.99 * 5
+
+Total:                             17.82
+
+[toothbrush,0.99,5,Each,False,FiveForAmount,10,1] => toothbrush-0                        0.99
+toothbrush-0                        4.95
+  0.99 * 5
+
+Total:                              5.94
+
+[toothbrush,0.99,5,Each,False,FiveForAmount,10,2] => toothbrush-0                        0.99
+toothbrush-0                        4.95
+  0.99 * 5
+toothbrush-1                        0.99
+toothbrush-1                        4.95
+  0.99 * 5
+
+Total:                             11.88
+
+[toothbrush,0.99,5,Each,False,FiveForAmount,10,3] => toothbrush-0                        0.99
+toothbrush-0                        4.95
+  0.99 * 5
+toothbrush-1                        0.99
+toothbrush-1                        4.95
+  0.99 * 5
+toothbrush-2                        0.99
+toothbrush-2                        4.95
+  0.99 * 5
+
+Total:                             17.82
+
+[toothbrush,0.99,5,Each,False,ThreeForTwo,10,1] => toothbrush-0                        0.99
+toothbrush-0                        4.95
+  0.99 * 5
+
+Total:                              5.94
+
+[toothbrush,0.99,5,Each,False,ThreeForTwo,10,2] => toothbrush-0                        0.99
+toothbrush-0                        4.95
+  0.99 * 5
+toothbrush-1                        0.99
+toothbrush-1                        4.95
+  0.99 * 5
+
+Total:                             11.88
+
+[toothbrush,0.99,5,Each,False,ThreeForTwo,10,3] => toothbrush-0                        0.99
+toothbrush-0                        4.95
+  0.99 * 5
+toothbrush-1                        0.99
+toothbrush-1                        4.95
+  0.99 * 5
+toothbrush-2                        0.99
+toothbrush-2                        4.95
+  0.99 * 5
+
+Total:                             17.82
+
+[toothbrush,0.99,5,Each,False,TwoForAmount,10,1] => toothbrush-0                        0.99
+toothbrush-0                        4.95
+  0.99 * 5
+
+Total:                              5.94
+
+[toothbrush,0.99,5,Each,False,TwoForAmount,10,2] => toothbrush-0                        0.99
+toothbrush-0                        4.95
+  0.99 * 5
+toothbrush-1                        0.99
+toothbrush-1                        4.95
+  0.99 * 5
+
+Total:                             11.88
+
+[toothbrush,0.99,5,Each,False,TwoForAmount,10,3] => toothbrush-0                        0.99
+toothbrush-0                        4.95
+  0.99 * 5
+toothbrush-1                        0.99
+toothbrush-1                        4.95
+  0.99 * 5
+toothbrush-2                        0.99
+toothbrush-2                        4.95
+  0.99 * 5
+
+Total:                             17.82
+
+[toothbrush,0.99,5,Kilo,True,TenPercentDiscount,10,1] => toothbrush-0                        0.99
+toothbrush-0                        4.95
+  0.99 * 5.000
+10% off(toothbrush-0)              -0.59
+
+Total:                              5.35
+
+[toothbrush,0.99,5,Kilo,True,TenPercentDiscount,10,2] => toothbrush-0                        0.99
+toothbrush-0                        4.95
+  0.99 * 5.000
+toothbrush-1                        0.99
+toothbrush-1                        4.95
+  0.99 * 5.000
+10% off(toothbrush-0)              -0.59
+10% off(toothbrush-1)              -0.59
+
+Total:                             10.69
+
+[toothbrush,0.99,5,Kilo,True,TenPercentDiscount,10,3] => toothbrush-0                        0.99
+toothbrush-0                        4.95
+  0.99 * 5.000
+toothbrush-1                        0.99
+toothbrush-1                        4.95
+  0.99 * 5.000
+toothbrush-2                        0.99
+toothbrush-2                        4.95
+  0.99 * 5.000
+10% off(toothbrush-0)              -0.59
+10% off(toothbrush-1)              -0.59
+10% off(toothbrush-2)              -0.59
+
+Total:                             16.04
+
+[toothbrush,0.99,5,Kilo,True,FiveForAmount,10,1] => toothbrush-0                        0.99
+toothbrush-0                        4.95
+  0.99 * 5.000
+5 for 10(toothbrush-0)              5.05
+
+Total:                             10.99
+
+[toothbrush,0.99,5,Kilo,True,FiveForAmount,10,2] => toothbrush-0                        0.99
+toothbrush-0                        4.95
+  0.99 * 5.000
+toothbrush-1                        0.99
+toothbrush-1                        4.95
+  0.99 * 5.000
+5 for 10(toothbrush-0)              5.05
+5 for 10(toothbrush-1)              5.05
+
+Total:                             21.98
+
+[toothbrush,0.99,5,Kilo,True,FiveForAmount,10,3] => toothbrush-0                        0.99
+toothbrush-0                        4.95
+  0.99 * 5.000
+toothbrush-1                        0.99
+toothbrush-1                        4.95
+  0.99 * 5.000
+toothbrush-2                        0.99
+toothbrush-2                        4.95
+  0.99 * 5.000
+5 for 10(toothbrush-0)              5.05
+5 for 10(toothbrush-1)              5.05
+5 for 10(toothbrush-2)              5.05
+
+Total:                             32.97
+
+[toothbrush,0.99,5,Kilo,True,ThreeForTwo,10,1] => toothbrush-0                        0.99
+toothbrush-0                        4.95
+  0.99 * 5.000
+3 for 2(toothbrush-0)              -1.98
+
+Total:                              3.96
+
+[toothbrush,0.99,5,Kilo,True,ThreeForTwo,10,2] => toothbrush-0                        0.99
+toothbrush-0                        4.95
+  0.99 * 5.000
+toothbrush-1                        0.99
+toothbrush-1                        4.95
+  0.99 * 5.000
+3 for 2(toothbrush-0)              -1.98
+3 for 2(toothbrush-1)              -1.98
+
+Total:                              7.92
+
+[toothbrush,0.99,5,Kilo,True,ThreeForTwo,10,3] => toothbrush-0                        0.99
+toothbrush-0                        4.95
+  0.99 * 5.000
+toothbrush-1                        0.99
+toothbrush-1                        4.95
+  0.99 * 5.000
+toothbrush-2                        0.99
+toothbrush-2                        4.95
+  0.99 * 5.000
+3 for 2(toothbrush-0)              -1.98
+3 for 2(toothbrush-1)              -1.98
+3 for 2(toothbrush-2)              -1.98
+
+Total:                             11.88
+
+[toothbrush,0.99,5,Kilo,True,TwoForAmount,10,1] => toothbrush-0                        0.99
+toothbrush-0                        4.95
+  0.99 * 5.000
+2 for 10(toothbrush-0)             24.06
+
+Total:                             30.00
+
+[toothbrush,0.99,5,Kilo,True,TwoForAmount,10,2] => toothbrush-0                        0.99
+toothbrush-0                        4.95
+  0.99 * 5.000
+toothbrush-1                        0.99
+toothbrush-1                        4.95
+  0.99 * 5.000
+2 for 10(toothbrush-0)             24.06
+2 for 10(toothbrush-1)             24.06
+
+Total:                             60.00
+
+[toothbrush,0.99,5,Kilo,True,TwoForAmount,10,3] => toothbrush-0                        0.99
+toothbrush-0                        4.95
+  0.99 * 5.000
+toothbrush-1                        0.99
+toothbrush-1                        4.95
+  0.99 * 5.000
+toothbrush-2                        0.99
+toothbrush-2                        4.95
+  0.99 * 5.000
+2 for 10(toothbrush-0)             24.06
+2 for 10(toothbrush-1)             24.06
+2 for 10(toothbrush-2)             24.06
+
+Total:                             90.00
+
+[toothbrush,0.99,5,Kilo,False,TenPercentDiscount,10,1] => toothbrush-0                        0.99
+toothbrush-0                        4.95
+  0.99 * 5.000
+
+Total:                              5.94
+
+[toothbrush,0.99,5,Kilo,False,TenPercentDiscount,10,2] => toothbrush-0                        0.99
+toothbrush-0                        4.95
+  0.99 * 5.000
+toothbrush-1                        0.99
+toothbrush-1                        4.95
+  0.99 * 5.000
+
+Total:                             11.88
+
+[toothbrush,0.99,5,Kilo,False,TenPercentDiscount,10,3] => toothbrush-0                        0.99
+toothbrush-0                        4.95
+  0.99 * 5.000
+toothbrush-1                        0.99
+toothbrush-1                        4.95
+  0.99 * 5.000
+toothbrush-2                        0.99
+toothbrush-2                        4.95
+  0.99 * 5.000
+
+Total:                             17.82
+
+[toothbrush,0.99,5,Kilo,False,FiveForAmount,10,1] => toothbrush-0                        0.99
+toothbrush-0                        4.95
+  0.99 * 5.000
+
+Total:                              5.94
+
+[toothbrush,0.99,5,Kilo,False,FiveForAmount,10,2] => toothbrush-0                        0.99
+toothbrush-0                        4.95
+  0.99 * 5.000
+toothbrush-1                        0.99
+toothbrush-1                        4.95
+  0.99 * 5.000
+
+Total:                             11.88
+
+[toothbrush,0.99,5,Kilo,False,FiveForAmount,10,3] => toothbrush-0                        0.99
+toothbrush-0                        4.95
+  0.99 * 5.000
+toothbrush-1                        0.99
+toothbrush-1                        4.95
+  0.99 * 5.000
+toothbrush-2                        0.99
+toothbrush-2                        4.95
+  0.99 * 5.000
+
+Total:                             17.82
+
+[toothbrush,0.99,5,Kilo,False,ThreeForTwo,10,1] => toothbrush-0                        0.99
+toothbrush-0                        4.95
+  0.99 * 5.000
+
+Total:                              5.94
+
+[toothbrush,0.99,5,Kilo,False,ThreeForTwo,10,2] => toothbrush-0                        0.99
+toothbrush-0                        4.95
+  0.99 * 5.000
+toothbrush-1                        0.99
+toothbrush-1                        4.95
+  0.99 * 5.000
+
+Total:                             11.88
+
+[toothbrush,0.99,5,Kilo,False,ThreeForTwo,10,3] => toothbrush-0                        0.99
+toothbrush-0                        4.95
+  0.99 * 5.000
+toothbrush-1                        0.99
+toothbrush-1                        4.95
+  0.99 * 5.000
+toothbrush-2                        0.99
+toothbrush-2                        4.95
+  0.99 * 5.000
+
+Total:                             17.82
+
+[toothbrush,0.99,5,Kilo,False,TwoForAmount,10,1] => toothbrush-0                        0.99
+toothbrush-0                        4.95
+  0.99 * 5.000
+
+Total:                              5.94
+
+[toothbrush,0.99,5,Kilo,False,TwoForAmount,10,2] => toothbrush-0                        0.99
+toothbrush-0                        4.95
+  0.99 * 5.000
+toothbrush-1                        0.99
+toothbrush-1                        4.95
+  0.99 * 5.000
+
+Total:                             11.88
+
+[toothbrush,0.99,5,Kilo,False,TwoForAmount,10,3] => toothbrush-0                        0.99
+toothbrush-0                        4.95
+  0.99 * 5.000
+toothbrush-1                        0.99
+toothbrush-1                        4.95
+  0.99 * 5.000
+toothbrush-2                        0.99
+toothbrush-2                        4.95
+  0.99 * 5.000
+
+Total:                             17.82
+
+[toothbrush,1.99,1,Each,True,TenPercentDiscount,10,1] => toothbrush-0                        1.99
+toothbrush-0                        1.99
+10% off(toothbrush-0)              -0.40
+
+Total:                              3.58
+
+[toothbrush,1.99,1,Each,True,TenPercentDiscount,10,2] => toothbrush-0                        1.99
+toothbrush-0                        1.99
+toothbrush-1                        1.99
+toothbrush-1                        1.99
+10% off(toothbrush-0)              -0.40
+10% off(toothbrush-1)              -0.40
+
+Total:                              7.16
+
+[toothbrush,1.99,1,Each,True,TenPercentDiscount,10,3] => toothbrush-0                        1.99
+toothbrush-0                        1.99
+toothbrush-1                        1.99
+toothbrush-1                        1.99
+toothbrush-2                        1.99
+toothbrush-2                        1.99
+10% off(toothbrush-0)              -0.40
+10% off(toothbrush-1)              -0.40
+10% off(toothbrush-2)              -0.40
+
+Total:                             10.75
+
+[toothbrush,1.99,1,Each,True,FiveForAmount,10,1] => toothbrush-0                        1.99
+toothbrush-0                        1.99
+
+Total:                              3.98
+
+[toothbrush,1.99,1,Each,True,FiveForAmount,10,2] => toothbrush-0                        1.99
+toothbrush-0                        1.99
+toothbrush-1                        1.99
+toothbrush-1                        1.99
+
+Total:                              7.96
+
+[toothbrush,1.99,1,Each,True,FiveForAmount,10,3] => toothbrush-0                        1.99
+toothbrush-0                        1.99
+toothbrush-1                        1.99
+toothbrush-1                        1.99
+toothbrush-2                        1.99
+toothbrush-2                        1.99
+
+Total:                             11.94
+
+[toothbrush,1.99,1,Each,True,ThreeForTwo,10,1] => toothbrush-0                        1.99
+toothbrush-0                        1.99
+
+Total:                              3.98
+
+[toothbrush,1.99,1,Each,True,ThreeForTwo,10,2] => toothbrush-0                        1.99
+toothbrush-0                        1.99
+toothbrush-1                        1.99
+toothbrush-1                        1.99
+
+Total:                              7.96
+
+[toothbrush,1.99,1,Each,True,ThreeForTwo,10,3] => toothbrush-0                        1.99
+toothbrush-0                        1.99
+toothbrush-1                        1.99
+toothbrush-1                        1.99
+toothbrush-2                        1.99
+toothbrush-2                        1.99
+
+Total:                             11.94
+
+[toothbrush,1.99,1,Each,True,TwoForAmount,10,1] => toothbrush-0                        1.99
+toothbrush-0                        1.99
+2 for 10(toothbrush-0)              6.02
+
+Total:                             10.00
+
+[toothbrush,1.99,1,Each,True,TwoForAmount,10,2] => toothbrush-0                        1.99
+toothbrush-0                        1.99
+toothbrush-1                        1.99
+toothbrush-1                        1.99
+2 for 10(toothbrush-0)              6.02
+2 for 10(toothbrush-1)              6.02
+
+Total:                             20.00
+
+[toothbrush,1.99,1,Each,True,TwoForAmount,10,3] => toothbrush-0                        1.99
+toothbrush-0                        1.99
+toothbrush-1                        1.99
+toothbrush-1                        1.99
+toothbrush-2                        1.99
+toothbrush-2                        1.99
+2 for 10(toothbrush-0)              6.02
+2 for 10(toothbrush-1)              6.02
+2 for 10(toothbrush-2)              6.02
+
+Total:                             30.00
+
+[toothbrush,1.99,1,Each,False,TenPercentDiscount,10,1] => toothbrush-0                        1.99
+toothbrush-0                        1.99
+
+Total:                              3.98
+
+[toothbrush,1.99,1,Each,False,TenPercentDiscount,10,2] => toothbrush-0                        1.99
+toothbrush-0                        1.99
+toothbrush-1                        1.99
+toothbrush-1                        1.99
+
+Total:                              7.96
+
+[toothbrush,1.99,1,Each,False,TenPercentDiscount,10,3] => toothbrush-0                        1.99
+toothbrush-0                        1.99
+toothbrush-1                        1.99
+toothbrush-1                        1.99
+toothbrush-2                        1.99
+toothbrush-2                        1.99
+
+Total:                             11.94
+
+[toothbrush,1.99,1,Each,False,FiveForAmount,10,1] => toothbrush-0                        1.99
+toothbrush-0                        1.99
+
+Total:                              3.98
+
+[toothbrush,1.99,1,Each,False,FiveForAmount,10,2] => toothbrush-0                        1.99
+toothbrush-0                        1.99
+toothbrush-1                        1.99
+toothbrush-1                        1.99
+
+Total:                              7.96
+
+[toothbrush,1.99,1,Each,False,FiveForAmount,10,3] => toothbrush-0                        1.99
+toothbrush-0                        1.99
+toothbrush-1                        1.99
+toothbrush-1                        1.99
+toothbrush-2                        1.99
+toothbrush-2                        1.99
+
+Total:                             11.94
+
+[toothbrush,1.99,1,Each,False,ThreeForTwo,10,1] => toothbrush-0                        1.99
+toothbrush-0                        1.99
+
+Total:                              3.98
+
+[toothbrush,1.99,1,Each,False,ThreeForTwo,10,2] => toothbrush-0                        1.99
+toothbrush-0                        1.99
+toothbrush-1                        1.99
+toothbrush-1                        1.99
+
+Total:                              7.96
+
+[toothbrush,1.99,1,Each,False,ThreeForTwo,10,3] => toothbrush-0                        1.99
+toothbrush-0                        1.99
+toothbrush-1                        1.99
+toothbrush-1                        1.99
+toothbrush-2                        1.99
+toothbrush-2                        1.99
+
+Total:                             11.94
+
+[toothbrush,1.99,1,Each,False,TwoForAmount,10,1] => toothbrush-0                        1.99
+toothbrush-0                        1.99
+
+Total:                              3.98
+
+[toothbrush,1.99,1,Each,False,TwoForAmount,10,2] => toothbrush-0                        1.99
+toothbrush-0                        1.99
+toothbrush-1                        1.99
+toothbrush-1                        1.99
+
+Total:                              7.96
+
+[toothbrush,1.99,1,Each,False,TwoForAmount,10,3] => toothbrush-0                        1.99
+toothbrush-0                        1.99
+toothbrush-1                        1.99
+toothbrush-1                        1.99
+toothbrush-2                        1.99
+toothbrush-2                        1.99
+
+Total:                             11.94
+
+[toothbrush,1.99,1,Kilo,True,TenPercentDiscount,10,1] => toothbrush-0                        1.99
+toothbrush-0                        1.99
+10% off(toothbrush-0)              -0.40
+
+Total:                              3.58
+
+[toothbrush,1.99,1,Kilo,True,TenPercentDiscount,10,2] => toothbrush-0                        1.99
+toothbrush-0                        1.99
+toothbrush-1                        1.99
+toothbrush-1                        1.99
+10% off(toothbrush-0)              -0.40
+10% off(toothbrush-1)              -0.40
+
+Total:                              7.16
+
+[toothbrush,1.99,1,Kilo,True,TenPercentDiscount,10,3] => toothbrush-0                        1.99
+toothbrush-0                        1.99
+toothbrush-1                        1.99
+toothbrush-1                        1.99
+toothbrush-2                        1.99
+toothbrush-2                        1.99
+10% off(toothbrush-0)              -0.40
+10% off(toothbrush-1)              -0.40
+10% off(toothbrush-2)              -0.40
+
+Total:                             10.75
+
+[toothbrush,1.99,1,Kilo,True,FiveForAmount,10,1] => toothbrush-0                        1.99
+toothbrush-0                        1.99
+
+Total:                              3.98
+
+[toothbrush,1.99,1,Kilo,True,FiveForAmount,10,2] => toothbrush-0                        1.99
+toothbrush-0                        1.99
+toothbrush-1                        1.99
+toothbrush-1                        1.99
+
+Total:                              7.96
+
+[toothbrush,1.99,1,Kilo,True,FiveForAmount,10,3] => toothbrush-0                        1.99
+toothbrush-0                        1.99
+toothbrush-1                        1.99
+toothbrush-1                        1.99
+toothbrush-2                        1.99
+toothbrush-2                        1.99
+
+Total:                             11.94
+
+[toothbrush,1.99,1,Kilo,True,ThreeForTwo,10,1] => toothbrush-0                        1.99
+toothbrush-0                        1.99
+
+Total:                              3.98
+
+[toothbrush,1.99,1,Kilo,True,ThreeForTwo,10,2] => toothbrush-0                        1.99
+toothbrush-0                        1.99
+toothbrush-1                        1.99
+toothbrush-1                        1.99
+
+Total:                              7.96
+
+[toothbrush,1.99,1,Kilo,True,ThreeForTwo,10,3] => toothbrush-0                        1.99
+toothbrush-0                        1.99
+toothbrush-1                        1.99
+toothbrush-1                        1.99
+toothbrush-2                        1.99
+toothbrush-2                        1.99
+
+Total:                             11.94
+
+[toothbrush,1.99,1,Kilo,True,TwoForAmount,10,1] => toothbrush-0                        1.99
+toothbrush-0                        1.99
+2 for 10(toothbrush-0)              6.02
+
+Total:                             10.00
+
+[toothbrush,1.99,1,Kilo,True,TwoForAmount,10,2] => toothbrush-0                        1.99
+toothbrush-0                        1.99
+toothbrush-1                        1.99
+toothbrush-1                        1.99
+2 for 10(toothbrush-0)              6.02
+2 for 10(toothbrush-1)              6.02
+
+Total:                             20.00
+
+[toothbrush,1.99,1,Kilo,True,TwoForAmount,10,3] => toothbrush-0                        1.99
+toothbrush-0                        1.99
+toothbrush-1                        1.99
+toothbrush-1                        1.99
+toothbrush-2                        1.99
+toothbrush-2                        1.99
+2 for 10(toothbrush-0)              6.02
+2 for 10(toothbrush-1)              6.02
+2 for 10(toothbrush-2)              6.02
+
+Total:                             30.00
+
+[toothbrush,1.99,1,Kilo,False,TenPercentDiscount,10,1] => toothbrush-0                        1.99
+toothbrush-0                        1.99
+
+Total:                              3.98
+
+[toothbrush,1.99,1,Kilo,False,TenPercentDiscount,10,2] => toothbrush-0                        1.99
+toothbrush-0                        1.99
+toothbrush-1                        1.99
+toothbrush-1                        1.99
+
+Total:                              7.96
+
+[toothbrush,1.99,1,Kilo,False,TenPercentDiscount,10,3] => toothbrush-0                        1.99
+toothbrush-0                        1.99
+toothbrush-1                        1.99
+toothbrush-1                        1.99
+toothbrush-2                        1.99
+toothbrush-2                        1.99
+
+Total:                             11.94
+
+[toothbrush,1.99,1,Kilo,False,FiveForAmount,10,1] => toothbrush-0                        1.99
+toothbrush-0                        1.99
+
+Total:                              3.98
+
+[toothbrush,1.99,1,Kilo,False,FiveForAmount,10,2] => toothbrush-0                        1.99
+toothbrush-0                        1.99
+toothbrush-1                        1.99
+toothbrush-1                        1.99
+
+Total:                              7.96
+
+[toothbrush,1.99,1,Kilo,False,FiveForAmount,10,3] => toothbrush-0                        1.99
+toothbrush-0                        1.99
+toothbrush-1                        1.99
+toothbrush-1                        1.99
+toothbrush-2                        1.99
+toothbrush-2                        1.99
+
+Total:                             11.94
+
+[toothbrush,1.99,1,Kilo,False,ThreeForTwo,10,1] => toothbrush-0                        1.99
+toothbrush-0                        1.99
+
+Total:                              3.98
+
+[toothbrush,1.99,1,Kilo,False,ThreeForTwo,10,2] => toothbrush-0                        1.99
+toothbrush-0                        1.99
+toothbrush-1                        1.99
+toothbrush-1                        1.99
+
+Total:                              7.96
+
+[toothbrush,1.99,1,Kilo,False,ThreeForTwo,10,3] => toothbrush-0                        1.99
+toothbrush-0                        1.99
+toothbrush-1                        1.99
+toothbrush-1                        1.99
+toothbrush-2                        1.99
+toothbrush-2                        1.99
+
+Total:                             11.94
+
+[toothbrush,1.99,1,Kilo,False,TwoForAmount,10,1] => toothbrush-0                        1.99
+toothbrush-0                        1.99
+
+Total:                              3.98
+
+[toothbrush,1.99,1,Kilo,False,TwoForAmount,10,2] => toothbrush-0                        1.99
+toothbrush-0                        1.99
+toothbrush-1                        1.99
+toothbrush-1                        1.99
+
+Total:                              7.96
+
+[toothbrush,1.99,1,Kilo,False,TwoForAmount,10,3] => toothbrush-0                        1.99
+toothbrush-0                        1.99
+toothbrush-1                        1.99
+toothbrush-1                        1.99
+toothbrush-2                        1.99
+toothbrush-2                        1.99
+
+Total:                             11.94
+
+[toothbrush,1.99,2.5,Each,True,TenPercentDiscount,10,1] => toothbrush-0                        1.99
+toothbrush-0                        4.97
+  1.99 * 2
+10% off(toothbrush-0)              -0.70
+
+Total:                              6.27
+
+[toothbrush,1.99,2.5,Each,True,TenPercentDiscount,10,2] => toothbrush-0                        1.99
+toothbrush-0                        4.97
+  1.99 * 2
+toothbrush-1                        1.99
+toothbrush-1                        4.97
+  1.99 * 2
+10% off(toothbrush-0)              -0.70
+10% off(toothbrush-1)              -0.70
+
+Total:                             12.54
+
+[toothbrush,1.99,2.5,Each,True,TenPercentDiscount,10,3] => toothbrush-0                        1.99
+toothbrush-0                        4.97
+  1.99 * 2
+toothbrush-1                        1.99
+toothbrush-1                        4.97
+  1.99 * 2
+toothbrush-2                        1.99
+toothbrush-2                        4.97
+  1.99 * 2
+10% off(toothbrush-0)              -0.70
+10% off(toothbrush-1)              -0.70
+10% off(toothbrush-2)              -0.70
+
+Total:                             18.81
+
+[toothbrush,1.99,2.5,Each,True,FiveForAmount,10,1] => toothbrush-0                        1.99
+toothbrush-0                        4.97
+  1.99 * 2
+
+Total:                              6.96
+
+[toothbrush,1.99,2.5,Each,True,FiveForAmount,10,2] => toothbrush-0                        1.99
+toothbrush-0                        4.97
+  1.99 * 2
+toothbrush-1                        1.99
+toothbrush-1                        4.97
+  1.99 * 2
+
+Total:                             13.93
+
+[toothbrush,1.99,2.5,Each,True,FiveForAmount,10,3] => toothbrush-0                        1.99
+toothbrush-0                        4.97
+  1.99 * 2
+toothbrush-1                        1.99
+toothbrush-1                        4.97
+  1.99 * 2
+toothbrush-2                        1.99
+toothbrush-2                        4.97
+  1.99 * 2
+
+Total:                             20.89
+
+[toothbrush,1.99,2.5,Each,True,ThreeForTwo,10,1] => toothbrush-0                        1.99
+toothbrush-0                        4.97
+  1.99 * 2
+3 for 2(toothbrush-0)              -2.98
+
+Total:                              3.98
+
+[toothbrush,1.99,2.5,Each,True,ThreeForTwo,10,2] => toothbrush-0                        1.99
+toothbrush-0                        4.97
+  1.99 * 2
+toothbrush-1                        1.99
+toothbrush-1                        4.97
+  1.99 * 2
+3 for 2(toothbrush-0)              -2.98
+3 for 2(toothbrush-1)              -2.98
+
+Total:                              7.96
+
+[toothbrush,1.99,2.5,Each,True,ThreeForTwo,10,3] => toothbrush-0                        1.99
+toothbrush-0                        4.97
+  1.99 * 2
+toothbrush-1                        1.99
+toothbrush-1                        4.97
+  1.99 * 2
+toothbrush-2                        1.99
+toothbrush-2                        4.97
+  1.99 * 2
+3 for 2(toothbrush-0)              -2.98
+3 for 2(toothbrush-1)              -2.98
+3 for 2(toothbrush-2)              -2.98
+
+Total:                             11.94
+
+[toothbrush,1.99,2.5,Each,True,TwoForAmount,10,1] => toothbrush-0                        1.99
+toothbrush-0                        4.97
+  1.99 * 2
+2 for 10(toothbrush-0)              5.03
+
+Total:                             11.99
+
+[toothbrush,1.99,2.5,Each,True,TwoForAmount,10,2] => toothbrush-0                        1.99
+toothbrush-0                        4.97
+  1.99 * 2
+toothbrush-1                        1.99
+toothbrush-1                        4.97
+  1.99 * 2
+2 for 10(toothbrush-0)              5.03
+2 for 10(toothbrush-1)              5.03
+
+Total:                             23.98
+
+[toothbrush,1.99,2.5,Each,True,TwoForAmount,10,3] => toothbrush-0                        1.99
+toothbrush-0                        4.97
+  1.99 * 2
+toothbrush-1                        1.99
+toothbrush-1                        4.97
+  1.99 * 2
+toothbrush-2                        1.99
+toothbrush-2                        4.97
+  1.99 * 2
+2 for 10(toothbrush-0)              5.03
+2 for 10(toothbrush-1)              5.03
+2 for 10(toothbrush-2)              5.03
+
+Total:                             35.97
+
+[toothbrush,1.99,2.5,Each,False,TenPercentDiscount,10,1] => toothbrush-0                        1.99
+toothbrush-0                        4.97
+  1.99 * 2
+
+Total:                              6.96
+
+[toothbrush,1.99,2.5,Each,False,TenPercentDiscount,10,2] => toothbrush-0                        1.99
+toothbrush-0                        4.97
+  1.99 * 2
+toothbrush-1                        1.99
+toothbrush-1                        4.97
+  1.99 * 2
+
+Total:                             13.93
+
+[toothbrush,1.99,2.5,Each,False,TenPercentDiscount,10,3] => toothbrush-0                        1.99
+toothbrush-0                        4.97
+  1.99 * 2
+toothbrush-1                        1.99
+toothbrush-1                        4.97
+  1.99 * 2
+toothbrush-2                        1.99
+toothbrush-2                        4.97
+  1.99 * 2
+
+Total:                             20.89
+
+[toothbrush,1.99,2.5,Each,False,FiveForAmount,10,1] => toothbrush-0                        1.99
+toothbrush-0                        4.97
+  1.99 * 2
+
+Total:                              6.96
+
+[toothbrush,1.99,2.5,Each,False,FiveForAmount,10,2] => toothbrush-0                        1.99
+toothbrush-0                        4.97
+  1.99 * 2
+toothbrush-1                        1.99
+toothbrush-1                        4.97
+  1.99 * 2
+
+Total:                             13.93
+
+[toothbrush,1.99,2.5,Each,False,FiveForAmount,10,3] => toothbrush-0                        1.99
+toothbrush-0                        4.97
+  1.99 * 2
+toothbrush-1                        1.99
+toothbrush-1                        4.97
+  1.99 * 2
+toothbrush-2                        1.99
+toothbrush-2                        4.97
+  1.99 * 2
+
+Total:                             20.89
+
+[toothbrush,1.99,2.5,Each,False,ThreeForTwo,10,1] => toothbrush-0                        1.99
+toothbrush-0                        4.97
+  1.99 * 2
+
+Total:                              6.96
+
+[toothbrush,1.99,2.5,Each,False,ThreeForTwo,10,2] => toothbrush-0                        1.99
+toothbrush-0                        4.97
+  1.99 * 2
+toothbrush-1                        1.99
+toothbrush-1                        4.97
+  1.99 * 2
+
+Total:                             13.93
+
+[toothbrush,1.99,2.5,Each,False,ThreeForTwo,10,3] => toothbrush-0                        1.99
+toothbrush-0                        4.97
+  1.99 * 2
+toothbrush-1                        1.99
+toothbrush-1                        4.97
+  1.99 * 2
+toothbrush-2                        1.99
+toothbrush-2                        4.97
+  1.99 * 2
+
+Total:                             20.89
+
+[toothbrush,1.99,2.5,Each,False,TwoForAmount,10,1] => toothbrush-0                        1.99
+toothbrush-0                        4.97
+  1.99 * 2
+
+Total:                              6.96
+
+[toothbrush,1.99,2.5,Each,False,TwoForAmount,10,2] => toothbrush-0                        1.99
+toothbrush-0                        4.97
+  1.99 * 2
+toothbrush-1                        1.99
+toothbrush-1                        4.97
+  1.99 * 2
+
+Total:                             13.93
+
+[toothbrush,1.99,2.5,Each,False,TwoForAmount,10,3] => toothbrush-0                        1.99
+toothbrush-0                        4.97
+  1.99 * 2
+toothbrush-1                        1.99
+toothbrush-1                        4.97
+  1.99 * 2
+toothbrush-2                        1.99
+toothbrush-2                        4.97
+  1.99 * 2
+
+Total:                             20.89
+
+[toothbrush,1.99,2.5,Kilo,True,TenPercentDiscount,10,1] => toothbrush-0                        1.99
+toothbrush-0                        4.97
+  1.99 * 2.500
+10% off(toothbrush-0)              -0.70
+
+Total:                              6.27
+
+[toothbrush,1.99,2.5,Kilo,True,TenPercentDiscount,10,2] => toothbrush-0                        1.99
+toothbrush-0                        4.97
+  1.99 * 2.500
+toothbrush-1                        1.99
+toothbrush-1                        4.97
+  1.99 * 2.500
+10% off(toothbrush-0)              -0.70
+10% off(toothbrush-1)              -0.70
+
+Total:                             12.54
+
+[toothbrush,1.99,2.5,Kilo,True,TenPercentDiscount,10,3] => toothbrush-0                        1.99
+toothbrush-0                        4.97
+  1.99 * 2.500
+toothbrush-1                        1.99
+toothbrush-1                        4.97
+  1.99 * 2.500
+toothbrush-2                        1.99
+toothbrush-2                        4.97
+  1.99 * 2.500
+10% off(toothbrush-0)              -0.70
+10% off(toothbrush-1)              -0.70
+10% off(toothbrush-2)              -0.70
+
+Total:                             18.81
+
+[toothbrush,1.99,2.5,Kilo,True,FiveForAmount,10,1] => toothbrush-0                        1.99
+toothbrush-0                        4.97
+  1.99 * 2.500
+
+Total:                              6.96
+
+[toothbrush,1.99,2.5,Kilo,True,FiveForAmount,10,2] => toothbrush-0                        1.99
+toothbrush-0                        4.97
+  1.99 * 2.500
+toothbrush-1                        1.99
+toothbrush-1                        4.97
+  1.99 * 2.500
+
+Total:                             13.93
+
+[toothbrush,1.99,2.5,Kilo,True,FiveForAmount,10,3] => toothbrush-0                        1.99
+toothbrush-0                        4.97
+  1.99 * 2.500
+toothbrush-1                        1.99
+toothbrush-1                        4.97
+  1.99 * 2.500
+toothbrush-2                        1.99
+toothbrush-2                        4.97
+  1.99 * 2.500
+
+Total:                             20.89
+
+[toothbrush,1.99,2.5,Kilo,True,ThreeForTwo,10,1] => toothbrush-0                        1.99
+toothbrush-0                        4.97
+  1.99 * 2.500
+3 for 2(toothbrush-0)              -2.98
+
+Total:                              3.98
+
+[toothbrush,1.99,2.5,Kilo,True,ThreeForTwo,10,2] => toothbrush-0                        1.99
+toothbrush-0                        4.97
+  1.99 * 2.500
+toothbrush-1                        1.99
+toothbrush-1                        4.97
+  1.99 * 2.500
+3 for 2(toothbrush-0)              -2.98
+3 for 2(toothbrush-1)              -2.98
+
+Total:                              7.96
+
+[toothbrush,1.99,2.5,Kilo,True,ThreeForTwo,10,3] => toothbrush-0                        1.99
+toothbrush-0                        4.97
+  1.99 * 2.500
+toothbrush-1                        1.99
+toothbrush-1                        4.97
+  1.99 * 2.500
+toothbrush-2                        1.99
+toothbrush-2                        4.97
+  1.99 * 2.500
+3 for 2(toothbrush-0)              -2.98
+3 for 2(toothbrush-1)              -2.98
+3 for 2(toothbrush-2)              -2.98
+
+Total:                             11.94
+
+[toothbrush,1.99,2.5,Kilo,True,TwoForAmount,10,1] => toothbrush-0                        1.99
+toothbrush-0                        4.97
+  1.99 * 2.500
+2 for 10(toothbrush-0)              5.03
+
+Total:                             11.99
+
+[toothbrush,1.99,2.5,Kilo,True,TwoForAmount,10,2] => toothbrush-0                        1.99
+toothbrush-0                        4.97
+  1.99 * 2.500
+toothbrush-1                        1.99
+toothbrush-1                        4.97
+  1.99 * 2.500
+2 for 10(toothbrush-0)              5.03
+2 for 10(toothbrush-1)              5.03
+
+Total:                             23.98
+
+[toothbrush,1.99,2.5,Kilo,True,TwoForAmount,10,3] => toothbrush-0                        1.99
+toothbrush-0                        4.97
+  1.99 * 2.500
+toothbrush-1                        1.99
+toothbrush-1                        4.97
+  1.99 * 2.500
+toothbrush-2                        1.99
+toothbrush-2                        4.97
+  1.99 * 2.500
+2 for 10(toothbrush-0)              5.03
+2 for 10(toothbrush-1)              5.03
+2 for 10(toothbrush-2)              5.03
+
+Total:                             35.97
+
+[toothbrush,1.99,2.5,Kilo,False,TenPercentDiscount,10,1] => toothbrush-0                        1.99
+toothbrush-0                        4.97
+  1.99 * 2.500
+
+Total:                              6.96
+
+[toothbrush,1.99,2.5,Kilo,False,TenPercentDiscount,10,2] => toothbrush-0                        1.99
+toothbrush-0                        4.97
+  1.99 * 2.500
+toothbrush-1                        1.99
+toothbrush-1                        4.97
+  1.99 * 2.500
+
+Total:                             13.93
+
+[toothbrush,1.99,2.5,Kilo,False,TenPercentDiscount,10,3] => toothbrush-0                        1.99
+toothbrush-0                        4.97
+  1.99 * 2.500
+toothbrush-1                        1.99
+toothbrush-1                        4.97
+  1.99 * 2.500
+toothbrush-2                        1.99
+toothbrush-2                        4.97
+  1.99 * 2.500
+
+Total:                             20.89
+
+[toothbrush,1.99,2.5,Kilo,False,FiveForAmount,10,1] => toothbrush-0                        1.99
+toothbrush-0                        4.97
+  1.99 * 2.500
+
+Total:                              6.96
+
+[toothbrush,1.99,2.5,Kilo,False,FiveForAmount,10,2] => toothbrush-0                        1.99
+toothbrush-0                        4.97
+  1.99 * 2.500
+toothbrush-1                        1.99
+toothbrush-1                        4.97
+  1.99 * 2.500
+
+Total:                             13.93
+
+[toothbrush,1.99,2.5,Kilo,False,FiveForAmount,10,3] => toothbrush-0                        1.99
+toothbrush-0                        4.97
+  1.99 * 2.500
+toothbrush-1                        1.99
+toothbrush-1                        4.97
+  1.99 * 2.500
+toothbrush-2                        1.99
+toothbrush-2                        4.97
+  1.99 * 2.500
+
+Total:                             20.89
+
+[toothbrush,1.99,2.5,Kilo,False,ThreeForTwo,10,1] => toothbrush-0                        1.99
+toothbrush-0                        4.97
+  1.99 * 2.500
+
+Total:                              6.96
+
+[toothbrush,1.99,2.5,Kilo,False,ThreeForTwo,10,2] => toothbrush-0                        1.99
+toothbrush-0                        4.97
+  1.99 * 2.500
+toothbrush-1                        1.99
+toothbrush-1                        4.97
+  1.99 * 2.500
+
+Total:                             13.93
+
+[toothbrush,1.99,2.5,Kilo,False,ThreeForTwo,10,3] => toothbrush-0                        1.99
+toothbrush-0                        4.97
+  1.99 * 2.500
+toothbrush-1                        1.99
+toothbrush-1                        4.97
+  1.99 * 2.500
+toothbrush-2                        1.99
+toothbrush-2                        4.97
+  1.99 * 2.500
+
+Total:                             20.89
+
+[toothbrush,1.99,2.5,Kilo,False,TwoForAmount,10,1] => toothbrush-0                        1.99
+toothbrush-0                        4.97
+  1.99 * 2.500
+
+Total:                              6.96
+
+[toothbrush,1.99,2.5,Kilo,False,TwoForAmount,10,2] => toothbrush-0                        1.99
+toothbrush-0                        4.97
+  1.99 * 2.500
+toothbrush-1                        1.99
+toothbrush-1                        4.97
+  1.99 * 2.500
+
+Total:                             13.93
+
+[toothbrush,1.99,2.5,Kilo,False,TwoForAmount,10,3] => toothbrush-0                        1.99
+toothbrush-0                        4.97
+  1.99 * 2.500
+toothbrush-1                        1.99
+toothbrush-1                        4.97
+  1.99 * 2.500
+toothbrush-2                        1.99
+toothbrush-2                        4.97
+  1.99 * 2.500
+
+Total:                             20.89
+
+[toothbrush,1.99,5,Each,True,TenPercentDiscount,10,1] => toothbrush-0                        1.99
+toothbrush-0                        9.95
+  1.99 * 5
+10% off(toothbrush-0)              -1.19
+
+Total:                             10.75
+
+[toothbrush,1.99,5,Each,True,TenPercentDiscount,10,2] => toothbrush-0                        1.99
+toothbrush-0                        9.95
+  1.99 * 5
+toothbrush-1                        1.99
+toothbrush-1                        9.95
+  1.99 * 5
+10% off(toothbrush-0)              -1.19
+10% off(toothbrush-1)              -1.19
+
+Total:                             21.49
+
+[toothbrush,1.99,5,Each,True,TenPercentDiscount,10,3] => toothbrush-0                        1.99
+toothbrush-0                        9.95
+  1.99 * 5
+toothbrush-1                        1.99
+toothbrush-1                        9.95
+  1.99 * 5
+toothbrush-2                        1.99
+toothbrush-2                        9.95
+  1.99 * 5
+10% off(toothbrush-0)              -1.19
+10% off(toothbrush-1)              -1.19
+10% off(toothbrush-2)              -1.19
+
+Total:                             32.24
+
+[toothbrush,1.99,5,Each,True,FiveForAmount,10,1] => toothbrush-0                        1.99
+toothbrush-0                        9.95
+  1.99 * 5
+5 for 10(toothbrush-0)              0.05
+
+Total:                             11.99
+
+[toothbrush,1.99,5,Each,True,FiveForAmount,10,2] => toothbrush-0                        1.99
+toothbrush-0                        9.95
+  1.99 * 5
+toothbrush-1                        1.99
+toothbrush-1                        9.95
+  1.99 * 5
+5 for 10(toothbrush-0)              0.05
+5 for 10(toothbrush-1)              0.05
+
+Total:                             23.98
+
+[toothbrush,1.99,5,Each,True,FiveForAmount,10,3] => toothbrush-0                        1.99
+toothbrush-0                        9.95
+  1.99 * 5
+toothbrush-1                        1.99
+toothbrush-1                        9.95
+  1.99 * 5
+toothbrush-2                        1.99
+toothbrush-2                        9.95
+  1.99 * 5
+5 for 10(toothbrush-0)              0.05
+5 for 10(toothbrush-1)              0.05
+5 for 10(toothbrush-2)              0.05
+
+Total:                             35.97
+
+[toothbrush,1.99,5,Each,True,ThreeForTwo,10,1] => toothbrush-0                        1.99
+toothbrush-0                        9.95
+  1.99 * 5
+3 for 2(toothbrush-0)              -3.98
+
+Total:                              7.96
+
+[toothbrush,1.99,5,Each,True,ThreeForTwo,10,2] => toothbrush-0                        1.99
+toothbrush-0                        9.95
+  1.99 * 5
+toothbrush-1                        1.99
+toothbrush-1                        9.95
+  1.99 * 5
+3 for 2(toothbrush-0)              -3.98
+3 for 2(toothbrush-1)              -3.98
+
+Total:                             15.92
+
+[toothbrush,1.99,5,Each,True,ThreeForTwo,10,3] => toothbrush-0                        1.99
+toothbrush-0                        9.95
+  1.99 * 5
+toothbrush-1                        1.99
+toothbrush-1                        9.95
+  1.99 * 5
+toothbrush-2                        1.99
+toothbrush-2                        9.95
+  1.99 * 5
+3 for 2(toothbrush-0)              -3.98
+3 for 2(toothbrush-1)              -3.98
+3 for 2(toothbrush-2)              -3.98
+
+Total:                             23.88
+
+[toothbrush,1.99,5,Each,True,TwoForAmount,10,1] => toothbrush-0                        1.99
+toothbrush-0                        9.95
+  1.99 * 5
+2 for 10(toothbrush-0)             18.06
+
+Total:                             30.00
+
+[toothbrush,1.99,5,Each,True,TwoForAmount,10,2] => toothbrush-0                        1.99
+toothbrush-0                        9.95
+  1.99 * 5
+toothbrush-1                        1.99
+toothbrush-1                        9.95
+  1.99 * 5
+2 for 10(toothbrush-0)             18.06
+2 for 10(toothbrush-1)             18.06
+
+Total:                             60.00
+
+[toothbrush,1.99,5,Each,True,TwoForAmount,10,3] => toothbrush-0                        1.99
+toothbrush-0                        9.95
+  1.99 * 5
+toothbrush-1                        1.99
+toothbrush-1                        9.95
+  1.99 * 5
+toothbrush-2                        1.99
+toothbrush-2                        9.95
+  1.99 * 5
+2 for 10(toothbrush-0)             18.06
+2 for 10(toothbrush-1)             18.06
+2 for 10(toothbrush-2)             18.06
+
+Total:                             90.00
+
+[toothbrush,1.99,5,Each,False,TenPercentDiscount,10,1] => toothbrush-0                        1.99
+toothbrush-0                        9.95
+  1.99 * 5
+
+Total:                             11.94
+
+[toothbrush,1.99,5,Each,False,TenPercentDiscount,10,2] => toothbrush-0                        1.99
+toothbrush-0                        9.95
+  1.99 * 5
+toothbrush-1                        1.99
+toothbrush-1                        9.95
+  1.99 * 5
+
+Total:                             23.88
+
+[toothbrush,1.99,5,Each,False,TenPercentDiscount,10,3] => toothbrush-0                        1.99
+toothbrush-0                        9.95
+  1.99 * 5
+toothbrush-1                        1.99
+toothbrush-1                        9.95
+  1.99 * 5
+toothbrush-2                        1.99
+toothbrush-2                        9.95
+  1.99 * 5
+
+Total:                             35.82
+
+[toothbrush,1.99,5,Each,False,FiveForAmount,10,1] => toothbrush-0                        1.99
+toothbrush-0                        9.95
+  1.99 * 5
+
+Total:                             11.94
+
+[toothbrush,1.99,5,Each,False,FiveForAmount,10,2] => toothbrush-0                        1.99
+toothbrush-0                        9.95
+  1.99 * 5
+toothbrush-1                        1.99
+toothbrush-1                        9.95
+  1.99 * 5
+
+Total:                             23.88
+
+[toothbrush,1.99,5,Each,False,FiveForAmount,10,3] => toothbrush-0                        1.99
+toothbrush-0                        9.95
+  1.99 * 5
+toothbrush-1                        1.99
+toothbrush-1                        9.95
+  1.99 * 5
+toothbrush-2                        1.99
+toothbrush-2                        9.95
+  1.99 * 5
+
+Total:                             35.82
+
+[toothbrush,1.99,5,Each,False,ThreeForTwo,10,1] => toothbrush-0                        1.99
+toothbrush-0                        9.95
+  1.99 * 5
+
+Total:                             11.94
+
+[toothbrush,1.99,5,Each,False,ThreeForTwo,10,2] => toothbrush-0                        1.99
+toothbrush-0                        9.95
+  1.99 * 5
+toothbrush-1                        1.99
+toothbrush-1                        9.95
+  1.99 * 5
+
+Total:                             23.88
+
+[toothbrush,1.99,5,Each,False,ThreeForTwo,10,3] => toothbrush-0                        1.99
+toothbrush-0                        9.95
+  1.99 * 5
+toothbrush-1                        1.99
+toothbrush-1                        9.95
+  1.99 * 5
+toothbrush-2                        1.99
+toothbrush-2                        9.95
+  1.99 * 5
+
+Total:                             35.82
+
+[toothbrush,1.99,5,Each,False,TwoForAmount,10,1] => toothbrush-0                        1.99
+toothbrush-0                        9.95
+  1.99 * 5
+
+Total:                             11.94
+
+[toothbrush,1.99,5,Each,False,TwoForAmount,10,2] => toothbrush-0                        1.99
+toothbrush-0                        9.95
+  1.99 * 5
+toothbrush-1                        1.99
+toothbrush-1                        9.95
+  1.99 * 5
+
+Total:                             23.88
+
+[toothbrush,1.99,5,Each,False,TwoForAmount,10,3] => toothbrush-0                        1.99
+toothbrush-0                        9.95
+  1.99 * 5
+toothbrush-1                        1.99
+toothbrush-1                        9.95
+  1.99 * 5
+toothbrush-2                        1.99
+toothbrush-2                        9.95
+  1.99 * 5
+
+Total:                             35.82
+
+[toothbrush,1.99,5,Kilo,True,TenPercentDiscount,10,1] => toothbrush-0                        1.99
+toothbrush-0                        9.95
+  1.99 * 5.000
+10% off(toothbrush-0)              -1.19
+
+Total:                             10.75
+
+[toothbrush,1.99,5,Kilo,True,TenPercentDiscount,10,2] => toothbrush-0                        1.99
+toothbrush-0                        9.95
+  1.99 * 5.000
+toothbrush-1                        1.99
+toothbrush-1                        9.95
+  1.99 * 5.000
+10% off(toothbrush-0)              -1.19
+10% off(toothbrush-1)              -1.19
+
+Total:                             21.49
+
+[toothbrush,1.99,5,Kilo,True,TenPercentDiscount,10,3] => toothbrush-0                        1.99
+toothbrush-0                        9.95
+  1.99 * 5.000
+toothbrush-1                        1.99
+toothbrush-1                        9.95
+  1.99 * 5.000
+toothbrush-2                        1.99
+toothbrush-2                        9.95
+  1.99 * 5.000
+10% off(toothbrush-0)              -1.19
+10% off(toothbrush-1)              -1.19
+10% off(toothbrush-2)              -1.19
+
+Total:                             32.24
+
+[toothbrush,1.99,5,Kilo,True,FiveForAmount,10,1] => toothbrush-0                        1.99
+toothbrush-0                        9.95
+  1.99 * 5.000
+5 for 10(toothbrush-0)              0.05
+
+Total:                             11.99
+
+[toothbrush,1.99,5,Kilo,True,FiveForAmount,10,2] => toothbrush-0                        1.99
+toothbrush-0                        9.95
+  1.99 * 5.000
+toothbrush-1                        1.99
+toothbrush-1                        9.95
+  1.99 * 5.000
+5 for 10(toothbrush-0)              0.05
+5 for 10(toothbrush-1)              0.05
+
+Total:                             23.98
+
+[toothbrush,1.99,5,Kilo,True,FiveForAmount,10,3] => toothbrush-0                        1.99
+toothbrush-0                        9.95
+  1.99 * 5.000
+toothbrush-1                        1.99
+toothbrush-1                        9.95
+  1.99 * 5.000
+toothbrush-2                        1.99
+toothbrush-2                        9.95
+  1.99 * 5.000
+5 for 10(toothbrush-0)              0.05
+5 for 10(toothbrush-1)              0.05
+5 for 10(toothbrush-2)              0.05
+
+Total:                             35.97
+
+[toothbrush,1.99,5,Kilo,True,ThreeForTwo,10,1] => toothbrush-0                        1.99
+toothbrush-0                        9.95
+  1.99 * 5.000
+3 for 2(toothbrush-0)              -3.98
+
+Total:                              7.96
+
+[toothbrush,1.99,5,Kilo,True,ThreeForTwo,10,2] => toothbrush-0                        1.99
+toothbrush-0                        9.95
+  1.99 * 5.000
+toothbrush-1                        1.99
+toothbrush-1                        9.95
+  1.99 * 5.000
+3 for 2(toothbrush-0)              -3.98
+3 for 2(toothbrush-1)              -3.98
+
+Total:                             15.92
+
+[toothbrush,1.99,5,Kilo,True,ThreeForTwo,10,3] => toothbrush-0                        1.99
+toothbrush-0                        9.95
+  1.99 * 5.000
+toothbrush-1                        1.99
+toothbrush-1                        9.95
+  1.99 * 5.000
+toothbrush-2                        1.99
+toothbrush-2                        9.95
+  1.99 * 5.000
+3 for 2(toothbrush-0)              -3.98
+3 for 2(toothbrush-1)              -3.98
+3 for 2(toothbrush-2)              -3.98
+
+Total:                             23.88
+
+[toothbrush,1.99,5,Kilo,True,TwoForAmount,10,1] => toothbrush-0                        1.99
+toothbrush-0                        9.95
+  1.99 * 5.000
+2 for 10(toothbrush-0)             18.06
+
+Total:                             30.00
+
+[toothbrush,1.99,5,Kilo,True,TwoForAmount,10,2] => toothbrush-0                        1.99
+toothbrush-0                        9.95
+  1.99 * 5.000
+toothbrush-1                        1.99
+toothbrush-1                        9.95
+  1.99 * 5.000
+2 for 10(toothbrush-0)             18.06
+2 for 10(toothbrush-1)             18.06
+
+Total:                             60.00
+
+[toothbrush,1.99,5,Kilo,True,TwoForAmount,10,3] => toothbrush-0                        1.99
+toothbrush-0                        9.95
+  1.99 * 5.000
+toothbrush-1                        1.99
+toothbrush-1                        9.95
+  1.99 * 5.000
+toothbrush-2                        1.99
+toothbrush-2                        9.95
+  1.99 * 5.000
+2 for 10(toothbrush-0)             18.06
+2 for 10(toothbrush-1)             18.06
+2 for 10(toothbrush-2)             18.06
+
+Total:                             90.00
+
+[toothbrush,1.99,5,Kilo,False,TenPercentDiscount,10,1] => toothbrush-0                        1.99
+toothbrush-0                        9.95
+  1.99 * 5.000
+
+Total:                             11.94
+
+[toothbrush,1.99,5,Kilo,False,TenPercentDiscount,10,2] => toothbrush-0                        1.99
+toothbrush-0                        9.95
+  1.99 * 5.000
+toothbrush-1                        1.99
+toothbrush-1                        9.95
+  1.99 * 5.000
+
+Total:                             23.88
+
+[toothbrush,1.99,5,Kilo,False,TenPercentDiscount,10,3] => toothbrush-0                        1.99
+toothbrush-0                        9.95
+  1.99 * 5.000
+toothbrush-1                        1.99
+toothbrush-1                        9.95
+  1.99 * 5.000
+toothbrush-2                        1.99
+toothbrush-2                        9.95
+  1.99 * 5.000
+
+Total:                             35.82
+
+[toothbrush,1.99,5,Kilo,False,FiveForAmount,10,1] => toothbrush-0                        1.99
+toothbrush-0                        9.95
+  1.99 * 5.000
+
+Total:                             11.94
+
+[toothbrush,1.99,5,Kilo,False,FiveForAmount,10,2] => toothbrush-0                        1.99
+toothbrush-0                        9.95
+  1.99 * 5.000
+toothbrush-1                        1.99
+toothbrush-1                        9.95
+  1.99 * 5.000
+
+Total:                             23.88
+
+[toothbrush,1.99,5,Kilo,False,FiveForAmount,10,3] => toothbrush-0                        1.99
+toothbrush-0                        9.95
+  1.99 * 5.000
+toothbrush-1                        1.99
+toothbrush-1                        9.95
+  1.99 * 5.000
+toothbrush-2                        1.99
+toothbrush-2                        9.95
+  1.99 * 5.000
+
+Total:                             35.82
+
+[toothbrush,1.99,5,Kilo,False,ThreeForTwo,10,1] => toothbrush-0                        1.99
+toothbrush-0                        9.95
+  1.99 * 5.000
+
+Total:                             11.94
+
+[toothbrush,1.99,5,Kilo,False,ThreeForTwo,10,2] => toothbrush-0                        1.99
+toothbrush-0                        9.95
+  1.99 * 5.000
+toothbrush-1                        1.99
+toothbrush-1                        9.95
+  1.99 * 5.000
+
+Total:                             23.88
+
+[toothbrush,1.99,5,Kilo,False,ThreeForTwo,10,3] => toothbrush-0                        1.99
+toothbrush-0                        9.95
+  1.99 * 5.000
+toothbrush-1                        1.99
+toothbrush-1                        9.95
+  1.99 * 5.000
+toothbrush-2                        1.99
+toothbrush-2                        9.95
+  1.99 * 5.000
+
+Total:                             35.82
+
+[toothbrush,1.99,5,Kilo,False,TwoForAmount,10,1] => toothbrush-0                        1.99
+toothbrush-0                        9.95
+  1.99 * 5.000
+
+Total:                             11.94
+
+[toothbrush,1.99,5,Kilo,False,TwoForAmount,10,2] => toothbrush-0                        1.99
+toothbrush-0                        9.95
+  1.99 * 5.000
+toothbrush-1                        1.99
+toothbrush-1                        9.95
+  1.99 * 5.000
+
+Total:                             23.88
+
+[toothbrush,1.99,5,Kilo,False,TwoForAmount,10,3] => toothbrush-0                        1.99
+toothbrush-0                        9.95
+  1.99 * 5.000
+toothbrush-1                        1.99
+toothbrush-1                        9.95
+  1.99 * 5.000
+toothbrush-2                        1.99
+toothbrush-2                        9.95
+  1.99 * 5.000
+
+Total:                             35.82
+
+[apples,0.99,1,Each,True,TenPercentDiscount,10,1] => apples-0                            0.99
+apples-0                            0.99
+10% off(apples-0)                  -0.20
+
+Total:                              1.78
+
+[apples,0.99,1,Each,True,TenPercentDiscount,10,2] => apples-0                            0.99
+apples-0                            0.99
+apples-1                            0.99
+apples-1                            0.99
+10% off(apples-0)                  -0.20
+10% off(apples-1)                  -0.20
+
+Total:                              3.56
+
+[apples,0.99,1,Each,True,TenPercentDiscount,10,3] => apples-0                            0.99
+apples-0                            0.99
+apples-1                            0.99
+apples-1                            0.99
+apples-2                            0.99
+apples-2                            0.99
+10% off(apples-0)                  -0.20
+10% off(apples-1)                  -0.20
+10% off(apples-2)                  -0.20
+
+Total:                              5.35
+
+[apples,0.99,1,Each,True,FiveForAmount,10,1] => apples-0                            0.99
+apples-0                            0.99
+
+Total:                              1.98
+
+[apples,0.99,1,Each,True,FiveForAmount,10,2] => apples-0                            0.99
+apples-0                            0.99
+apples-1                            0.99
+apples-1                            0.99
+
+Total:                              3.96
+
+[apples,0.99,1,Each,True,FiveForAmount,10,3] => apples-0                            0.99
+apples-0                            0.99
+apples-1                            0.99
+apples-1                            0.99
+apples-2                            0.99
+apples-2                            0.99
+
+Total:                              5.94
+
+[apples,0.99,1,Each,True,ThreeForTwo,10,1] => apples-0                            0.99
+apples-0                            0.99
+
+Total:                              1.98
+
+[apples,0.99,1,Each,True,ThreeForTwo,10,2] => apples-0                            0.99
+apples-0                            0.99
+apples-1                            0.99
+apples-1                            0.99
+
+Total:                              3.96
+
+[apples,0.99,1,Each,True,ThreeForTwo,10,3] => apples-0                            0.99
+apples-0                            0.99
+apples-1                            0.99
+apples-1                            0.99
+apples-2                            0.99
+apples-2                            0.99
+
+Total:                              5.94
+
+[apples,0.99,1,Each,True,TwoForAmount,10,1] => apples-0                            0.99
+apples-0                            0.99
+2 for 10(apples-0)                  8.02
+
+Total:                             10.00
+
+[apples,0.99,1,Each,True,TwoForAmount,10,2] => apples-0                            0.99
+apples-0                            0.99
+apples-1                            0.99
+apples-1                            0.99
+2 for 10(apples-0)                  8.02
+2 for 10(apples-1)                  8.02
+
+Total:                             20.00
+
+[apples,0.99,1,Each,True,TwoForAmount,10,3] => apples-0                            0.99
+apples-0                            0.99
+apples-1                            0.99
+apples-1                            0.99
+apples-2                            0.99
+apples-2                            0.99
+2 for 10(apples-0)                  8.02
+2 for 10(apples-1)                  8.02
+2 for 10(apples-2)                  8.02
+
+Total:                             30.00
+
+[apples,0.99,1,Each,False,TenPercentDiscount,10,1] => apples-0                            0.99
+apples-0                            0.99
+
+Total:                              1.98
+
+[apples,0.99,1,Each,False,TenPercentDiscount,10,2] => apples-0                            0.99
+apples-0                            0.99
+apples-1                            0.99
+apples-1                            0.99
+
+Total:                              3.96
+
+[apples,0.99,1,Each,False,TenPercentDiscount,10,3] => apples-0                            0.99
+apples-0                            0.99
+apples-1                            0.99
+apples-1                            0.99
+apples-2                            0.99
+apples-2                            0.99
+
+Total:                              5.94
+
+[apples,0.99,1,Each,False,FiveForAmount,10,1] => apples-0                            0.99
+apples-0                            0.99
+
+Total:                              1.98
+
+[apples,0.99,1,Each,False,FiveForAmount,10,2] => apples-0                            0.99
+apples-0                            0.99
+apples-1                            0.99
+apples-1                            0.99
+
+Total:                              3.96
+
+[apples,0.99,1,Each,False,FiveForAmount,10,3] => apples-0                            0.99
+apples-0                            0.99
+apples-1                            0.99
+apples-1                            0.99
+apples-2                            0.99
+apples-2                            0.99
+
+Total:                              5.94
+
+[apples,0.99,1,Each,False,ThreeForTwo,10,1] => apples-0                            0.99
+apples-0                            0.99
+
+Total:                              1.98
+
+[apples,0.99,1,Each,False,ThreeForTwo,10,2] => apples-0                            0.99
+apples-0                            0.99
+apples-1                            0.99
+apples-1                            0.99
+
+Total:                              3.96
+
+[apples,0.99,1,Each,False,ThreeForTwo,10,3] => apples-0                            0.99
+apples-0                            0.99
+apples-1                            0.99
+apples-1                            0.99
+apples-2                            0.99
+apples-2                            0.99
+
+Total:                              5.94
+
+[apples,0.99,1,Each,False,TwoForAmount,10,1] => apples-0                            0.99
+apples-0                            0.99
+
+Total:                              1.98
+
+[apples,0.99,1,Each,False,TwoForAmount,10,2] => apples-0                            0.99
+apples-0                            0.99
+apples-1                            0.99
+apples-1                            0.99
+
+Total:                              3.96
+
+[apples,0.99,1,Each,False,TwoForAmount,10,3] => apples-0                            0.99
+apples-0                            0.99
+apples-1                            0.99
+apples-1                            0.99
+apples-2                            0.99
+apples-2                            0.99
+
+Total:                              5.94
+
+[apples,0.99,1,Kilo,True,TenPercentDiscount,10,1] => apples-0                            0.99
+apples-0                            0.99
+10% off(apples-0)                  -0.20
+
+Total:                              1.78
+
+[apples,0.99,1,Kilo,True,TenPercentDiscount,10,2] => apples-0                            0.99
+apples-0                            0.99
+apples-1                            0.99
+apples-1                            0.99
+10% off(apples-0)                  -0.20
+10% off(apples-1)                  -0.20
+
+Total:                              3.56
+
+[apples,0.99,1,Kilo,True,TenPercentDiscount,10,3] => apples-0                            0.99
+apples-0                            0.99
+apples-1                            0.99
+apples-1                            0.99
+apples-2                            0.99
+apples-2                            0.99
+10% off(apples-0)                  -0.20
+10% off(apples-1)                  -0.20
+10% off(apples-2)                  -0.20
+
+Total:                              5.35
+
+[apples,0.99,1,Kilo,True,FiveForAmount,10,1] => apples-0                            0.99
+apples-0                            0.99
+
+Total:                              1.98
+
+[apples,0.99,1,Kilo,True,FiveForAmount,10,2] => apples-0                            0.99
+apples-0                            0.99
+apples-1                            0.99
+apples-1                            0.99
+
+Total:                              3.96
+
+[apples,0.99,1,Kilo,True,FiveForAmount,10,3] => apples-0                            0.99
+apples-0                            0.99
+apples-1                            0.99
+apples-1                            0.99
+apples-2                            0.99
+apples-2                            0.99
+
+Total:                              5.94
+
+[apples,0.99,1,Kilo,True,ThreeForTwo,10,1] => apples-0                            0.99
+apples-0                            0.99
+
+Total:                              1.98
+
+[apples,0.99,1,Kilo,True,ThreeForTwo,10,2] => apples-0                            0.99
+apples-0                            0.99
+apples-1                            0.99
+apples-1                            0.99
+
+Total:                              3.96
+
+[apples,0.99,1,Kilo,True,ThreeForTwo,10,3] => apples-0                            0.99
+apples-0                            0.99
+apples-1                            0.99
+apples-1                            0.99
+apples-2                            0.99
+apples-2                            0.99
+
+Total:                              5.94
+
+[apples,0.99,1,Kilo,True,TwoForAmount,10,1] => apples-0                            0.99
+apples-0                            0.99
+2 for 10(apples-0)                  8.02
+
+Total:                             10.00
+
+[apples,0.99,1,Kilo,True,TwoForAmount,10,2] => apples-0                            0.99
+apples-0                            0.99
+apples-1                            0.99
+apples-1                            0.99
+2 for 10(apples-0)                  8.02
+2 for 10(apples-1)                  8.02
+
+Total:                             20.00
+
+[apples,0.99,1,Kilo,True,TwoForAmount,10,3] => apples-0                            0.99
+apples-0                            0.99
+apples-1                            0.99
+apples-1                            0.99
+apples-2                            0.99
+apples-2                            0.99
+2 for 10(apples-0)                  8.02
+2 for 10(apples-1)                  8.02
+2 for 10(apples-2)                  8.02
+
+Total:                             30.00
+
+[apples,0.99,1,Kilo,False,TenPercentDiscount,10,1] => apples-0                            0.99
+apples-0                            0.99
+
+Total:                              1.98
+
+[apples,0.99,1,Kilo,False,TenPercentDiscount,10,2] => apples-0                            0.99
+apples-0                            0.99
+apples-1                            0.99
+apples-1                            0.99
+
+Total:                              3.96
+
+[apples,0.99,1,Kilo,False,TenPercentDiscount,10,3] => apples-0                            0.99
+apples-0                            0.99
+apples-1                            0.99
+apples-1                            0.99
+apples-2                            0.99
+apples-2                            0.99
+
+Total:                              5.94
+
+[apples,0.99,1,Kilo,False,FiveForAmount,10,1] => apples-0                            0.99
+apples-0                            0.99
+
+Total:                              1.98
+
+[apples,0.99,1,Kilo,False,FiveForAmount,10,2] => apples-0                            0.99
+apples-0                            0.99
+apples-1                            0.99
+apples-1                            0.99
+
+Total:                              3.96
+
+[apples,0.99,1,Kilo,False,FiveForAmount,10,3] => apples-0                            0.99
+apples-0                            0.99
+apples-1                            0.99
+apples-1                            0.99
+apples-2                            0.99
+apples-2                            0.99
+
+Total:                              5.94
+
+[apples,0.99,1,Kilo,False,ThreeForTwo,10,1] => apples-0                            0.99
+apples-0                            0.99
+
+Total:                              1.98
+
+[apples,0.99,1,Kilo,False,ThreeForTwo,10,2] => apples-0                            0.99
+apples-0                            0.99
+apples-1                            0.99
+apples-1                            0.99
+
+Total:                              3.96
+
+[apples,0.99,1,Kilo,False,ThreeForTwo,10,3] => apples-0                            0.99
+apples-0                            0.99
+apples-1                            0.99
+apples-1                            0.99
+apples-2                            0.99
+apples-2                            0.99
+
+Total:                              5.94
+
+[apples,0.99,1,Kilo,False,TwoForAmount,10,1] => apples-0                            0.99
+apples-0                            0.99
+
+Total:                              1.98
+
+[apples,0.99,1,Kilo,False,TwoForAmount,10,2] => apples-0                            0.99
+apples-0                            0.99
+apples-1                            0.99
+apples-1                            0.99
+
+Total:                              3.96
+
+[apples,0.99,1,Kilo,False,TwoForAmount,10,3] => apples-0                            0.99
+apples-0                            0.99
+apples-1                            0.99
+apples-1                            0.99
+apples-2                            0.99
+apples-2                            0.99
+
+Total:                              5.94
+
+[apples,0.99,2.5,Each,True,TenPercentDiscount,10,1] => apples-0                            0.99
+apples-0                            2.48
+  0.99 * 2
+10% off(apples-0)                  -0.35
+
+Total:                              3.12
+
+[apples,0.99,2.5,Each,True,TenPercentDiscount,10,2] => apples-0                            0.99
+apples-0                            2.48
+  0.99 * 2
+apples-1                            0.99
+apples-1                            2.48
+  0.99 * 2
+10% off(apples-0)                  -0.35
+10% off(apples-1)                  -0.35
+
+Total:                              6.24
+
+[apples,0.99,2.5,Each,True,TenPercentDiscount,10,3] => apples-0                            0.99
+apples-0                            2.48
+  0.99 * 2
+apples-1                            0.99
+apples-1                            2.48
+  0.99 * 2
+apples-2                            0.99
+apples-2                            2.48
+  0.99 * 2
+10% off(apples-0)                  -0.35
+10% off(apples-1)                  -0.35
+10% off(apples-2)                  -0.35
+
+Total:                              9.36
+
+[apples,0.99,2.5,Each,True,FiveForAmount,10,1] => apples-0                            0.99
+apples-0                            2.48
+  0.99 * 2
+
+Total:                              3.46
+
+[apples,0.99,2.5,Each,True,FiveForAmount,10,2] => apples-0                            0.99
+apples-0                            2.48
+  0.99 * 2
+apples-1                            0.99
+apples-1                            2.48
+  0.99 * 2
+
+Total:                              6.93
+
+[apples,0.99,2.5,Each,True,FiveForAmount,10,3] => apples-0                            0.99
+apples-0                            2.48
+  0.99 * 2
+apples-1                            0.99
+apples-1                            2.48
+  0.99 * 2
+apples-2                            0.99
+apples-2                            2.48
+  0.99 * 2
+
+Total:                             10.39
+
+[apples,0.99,2.5,Each,True,ThreeForTwo,10,1] => apples-0                            0.99
+apples-0                            2.48
+  0.99 * 2
+3 for 2(apples-0)                  -1.48
+
+Total:                              1.98
+
+[apples,0.99,2.5,Each,True,ThreeForTwo,10,2] => apples-0                            0.99
+apples-0                            2.48
+  0.99 * 2
+apples-1                            0.99
+apples-1                            2.48
+  0.99 * 2
+3 for 2(apples-0)                  -1.48
+3 for 2(apples-1)                  -1.48
+
+Total:                              3.96
+
+[apples,0.99,2.5,Each,True,ThreeForTwo,10,3] => apples-0                            0.99
+apples-0                            2.48
+  0.99 * 2
+apples-1                            0.99
+apples-1                            2.48
+  0.99 * 2
+apples-2                            0.99
+apples-2                            2.48
+  0.99 * 2
+3 for 2(apples-0)                  -1.48
+3 for 2(apples-1)                  -1.48
+3 for 2(apples-2)                  -1.48
+
+Total:                              5.94
+
+[apples,0.99,2.5,Each,True,TwoForAmount,10,1] => apples-0                            0.99
+apples-0                            2.48
+  0.99 * 2
+2 for 10(apples-0)                  7.53
+
+Total:                             10.99
+
+[apples,0.99,2.5,Each,True,TwoForAmount,10,2] => apples-0                            0.99
+apples-0                            2.48
+  0.99 * 2
+apples-1                            0.99
+apples-1                            2.48
+  0.99 * 2
+2 for 10(apples-0)                  7.53
+2 for 10(apples-1)                  7.53
+
+Total:                             21.98
+
+[apples,0.99,2.5,Each,True,TwoForAmount,10,3] => apples-0                            0.99
+apples-0                            2.48
+  0.99 * 2
+apples-1                            0.99
+apples-1                            2.48
+  0.99 * 2
+apples-2                            0.99
+apples-2                            2.48
+  0.99 * 2
+2 for 10(apples-0)                  7.53
+2 for 10(apples-1)                  7.53
+2 for 10(apples-2)                  7.53
+
+Total:                             32.97
+
+[apples,0.99,2.5,Each,False,TenPercentDiscount,10,1] => apples-0                            0.99
+apples-0                            2.48
+  0.99 * 2
+
+Total:                              3.46
+
+[apples,0.99,2.5,Each,False,TenPercentDiscount,10,2] => apples-0                            0.99
+apples-0                            2.48
+  0.99 * 2
+apples-1                            0.99
+apples-1                            2.48
+  0.99 * 2
+
+Total:                              6.93
+
+[apples,0.99,2.5,Each,False,TenPercentDiscount,10,3] => apples-0                            0.99
+apples-0                            2.48
+  0.99 * 2
+apples-1                            0.99
+apples-1                            2.48
+  0.99 * 2
+apples-2                            0.99
+apples-2                            2.48
+  0.99 * 2
+
+Total:                             10.39
+
+[apples,0.99,2.5,Each,False,FiveForAmount,10,1] => apples-0                            0.99
+apples-0                            2.48
+  0.99 * 2
+
+Total:                              3.46
+
+[apples,0.99,2.5,Each,False,FiveForAmount,10,2] => apples-0                            0.99
+apples-0                            2.48
+  0.99 * 2
+apples-1                            0.99
+apples-1                            2.48
+  0.99 * 2
+
+Total:                              6.93
+
+[apples,0.99,2.5,Each,False,FiveForAmount,10,3] => apples-0                            0.99
+apples-0                            2.48
+  0.99 * 2
+apples-1                            0.99
+apples-1                            2.48
+  0.99 * 2
+apples-2                            0.99
+apples-2                            2.48
+  0.99 * 2
+
+Total:                             10.39
+
+[apples,0.99,2.5,Each,False,ThreeForTwo,10,1] => apples-0                            0.99
+apples-0                            2.48
+  0.99 * 2
+
+Total:                              3.46
+
+[apples,0.99,2.5,Each,False,ThreeForTwo,10,2] => apples-0                            0.99
+apples-0                            2.48
+  0.99 * 2
+apples-1                            0.99
+apples-1                            2.48
+  0.99 * 2
+
+Total:                              6.93
+
+[apples,0.99,2.5,Each,False,ThreeForTwo,10,3] => apples-0                            0.99
+apples-0                            2.48
+  0.99 * 2
+apples-1                            0.99
+apples-1                            2.48
+  0.99 * 2
+apples-2                            0.99
+apples-2                            2.48
+  0.99 * 2
+
+Total:                             10.39
+
+[apples,0.99,2.5,Each,False,TwoForAmount,10,1] => apples-0                            0.99
+apples-0                            2.48
+  0.99 * 2
+
+Total:                              3.46
+
+[apples,0.99,2.5,Each,False,TwoForAmount,10,2] => apples-0                            0.99
+apples-0                            2.48
+  0.99 * 2
+apples-1                            0.99
+apples-1                            2.48
+  0.99 * 2
+
+Total:                              6.93
+
+[apples,0.99,2.5,Each,False,TwoForAmount,10,3] => apples-0                            0.99
+apples-0                            2.48
+  0.99 * 2
+apples-1                            0.99
+apples-1                            2.48
+  0.99 * 2
+apples-2                            0.99
+apples-2                            2.48
+  0.99 * 2
+
+Total:                             10.39
+
+[apples,0.99,2.5,Kilo,True,TenPercentDiscount,10,1] => apples-0                            0.99
+apples-0                            2.48
+  0.99 * 2.500
+10% off(apples-0)                  -0.35
+
+Total:                              3.12
+
+[apples,0.99,2.5,Kilo,True,TenPercentDiscount,10,2] => apples-0                            0.99
+apples-0                            2.48
+  0.99 * 2.500
+apples-1                            0.99
+apples-1                            2.48
+  0.99 * 2.500
+10% off(apples-0)                  -0.35
+10% off(apples-1)                  -0.35
+
+Total:                              6.24
+
+[apples,0.99,2.5,Kilo,True,TenPercentDiscount,10,3] => apples-0                            0.99
+apples-0                            2.48
+  0.99 * 2.500
+apples-1                            0.99
+apples-1                            2.48
+  0.99 * 2.500
+apples-2                            0.99
+apples-2                            2.48
+  0.99 * 2.500
+10% off(apples-0)                  -0.35
+10% off(apples-1)                  -0.35
+10% off(apples-2)                  -0.35
+
+Total:                              9.36
+
+[apples,0.99,2.5,Kilo,True,FiveForAmount,10,1] => apples-0                            0.99
+apples-0                            2.48
+  0.99 * 2.500
+
+Total:                              3.46
+
+[apples,0.99,2.5,Kilo,True,FiveForAmount,10,2] => apples-0                            0.99
+apples-0                            2.48
+  0.99 * 2.500
+apples-1                            0.99
+apples-1                            2.48
+  0.99 * 2.500
+
+Total:                              6.93
+
+[apples,0.99,2.5,Kilo,True,FiveForAmount,10,3] => apples-0                            0.99
+apples-0                            2.48
+  0.99 * 2.500
+apples-1                            0.99
+apples-1                            2.48
+  0.99 * 2.500
+apples-2                            0.99
+apples-2                            2.48
+  0.99 * 2.500
+
+Total:                             10.39
+
+[apples,0.99,2.5,Kilo,True,ThreeForTwo,10,1] => apples-0                            0.99
+apples-0                            2.48
+  0.99 * 2.500
+3 for 2(apples-0)                  -1.48
+
+Total:                              1.98
+
+[apples,0.99,2.5,Kilo,True,ThreeForTwo,10,2] => apples-0                            0.99
+apples-0                            2.48
+  0.99 * 2.500
+apples-1                            0.99
+apples-1                            2.48
+  0.99 * 2.500
+3 for 2(apples-0)                  -1.48
+3 for 2(apples-1)                  -1.48
+
+Total:                              3.96
+
+[apples,0.99,2.5,Kilo,True,ThreeForTwo,10,3] => apples-0                            0.99
+apples-0                            2.48
+  0.99 * 2.500
+apples-1                            0.99
+apples-1                            2.48
+  0.99 * 2.500
+apples-2                            0.99
+apples-2                            2.48
+  0.99 * 2.500
+3 for 2(apples-0)                  -1.48
+3 for 2(apples-1)                  -1.48
+3 for 2(apples-2)                  -1.48
+
+Total:                              5.94
+
+[apples,0.99,2.5,Kilo,True,TwoForAmount,10,1] => apples-0                            0.99
+apples-0                            2.48
+  0.99 * 2.500
+2 for 10(apples-0)                  7.53
+
+Total:                             10.99
+
+[apples,0.99,2.5,Kilo,True,TwoForAmount,10,2] => apples-0                            0.99
+apples-0                            2.48
+  0.99 * 2.500
+apples-1                            0.99
+apples-1                            2.48
+  0.99 * 2.500
+2 for 10(apples-0)                  7.53
+2 for 10(apples-1)                  7.53
+
+Total:                             21.98
+
+[apples,0.99,2.5,Kilo,True,TwoForAmount,10,3] => apples-0                            0.99
+apples-0                            2.48
+  0.99 * 2.500
+apples-1                            0.99
+apples-1                            2.48
+  0.99 * 2.500
+apples-2                            0.99
+apples-2                            2.48
+  0.99 * 2.500
+2 for 10(apples-0)                  7.53
+2 for 10(apples-1)                  7.53
+2 for 10(apples-2)                  7.53
+
+Total:                             32.97
+
+[apples,0.99,2.5,Kilo,False,TenPercentDiscount,10,1] => apples-0                            0.99
+apples-0                            2.48
+  0.99 * 2.500
+
+Total:                              3.46
+
+[apples,0.99,2.5,Kilo,False,TenPercentDiscount,10,2] => apples-0                            0.99
+apples-0                            2.48
+  0.99 * 2.500
+apples-1                            0.99
+apples-1                            2.48
+  0.99 * 2.500
+
+Total:                              6.93
+
+[apples,0.99,2.5,Kilo,False,TenPercentDiscount,10,3] => apples-0                            0.99
+apples-0                            2.48
+  0.99 * 2.500
+apples-1                            0.99
+apples-1                            2.48
+  0.99 * 2.500
+apples-2                            0.99
+apples-2                            2.48
+  0.99 * 2.500
+
+Total:                             10.39
+
+[apples,0.99,2.5,Kilo,False,FiveForAmount,10,1] => apples-0                            0.99
+apples-0                            2.48
+  0.99 * 2.500
+
+Total:                              3.46
+
+[apples,0.99,2.5,Kilo,False,FiveForAmount,10,2] => apples-0                            0.99
+apples-0                            2.48
+  0.99 * 2.500
+apples-1                            0.99
+apples-1                            2.48
+  0.99 * 2.500
+
+Total:                              6.93
+
+[apples,0.99,2.5,Kilo,False,FiveForAmount,10,3] => apples-0                            0.99
+apples-0                            2.48
+  0.99 * 2.500
+apples-1                            0.99
+apples-1                            2.48
+  0.99 * 2.500
+apples-2                            0.99
+apples-2                            2.48
+  0.99 * 2.500
+
+Total:                             10.39
+
+[apples,0.99,2.5,Kilo,False,ThreeForTwo,10,1] => apples-0                            0.99
+apples-0                            2.48
+  0.99 * 2.500
+
+Total:                              3.46
+
+[apples,0.99,2.5,Kilo,False,ThreeForTwo,10,2] => apples-0                            0.99
+apples-0                            2.48
+  0.99 * 2.500
+apples-1                            0.99
+apples-1                            2.48
+  0.99 * 2.500
+
+Total:                              6.93
+
+[apples,0.99,2.5,Kilo,False,ThreeForTwo,10,3] => apples-0                            0.99
+apples-0                            2.48
+  0.99 * 2.500
+apples-1                            0.99
+apples-1                            2.48
+  0.99 * 2.500
+apples-2                            0.99
+apples-2                            2.48
+  0.99 * 2.500
+
+Total:                             10.39
+
+[apples,0.99,2.5,Kilo,False,TwoForAmount,10,1] => apples-0                            0.99
+apples-0                            2.48
+  0.99 * 2.500
+
+Total:                              3.46
+
+[apples,0.99,2.5,Kilo,False,TwoForAmount,10,2] => apples-0                            0.99
+apples-0                            2.48
+  0.99 * 2.500
+apples-1                            0.99
+apples-1                            2.48
+  0.99 * 2.500
+
+Total:                              6.93
+
+[apples,0.99,2.5,Kilo,False,TwoForAmount,10,3] => apples-0                            0.99
+apples-0                            2.48
+  0.99 * 2.500
+apples-1                            0.99
+apples-1                            2.48
+  0.99 * 2.500
+apples-2                            0.99
+apples-2                            2.48
+  0.99 * 2.500
+
+Total:                             10.39
+
+[apples,0.99,5,Each,True,TenPercentDiscount,10,1] => apples-0                            0.99
+apples-0                            4.95
+  0.99 * 5
+10% off(apples-0)                  -0.59
+
+Total:                              5.35
+
+[apples,0.99,5,Each,True,TenPercentDiscount,10,2] => apples-0                            0.99
+apples-0                            4.95
+  0.99 * 5
+apples-1                            0.99
+apples-1                            4.95
+  0.99 * 5
+10% off(apples-0)                  -0.59
+10% off(apples-1)                  -0.59
+
+Total:                             10.69
+
+[apples,0.99,5,Each,True,TenPercentDiscount,10,3] => apples-0                            0.99
+apples-0                            4.95
+  0.99 * 5
+apples-1                            0.99
+apples-1                            4.95
+  0.99 * 5
+apples-2                            0.99
+apples-2                            4.95
+  0.99 * 5
+10% off(apples-0)                  -0.59
+10% off(apples-1)                  -0.59
+10% off(apples-2)                  -0.59
+
+Total:                             16.04
+
+[apples,0.99,5,Each,True,FiveForAmount,10,1] => apples-0                            0.99
+apples-0                            4.95
+  0.99 * 5
+5 for 10(apples-0)                  5.05
+
+Total:                             10.99
+
+[apples,0.99,5,Each,True,FiveForAmount,10,2] => apples-0                            0.99
+apples-0                            4.95
+  0.99 * 5
+apples-1                            0.99
+apples-1                            4.95
+  0.99 * 5
+5 for 10(apples-0)                  5.05
+5 for 10(apples-1)                  5.05
+
+Total:                             21.98
+
+[apples,0.99,5,Each,True,FiveForAmount,10,3] => apples-0                            0.99
+apples-0                            4.95
+  0.99 * 5
+apples-1                            0.99
+apples-1                            4.95
+  0.99 * 5
+apples-2                            0.99
+apples-2                            4.95
+  0.99 * 5
+5 for 10(apples-0)                  5.05
+5 for 10(apples-1)                  5.05
+5 for 10(apples-2)                  5.05
+
+Total:                             32.97
+
+[apples,0.99,5,Each,True,ThreeForTwo,10,1] => apples-0                            0.99
+apples-0                            4.95
+  0.99 * 5
+3 for 2(apples-0)                  -1.98
+
+Total:                              3.96
+
+[apples,0.99,5,Each,True,ThreeForTwo,10,2] => apples-0                            0.99
+apples-0                            4.95
+  0.99 * 5
+apples-1                            0.99
+apples-1                            4.95
+  0.99 * 5
+3 for 2(apples-0)                  -1.98
+3 for 2(apples-1)                  -1.98
+
+Total:                              7.92
+
+[apples,0.99,5,Each,True,ThreeForTwo,10,3] => apples-0                            0.99
+apples-0                            4.95
+  0.99 * 5
+apples-1                            0.99
+apples-1                            4.95
+  0.99 * 5
+apples-2                            0.99
+apples-2                            4.95
+  0.99 * 5
+3 for 2(apples-0)                  -1.98
+3 for 2(apples-1)                  -1.98
+3 for 2(apples-2)                  -1.98
+
+Total:                             11.88
+
+[apples,0.99,5,Each,True,TwoForAmount,10,1] => apples-0                            0.99
+apples-0                            4.95
+  0.99 * 5
+2 for 10(apples-0)                 24.06
+
+Total:                             30.00
+
+[apples,0.99,5,Each,True,TwoForAmount,10,2] => apples-0                            0.99
+apples-0                            4.95
+  0.99 * 5
+apples-1                            0.99
+apples-1                            4.95
+  0.99 * 5
+2 for 10(apples-0)                 24.06
+2 for 10(apples-1)                 24.06
+
+Total:                             60.00
+
+[apples,0.99,5,Each,True,TwoForAmount,10,3] => apples-0                            0.99
+apples-0                            4.95
+  0.99 * 5
+apples-1                            0.99
+apples-1                            4.95
+  0.99 * 5
+apples-2                            0.99
+apples-2                            4.95
+  0.99 * 5
+2 for 10(apples-0)                 24.06
+2 for 10(apples-1)                 24.06
+2 for 10(apples-2)                 24.06
+
+Total:                             90.00
+
+[apples,0.99,5,Each,False,TenPercentDiscount,10,1] => apples-0                            0.99
+apples-0                            4.95
+  0.99 * 5
+
+Total:                              5.94
+
+[apples,0.99,5,Each,False,TenPercentDiscount,10,2] => apples-0                            0.99
+apples-0                            4.95
+  0.99 * 5
+apples-1                            0.99
+apples-1                            4.95
+  0.99 * 5
+
+Total:                             11.88
+
+[apples,0.99,5,Each,False,TenPercentDiscount,10,3] => apples-0                            0.99
+apples-0                            4.95
+  0.99 * 5
+apples-1                            0.99
+apples-1                            4.95
+  0.99 * 5
+apples-2                            0.99
+apples-2                            4.95
+  0.99 * 5
+
+Total:                             17.82
+
+[apples,0.99,5,Each,False,FiveForAmount,10,1] => apples-0                            0.99
+apples-0                            4.95
+  0.99 * 5
+
+Total:                              5.94
+
+[apples,0.99,5,Each,False,FiveForAmount,10,2] => apples-0                            0.99
+apples-0                            4.95
+  0.99 * 5
+apples-1                            0.99
+apples-1                            4.95
+  0.99 * 5
+
+Total:                             11.88
+
+[apples,0.99,5,Each,False,FiveForAmount,10,3] => apples-0                            0.99
+apples-0                            4.95
+  0.99 * 5
+apples-1                            0.99
+apples-1                            4.95
+  0.99 * 5
+apples-2                            0.99
+apples-2                            4.95
+  0.99 * 5
+
+Total:                             17.82
+
+[apples,0.99,5,Each,False,ThreeForTwo,10,1] => apples-0                            0.99
+apples-0                            4.95
+  0.99 * 5
+
+Total:                              5.94
+
+[apples,0.99,5,Each,False,ThreeForTwo,10,2] => apples-0                            0.99
+apples-0                            4.95
+  0.99 * 5
+apples-1                            0.99
+apples-1                            4.95
+  0.99 * 5
+
+Total:                             11.88
+
+[apples,0.99,5,Each,False,ThreeForTwo,10,3] => apples-0                            0.99
+apples-0                            4.95
+  0.99 * 5
+apples-1                            0.99
+apples-1                            4.95
+  0.99 * 5
+apples-2                            0.99
+apples-2                            4.95
+  0.99 * 5
+
+Total:                             17.82
+
+[apples,0.99,5,Each,False,TwoForAmount,10,1] => apples-0                            0.99
+apples-0                            4.95
+  0.99 * 5
+
+Total:                              5.94
+
+[apples,0.99,5,Each,False,TwoForAmount,10,2] => apples-0                            0.99
+apples-0                            4.95
+  0.99 * 5
+apples-1                            0.99
+apples-1                            4.95
+  0.99 * 5
+
+Total:                             11.88
+
+[apples,0.99,5,Each,False,TwoForAmount,10,3] => apples-0                            0.99
+apples-0                            4.95
+  0.99 * 5
+apples-1                            0.99
+apples-1                            4.95
+  0.99 * 5
+apples-2                            0.99
+apples-2                            4.95
+  0.99 * 5
+
+Total:                             17.82
+
+[apples,0.99,5,Kilo,True,TenPercentDiscount,10,1] => apples-0                            0.99
+apples-0                            4.95
+  0.99 * 5.000
+10% off(apples-0)                  -0.59
+
+Total:                              5.35
+
+[apples,0.99,5,Kilo,True,TenPercentDiscount,10,2] => apples-0                            0.99
+apples-0                            4.95
+  0.99 * 5.000
+apples-1                            0.99
+apples-1                            4.95
+  0.99 * 5.000
+10% off(apples-0)                  -0.59
+10% off(apples-1)                  -0.59
+
+Total:                             10.69
+
+[apples,0.99,5,Kilo,True,TenPercentDiscount,10,3] => apples-0                            0.99
+apples-0                            4.95
+  0.99 * 5.000
+apples-1                            0.99
+apples-1                            4.95
+  0.99 * 5.000
+apples-2                            0.99
+apples-2                            4.95
+  0.99 * 5.000
+10% off(apples-0)                  -0.59
+10% off(apples-1)                  -0.59
+10% off(apples-2)                  -0.59
+
+Total:                             16.04
+
+[apples,0.99,5,Kilo,True,FiveForAmount,10,1] => apples-0                            0.99
+apples-0                            4.95
+  0.99 * 5.000
+5 for 10(apples-0)                  5.05
+
+Total:                             10.99
+
+[apples,0.99,5,Kilo,True,FiveForAmount,10,2] => apples-0                            0.99
+apples-0                            4.95
+  0.99 * 5.000
+apples-1                            0.99
+apples-1                            4.95
+  0.99 * 5.000
+5 for 10(apples-0)                  5.05
+5 for 10(apples-1)                  5.05
+
+Total:                             21.98
+
+[apples,0.99,5,Kilo,True,FiveForAmount,10,3] => apples-0                            0.99
+apples-0                            4.95
+  0.99 * 5.000
+apples-1                            0.99
+apples-1                            4.95
+  0.99 * 5.000
+apples-2                            0.99
+apples-2                            4.95
+  0.99 * 5.000
+5 for 10(apples-0)                  5.05
+5 for 10(apples-1)                  5.05
+5 for 10(apples-2)                  5.05
+
+Total:                             32.97
+
+[apples,0.99,5,Kilo,True,ThreeForTwo,10,1] => apples-0                            0.99
+apples-0                            4.95
+  0.99 * 5.000
+3 for 2(apples-0)                  -1.98
+
+Total:                              3.96
+
+[apples,0.99,5,Kilo,True,ThreeForTwo,10,2] => apples-0                            0.99
+apples-0                            4.95
+  0.99 * 5.000
+apples-1                            0.99
+apples-1                            4.95
+  0.99 * 5.000
+3 for 2(apples-0)                  -1.98
+3 for 2(apples-1)                  -1.98
+
+Total:                              7.92
+
+[apples,0.99,5,Kilo,True,ThreeForTwo,10,3] => apples-0                            0.99
+apples-0                            4.95
+  0.99 * 5.000
+apples-1                            0.99
+apples-1                            4.95
+  0.99 * 5.000
+apples-2                            0.99
+apples-2                            4.95
+  0.99 * 5.000
+3 for 2(apples-0)                  -1.98
+3 for 2(apples-1)                  -1.98
+3 for 2(apples-2)                  -1.98
+
+Total:                             11.88
+
+[apples,0.99,5,Kilo,True,TwoForAmount,10,1] => apples-0                            0.99
+apples-0                            4.95
+  0.99 * 5.000
+2 for 10(apples-0)                 24.06
+
+Total:                             30.00
+
+[apples,0.99,5,Kilo,True,TwoForAmount,10,2] => apples-0                            0.99
+apples-0                            4.95
+  0.99 * 5.000
+apples-1                            0.99
+apples-1                            4.95
+  0.99 * 5.000
+2 for 10(apples-0)                 24.06
+2 for 10(apples-1)                 24.06
+
+Total:                             60.00
+
+[apples,0.99,5,Kilo,True,TwoForAmount,10,3] => apples-0                            0.99
+apples-0                            4.95
+  0.99 * 5.000
+apples-1                            0.99
+apples-1                            4.95
+  0.99 * 5.000
+apples-2                            0.99
+apples-2                            4.95
+  0.99 * 5.000
+2 for 10(apples-0)                 24.06
+2 for 10(apples-1)                 24.06
+2 for 10(apples-2)                 24.06
+
+Total:                             90.00
+
+[apples,0.99,5,Kilo,False,TenPercentDiscount,10,1] => apples-0                            0.99
+apples-0                            4.95
+  0.99 * 5.000
+
+Total:                              5.94
+
+[apples,0.99,5,Kilo,False,TenPercentDiscount,10,2] => apples-0                            0.99
+apples-0                            4.95
+  0.99 * 5.000
+apples-1                            0.99
+apples-1                            4.95
+  0.99 * 5.000
+
+Total:                             11.88
+
+[apples,0.99,5,Kilo,False,TenPercentDiscount,10,3] => apples-0                            0.99
+apples-0                            4.95
+  0.99 * 5.000
+apples-1                            0.99
+apples-1                            4.95
+  0.99 * 5.000
+apples-2                            0.99
+apples-2                            4.95
+  0.99 * 5.000
+
+Total:                             17.82
+
+[apples,0.99,5,Kilo,False,FiveForAmount,10,1] => apples-0                            0.99
+apples-0                            4.95
+  0.99 * 5.000
+
+Total:                              5.94
+
+[apples,0.99,5,Kilo,False,FiveForAmount,10,2] => apples-0                            0.99
+apples-0                            4.95
+  0.99 * 5.000
+apples-1                            0.99
+apples-1                            4.95
+  0.99 * 5.000
+
+Total:                             11.88
+
+[apples,0.99,5,Kilo,False,FiveForAmount,10,3] => apples-0                            0.99
+apples-0                            4.95
+  0.99 * 5.000
+apples-1                            0.99
+apples-1                            4.95
+  0.99 * 5.000
+apples-2                            0.99
+apples-2                            4.95
+  0.99 * 5.000
+
+Total:                             17.82
+
+[apples,0.99,5,Kilo,False,ThreeForTwo,10,1] => apples-0                            0.99
+apples-0                            4.95
+  0.99 * 5.000
+
+Total:                              5.94
+
+[apples,0.99,5,Kilo,False,ThreeForTwo,10,2] => apples-0                            0.99
+apples-0                            4.95
+  0.99 * 5.000
+apples-1                            0.99
+apples-1                            4.95
+  0.99 * 5.000
+
+Total:                             11.88
+
+[apples,0.99,5,Kilo,False,ThreeForTwo,10,3] => apples-0                            0.99
+apples-0                            4.95
+  0.99 * 5.000
+apples-1                            0.99
+apples-1                            4.95
+  0.99 * 5.000
+apples-2                            0.99
+apples-2                            4.95
+  0.99 * 5.000
+
+Total:                             17.82
+
+[apples,0.99,5,Kilo,False,TwoForAmount,10,1] => apples-0                            0.99
+apples-0                            4.95
+  0.99 * 5.000
+
+Total:                              5.94
+
+[apples,0.99,5,Kilo,False,TwoForAmount,10,2] => apples-0                            0.99
+apples-0                            4.95
+  0.99 * 5.000
+apples-1                            0.99
+apples-1                            4.95
+  0.99 * 5.000
+
+Total:                             11.88
+
+[apples,0.99,5,Kilo,False,TwoForAmount,10,3] => apples-0                            0.99
+apples-0                            4.95
+  0.99 * 5.000
+apples-1                            0.99
+apples-1                            4.95
+  0.99 * 5.000
+apples-2                            0.99
+apples-2                            4.95
+  0.99 * 5.000
+
+Total:                             17.82
+
+[apples,1.99,1,Each,True,TenPercentDiscount,10,1] => apples-0                            1.99
+apples-0                            1.99
+10% off(apples-0)                  -0.40
+
+Total:                              3.58
+
+[apples,1.99,1,Each,True,TenPercentDiscount,10,2] => apples-0                            1.99
+apples-0                            1.99
+apples-1                            1.99
+apples-1                            1.99
+10% off(apples-0)                  -0.40
+10% off(apples-1)                  -0.40
+
+Total:                              7.16
+
+[apples,1.99,1,Each,True,TenPercentDiscount,10,3] => apples-0                            1.99
+apples-0                            1.99
+apples-1                            1.99
+apples-1                            1.99
+apples-2                            1.99
+apples-2                            1.99
+10% off(apples-0)                  -0.40
+10% off(apples-1)                  -0.40
+10% off(apples-2)                  -0.40
+
+Total:                             10.75
+
+[apples,1.99,1,Each,True,FiveForAmount,10,1] => apples-0                            1.99
+apples-0                            1.99
+
+Total:                              3.98
+
+[apples,1.99,1,Each,True,FiveForAmount,10,2] => apples-0                            1.99
+apples-0                            1.99
+apples-1                            1.99
+apples-1                            1.99
+
+Total:                              7.96
+
+[apples,1.99,1,Each,True,FiveForAmount,10,3] => apples-0                            1.99
+apples-0                            1.99
+apples-1                            1.99
+apples-1                            1.99
+apples-2                            1.99
+apples-2                            1.99
+
+Total:                             11.94
+
+[apples,1.99,1,Each,True,ThreeForTwo,10,1] => apples-0                            1.99
+apples-0                            1.99
+
+Total:                              3.98
+
+[apples,1.99,1,Each,True,ThreeForTwo,10,2] => apples-0                            1.99
+apples-0                            1.99
+apples-1                            1.99
+apples-1                            1.99
+
+Total:                              7.96
+
+[apples,1.99,1,Each,True,ThreeForTwo,10,3] => apples-0                            1.99
+apples-0                            1.99
+apples-1                            1.99
+apples-1                            1.99
+apples-2                            1.99
+apples-2                            1.99
+
+Total:                             11.94
+
+[apples,1.99,1,Each,True,TwoForAmount,10,1] => apples-0                            1.99
+apples-0                            1.99
+2 for 10(apples-0)                  6.02
+
+Total:                             10.00
+
+[apples,1.99,1,Each,True,TwoForAmount,10,2] => apples-0                            1.99
+apples-0                            1.99
+apples-1                            1.99
+apples-1                            1.99
+2 for 10(apples-0)                  6.02
+2 for 10(apples-1)                  6.02
+
+Total:                             20.00
+
+[apples,1.99,1,Each,True,TwoForAmount,10,3] => apples-0                            1.99
+apples-0                            1.99
+apples-1                            1.99
+apples-1                            1.99
+apples-2                            1.99
+apples-2                            1.99
+2 for 10(apples-0)                  6.02
+2 for 10(apples-1)                  6.02
+2 for 10(apples-2)                  6.02
+
+Total:                             30.00
+
+[apples,1.99,1,Each,False,TenPercentDiscount,10,1] => apples-0                            1.99
+apples-0                            1.99
+
+Total:                              3.98
+
+[apples,1.99,1,Each,False,TenPercentDiscount,10,2] => apples-0                            1.99
+apples-0                            1.99
+apples-1                            1.99
+apples-1                            1.99
+
+Total:                              7.96
+
+[apples,1.99,1,Each,False,TenPercentDiscount,10,3] => apples-0                            1.99
+apples-0                            1.99
+apples-1                            1.99
+apples-1                            1.99
+apples-2                            1.99
+apples-2                            1.99
+
+Total:                             11.94
+
+[apples,1.99,1,Each,False,FiveForAmount,10,1] => apples-0                            1.99
+apples-0                            1.99
+
+Total:                              3.98
+
+[apples,1.99,1,Each,False,FiveForAmount,10,2] => apples-0                            1.99
+apples-0                            1.99
+apples-1                            1.99
+apples-1                            1.99
+
+Total:                              7.96
+
+[apples,1.99,1,Each,False,FiveForAmount,10,3] => apples-0                            1.99
+apples-0                            1.99
+apples-1                            1.99
+apples-1                            1.99
+apples-2                            1.99
+apples-2                            1.99
+
+Total:                             11.94
+
+[apples,1.99,1,Each,False,ThreeForTwo,10,1] => apples-0                            1.99
+apples-0                            1.99
+
+Total:                              3.98
+
+[apples,1.99,1,Each,False,ThreeForTwo,10,2] => apples-0                            1.99
+apples-0                            1.99
+apples-1                            1.99
+apples-1                            1.99
+
+Total:                              7.96
+
+[apples,1.99,1,Each,False,ThreeForTwo,10,3] => apples-0                            1.99
+apples-0                            1.99
+apples-1                            1.99
+apples-1                            1.99
+apples-2                            1.99
+apples-2                            1.99
+
+Total:                             11.94
+
+[apples,1.99,1,Each,False,TwoForAmount,10,1] => apples-0                            1.99
+apples-0                            1.99
+
+Total:                              3.98
+
+[apples,1.99,1,Each,False,TwoForAmount,10,2] => apples-0                            1.99
+apples-0                            1.99
+apples-1                            1.99
+apples-1                            1.99
+
+Total:                              7.96
+
+[apples,1.99,1,Each,False,TwoForAmount,10,3] => apples-0                            1.99
+apples-0                            1.99
+apples-1                            1.99
+apples-1                            1.99
+apples-2                            1.99
+apples-2                            1.99
+
+Total:                             11.94
+
+[apples,1.99,1,Kilo,True,TenPercentDiscount,10,1] => apples-0                            1.99
+apples-0                            1.99
+10% off(apples-0)                  -0.40
+
+Total:                              3.58
+
+[apples,1.99,1,Kilo,True,TenPercentDiscount,10,2] => apples-0                            1.99
+apples-0                            1.99
+apples-1                            1.99
+apples-1                            1.99
+10% off(apples-0)                  -0.40
+10% off(apples-1)                  -0.40
+
+Total:                              7.16
+
+[apples,1.99,1,Kilo,True,TenPercentDiscount,10,3] => apples-0                            1.99
+apples-0                            1.99
+apples-1                            1.99
+apples-1                            1.99
+apples-2                            1.99
+apples-2                            1.99
+10% off(apples-0)                  -0.40
+10% off(apples-1)                  -0.40
+10% off(apples-2)                  -0.40
+
+Total:                             10.75
+
+[apples,1.99,1,Kilo,True,FiveForAmount,10,1] => apples-0                            1.99
+apples-0                            1.99
+
+Total:                              3.98
+
+[apples,1.99,1,Kilo,True,FiveForAmount,10,2] => apples-0                            1.99
+apples-0                            1.99
+apples-1                            1.99
+apples-1                            1.99
+
+Total:                              7.96
+
+[apples,1.99,1,Kilo,True,FiveForAmount,10,3] => apples-0                            1.99
+apples-0                            1.99
+apples-1                            1.99
+apples-1                            1.99
+apples-2                            1.99
+apples-2                            1.99
+
+Total:                             11.94
+
+[apples,1.99,1,Kilo,True,ThreeForTwo,10,1] => apples-0                            1.99
+apples-0                            1.99
+
+Total:                              3.98
+
+[apples,1.99,1,Kilo,True,ThreeForTwo,10,2] => apples-0                            1.99
+apples-0                            1.99
+apples-1                            1.99
+apples-1                            1.99
+
+Total:                              7.96
+
+[apples,1.99,1,Kilo,True,ThreeForTwo,10,3] => apples-0                            1.99
+apples-0                            1.99
+apples-1                            1.99
+apples-1                            1.99
+apples-2                            1.99
+apples-2                            1.99
+
+Total:                             11.94
+
+[apples,1.99,1,Kilo,True,TwoForAmount,10,1] => apples-0                            1.99
+apples-0                            1.99
+2 for 10(apples-0)                  6.02
+
+Total:                             10.00
+
+[apples,1.99,1,Kilo,True,TwoForAmount,10,2] => apples-0                            1.99
+apples-0                            1.99
+apples-1                            1.99
+apples-1                            1.99
+2 for 10(apples-0)                  6.02
+2 for 10(apples-1)                  6.02
+
+Total:                             20.00
+
+[apples,1.99,1,Kilo,True,TwoForAmount,10,3] => apples-0                            1.99
+apples-0                            1.99
+apples-1                            1.99
+apples-1                            1.99
+apples-2                            1.99
+apples-2                            1.99
+2 for 10(apples-0)                  6.02
+2 for 10(apples-1)                  6.02
+2 for 10(apples-2)                  6.02
+
+Total:                             30.00
+
+[apples,1.99,1,Kilo,False,TenPercentDiscount,10,1] => apples-0                            1.99
+apples-0                            1.99
+
+Total:                              3.98
+
+[apples,1.99,1,Kilo,False,TenPercentDiscount,10,2] => apples-0                            1.99
+apples-0                            1.99
+apples-1                            1.99
+apples-1                            1.99
+
+Total:                              7.96
+
+[apples,1.99,1,Kilo,False,TenPercentDiscount,10,3] => apples-0                            1.99
+apples-0                            1.99
+apples-1                            1.99
+apples-1                            1.99
+apples-2                            1.99
+apples-2                            1.99
+
+Total:                             11.94
+
+[apples,1.99,1,Kilo,False,FiveForAmount,10,1] => apples-0                            1.99
+apples-0                            1.99
+
+Total:                              3.98
+
+[apples,1.99,1,Kilo,False,FiveForAmount,10,2] => apples-0                            1.99
+apples-0                            1.99
+apples-1                            1.99
+apples-1                            1.99
+
+Total:                              7.96
+
+[apples,1.99,1,Kilo,False,FiveForAmount,10,3] => apples-0                            1.99
+apples-0                            1.99
+apples-1                            1.99
+apples-1                            1.99
+apples-2                            1.99
+apples-2                            1.99
+
+Total:                             11.94
+
+[apples,1.99,1,Kilo,False,ThreeForTwo,10,1] => apples-0                            1.99
+apples-0                            1.99
+
+Total:                              3.98
+
+[apples,1.99,1,Kilo,False,ThreeForTwo,10,2] => apples-0                            1.99
+apples-0                            1.99
+apples-1                            1.99
+apples-1                            1.99
+
+Total:                              7.96
+
+[apples,1.99,1,Kilo,False,ThreeForTwo,10,3] => apples-0                            1.99
+apples-0                            1.99
+apples-1                            1.99
+apples-1                            1.99
+apples-2                            1.99
+apples-2                            1.99
+
+Total:                             11.94
+
+[apples,1.99,1,Kilo,False,TwoForAmount,10,1] => apples-0                            1.99
+apples-0                            1.99
+
+Total:                              3.98
+
+[apples,1.99,1,Kilo,False,TwoForAmount,10,2] => apples-0                            1.99
+apples-0                            1.99
+apples-1                            1.99
+apples-1                            1.99
+
+Total:                              7.96
+
+[apples,1.99,1,Kilo,False,TwoForAmount,10,3] => apples-0                            1.99
+apples-0                            1.99
+apples-1                            1.99
+apples-1                            1.99
+apples-2                            1.99
+apples-2                            1.99
+
+Total:                             11.94
+
+[apples,1.99,2.5,Each,True,TenPercentDiscount,10,1] => apples-0                            1.99
+apples-0                            4.97
+  1.99 * 2
+10% off(apples-0)                  -0.70
+
+Total:                              6.27
+
+[apples,1.99,2.5,Each,True,TenPercentDiscount,10,2] => apples-0                            1.99
+apples-0                            4.97
+  1.99 * 2
+apples-1                            1.99
+apples-1                            4.97
+  1.99 * 2
+10% off(apples-0)                  -0.70
+10% off(apples-1)                  -0.70
+
+Total:                             12.54
+
+[apples,1.99,2.5,Each,True,TenPercentDiscount,10,3] => apples-0                            1.99
+apples-0                            4.97
+  1.99 * 2
+apples-1                            1.99
+apples-1                            4.97
+  1.99 * 2
+apples-2                            1.99
+apples-2                            4.97
+  1.99 * 2
+10% off(apples-0)                  -0.70
+10% off(apples-1)                  -0.70
+10% off(apples-2)                  -0.70
+
+Total:                             18.81
+
+[apples,1.99,2.5,Each,True,FiveForAmount,10,1] => apples-0                            1.99
+apples-0                            4.97
+  1.99 * 2
+
+Total:                              6.96
+
+[apples,1.99,2.5,Each,True,FiveForAmount,10,2] => apples-0                            1.99
+apples-0                            4.97
+  1.99 * 2
+apples-1                            1.99
+apples-1                            4.97
+  1.99 * 2
+
+Total:                             13.93
+
+[apples,1.99,2.5,Each,True,FiveForAmount,10,3] => apples-0                            1.99
+apples-0                            4.97
+  1.99 * 2
+apples-1                            1.99
+apples-1                            4.97
+  1.99 * 2
+apples-2                            1.99
+apples-2                            4.97
+  1.99 * 2
+
+Total:                             20.89
+
+[apples,1.99,2.5,Each,True,ThreeForTwo,10,1] => apples-0                            1.99
+apples-0                            4.97
+  1.99 * 2
+3 for 2(apples-0)                  -2.98
+
+Total:                              3.98
+
+[apples,1.99,2.5,Each,True,ThreeForTwo,10,2] => apples-0                            1.99
+apples-0                            4.97
+  1.99 * 2
+apples-1                            1.99
+apples-1                            4.97
+  1.99 * 2
+3 for 2(apples-0)                  -2.98
+3 for 2(apples-1)                  -2.98
+
+Total:                              7.96
+
+[apples,1.99,2.5,Each,True,ThreeForTwo,10,3] => apples-0                            1.99
+apples-0                            4.97
+  1.99 * 2
+apples-1                            1.99
+apples-1                            4.97
+  1.99 * 2
+apples-2                            1.99
+apples-2                            4.97
+  1.99 * 2
+3 for 2(apples-0)                  -2.98
+3 for 2(apples-1)                  -2.98
+3 for 2(apples-2)                  -2.98
+
+Total:                             11.94
+
+[apples,1.99,2.5,Each,True,TwoForAmount,10,1] => apples-0                            1.99
+apples-0                            4.97
+  1.99 * 2
+2 for 10(apples-0)                  5.03
+
+Total:                             11.99
+
+[apples,1.99,2.5,Each,True,TwoForAmount,10,2] => apples-0                            1.99
+apples-0                            4.97
+  1.99 * 2
+apples-1                            1.99
+apples-1                            4.97
+  1.99 * 2
+2 for 10(apples-0)                  5.03
+2 for 10(apples-1)                  5.03
+
+Total:                             23.98
+
+[apples,1.99,2.5,Each,True,TwoForAmount,10,3] => apples-0                            1.99
+apples-0                            4.97
+  1.99 * 2
+apples-1                            1.99
+apples-1                            4.97
+  1.99 * 2
+apples-2                            1.99
+apples-2                            4.97
+  1.99 * 2
+2 for 10(apples-0)                  5.03
+2 for 10(apples-1)                  5.03
+2 for 10(apples-2)                  5.03
+
+Total:                             35.97
+
+[apples,1.99,2.5,Each,False,TenPercentDiscount,10,1] => apples-0                            1.99
+apples-0                            4.97
+  1.99 * 2
+
+Total:                              6.96
+
+[apples,1.99,2.5,Each,False,TenPercentDiscount,10,2] => apples-0                            1.99
+apples-0                            4.97
+  1.99 * 2
+apples-1                            1.99
+apples-1                            4.97
+  1.99 * 2
+
+Total:                             13.93
+
+[apples,1.99,2.5,Each,False,TenPercentDiscount,10,3] => apples-0                            1.99
+apples-0                            4.97
+  1.99 * 2
+apples-1                            1.99
+apples-1                            4.97
+  1.99 * 2
+apples-2                            1.99
+apples-2                            4.97
+  1.99 * 2
+
+Total:                             20.89
+
+[apples,1.99,2.5,Each,False,FiveForAmount,10,1] => apples-0                            1.99
+apples-0                            4.97
+  1.99 * 2
+
+Total:                              6.96
+
+[apples,1.99,2.5,Each,False,FiveForAmount,10,2] => apples-0                            1.99
+apples-0                            4.97
+  1.99 * 2
+apples-1                            1.99
+apples-1                            4.97
+  1.99 * 2
+
+Total:                             13.93
+
+[apples,1.99,2.5,Each,False,FiveForAmount,10,3] => apples-0                            1.99
+apples-0                            4.97
+  1.99 * 2
+apples-1                            1.99
+apples-1                            4.97
+  1.99 * 2
+apples-2                            1.99
+apples-2                            4.97
+  1.99 * 2
+
+Total:                             20.89
+
+[apples,1.99,2.5,Each,False,ThreeForTwo,10,1] => apples-0                            1.99
+apples-0                            4.97
+  1.99 * 2
+
+Total:                              6.96
+
+[apples,1.99,2.5,Each,False,ThreeForTwo,10,2] => apples-0                            1.99
+apples-0                            4.97
+  1.99 * 2
+apples-1                            1.99
+apples-1                            4.97
+  1.99 * 2
+
+Total:                             13.93
+
+[apples,1.99,2.5,Each,False,ThreeForTwo,10,3] => apples-0                            1.99
+apples-0                            4.97
+  1.99 * 2
+apples-1                            1.99
+apples-1                            4.97
+  1.99 * 2
+apples-2                            1.99
+apples-2                            4.97
+  1.99 * 2
+
+Total:                             20.89
+
+[apples,1.99,2.5,Each,False,TwoForAmount,10,1] => apples-0                            1.99
+apples-0                            4.97
+  1.99 * 2
+
+Total:                              6.96
+
+[apples,1.99,2.5,Each,False,TwoForAmount,10,2] => apples-0                            1.99
+apples-0                            4.97
+  1.99 * 2
+apples-1                            1.99
+apples-1                            4.97
+  1.99 * 2
+
+Total:                             13.93
+
+[apples,1.99,2.5,Each,False,TwoForAmount,10,3] => apples-0                            1.99
+apples-0                            4.97
+  1.99 * 2
+apples-1                            1.99
+apples-1                            4.97
+  1.99 * 2
+apples-2                            1.99
+apples-2                            4.97
+  1.99 * 2
+
+Total:                             20.89
+
+[apples,1.99,2.5,Kilo,True,TenPercentDiscount,10,1] => apples-0                            1.99
+apples-0                            4.97
+  1.99 * 2.500
+10% off(apples-0)                  -0.70
+
+Total:                              6.27
+
+[apples,1.99,2.5,Kilo,True,TenPercentDiscount,10,2] => apples-0                            1.99
+apples-0                            4.97
+  1.99 * 2.500
+apples-1                            1.99
+apples-1                            4.97
+  1.99 * 2.500
+10% off(apples-0)                  -0.70
+10% off(apples-1)                  -0.70
+
+Total:                             12.54
+
+[apples,1.99,2.5,Kilo,True,TenPercentDiscount,10,3] => apples-0                            1.99
+apples-0                            4.97
+  1.99 * 2.500
+apples-1                            1.99
+apples-1                            4.97
+  1.99 * 2.500
+apples-2                            1.99
+apples-2                            4.97
+  1.99 * 2.500
+10% off(apples-0)                  -0.70
+10% off(apples-1)                  -0.70
+10% off(apples-2)                  -0.70
+
+Total:                             18.81
+
+[apples,1.99,2.5,Kilo,True,FiveForAmount,10,1] => apples-0                            1.99
+apples-0                            4.97
+  1.99 * 2.500
+
+Total:                              6.96
+
+[apples,1.99,2.5,Kilo,True,FiveForAmount,10,2] => apples-0                            1.99
+apples-0                            4.97
+  1.99 * 2.500
+apples-1                            1.99
+apples-1                            4.97
+  1.99 * 2.500
+
+Total:                             13.93
+
+[apples,1.99,2.5,Kilo,True,FiveForAmount,10,3] => apples-0                            1.99
+apples-0                            4.97
+  1.99 * 2.500
+apples-1                            1.99
+apples-1                            4.97
+  1.99 * 2.500
+apples-2                            1.99
+apples-2                            4.97
+  1.99 * 2.500
+
+Total:                             20.89
+
+[apples,1.99,2.5,Kilo,True,ThreeForTwo,10,1] => apples-0                            1.99
+apples-0                            4.97
+  1.99 * 2.500
+3 for 2(apples-0)                  -2.98
+
+Total:                              3.98
+
+[apples,1.99,2.5,Kilo,True,ThreeForTwo,10,2] => apples-0                            1.99
+apples-0                            4.97
+  1.99 * 2.500
+apples-1                            1.99
+apples-1                            4.97
+  1.99 * 2.500
+3 for 2(apples-0)                  -2.98
+3 for 2(apples-1)                  -2.98
+
+Total:                              7.96
+
+[apples,1.99,2.5,Kilo,True,ThreeForTwo,10,3] => apples-0                            1.99
+apples-0                            4.97
+  1.99 * 2.500
+apples-1                            1.99
+apples-1                            4.97
+  1.99 * 2.500
+apples-2                            1.99
+apples-2                            4.97
+  1.99 * 2.500
+3 for 2(apples-0)                  -2.98
+3 for 2(apples-1)                  -2.98
+3 for 2(apples-2)                  -2.98
+
+Total:                             11.94
+
+[apples,1.99,2.5,Kilo,True,TwoForAmount,10,1] => apples-0                            1.99
+apples-0                            4.97
+  1.99 * 2.500
+2 for 10(apples-0)                  5.03
+
+Total:                             11.99
+
+[apples,1.99,2.5,Kilo,True,TwoForAmount,10,2] => apples-0                            1.99
+apples-0                            4.97
+  1.99 * 2.500
+apples-1                            1.99
+apples-1                            4.97
+  1.99 * 2.500
+2 for 10(apples-0)                  5.03
+2 for 10(apples-1)                  5.03
+
+Total:                             23.98
+
+[apples,1.99,2.5,Kilo,True,TwoForAmount,10,3] => apples-0                            1.99
+apples-0                            4.97
+  1.99 * 2.500
+apples-1                            1.99
+apples-1                            4.97
+  1.99 * 2.500
+apples-2                            1.99
+apples-2                            4.97
+  1.99 * 2.500
+2 for 10(apples-0)                  5.03
+2 for 10(apples-1)                  5.03
+2 for 10(apples-2)                  5.03
+
+Total:                             35.97
+
+[apples,1.99,2.5,Kilo,False,TenPercentDiscount,10,1] => apples-0                            1.99
+apples-0                            4.97
+  1.99 * 2.500
+
+Total:                              6.96
+
+[apples,1.99,2.5,Kilo,False,TenPercentDiscount,10,2] => apples-0                            1.99
+apples-0                            4.97
+  1.99 * 2.500
+apples-1                            1.99
+apples-1                            4.97
+  1.99 * 2.500
+
+Total:                             13.93
+
+[apples,1.99,2.5,Kilo,False,TenPercentDiscount,10,3] => apples-0                            1.99
+apples-0                            4.97
+  1.99 * 2.500
+apples-1                            1.99
+apples-1                            4.97
+  1.99 * 2.500
+apples-2                            1.99
+apples-2                            4.97
+  1.99 * 2.500
+
+Total:                             20.89
+
+[apples,1.99,2.5,Kilo,False,FiveForAmount,10,1] => apples-0                            1.99
+apples-0                            4.97
+  1.99 * 2.500
+
+Total:                              6.96
+
+[apples,1.99,2.5,Kilo,False,FiveForAmount,10,2] => apples-0                            1.99
+apples-0                            4.97
+  1.99 * 2.500
+apples-1                            1.99
+apples-1                            4.97
+  1.99 * 2.500
+
+Total:                             13.93
+
+[apples,1.99,2.5,Kilo,False,FiveForAmount,10,3] => apples-0                            1.99
+apples-0                            4.97
+  1.99 * 2.500
+apples-1                            1.99
+apples-1                            4.97
+  1.99 * 2.500
+apples-2                            1.99
+apples-2                            4.97
+  1.99 * 2.500
+
+Total:                             20.89
+
+[apples,1.99,2.5,Kilo,False,ThreeForTwo,10,1] => apples-0                            1.99
+apples-0                            4.97
+  1.99 * 2.500
+
+Total:                              6.96
+
+[apples,1.99,2.5,Kilo,False,ThreeForTwo,10,2] => apples-0                            1.99
+apples-0                            4.97
+  1.99 * 2.500
+apples-1                            1.99
+apples-1                            4.97
+  1.99 * 2.500
+
+Total:                             13.93
+
+[apples,1.99,2.5,Kilo,False,ThreeForTwo,10,3] => apples-0                            1.99
+apples-0                            4.97
+  1.99 * 2.500
+apples-1                            1.99
+apples-1                            4.97
+  1.99 * 2.500
+apples-2                            1.99
+apples-2                            4.97
+  1.99 * 2.500
+
+Total:                             20.89
+
+[apples,1.99,2.5,Kilo,False,TwoForAmount,10,1] => apples-0                            1.99
+apples-0                            4.97
+  1.99 * 2.500
+
+Total:                              6.96
+
+[apples,1.99,2.5,Kilo,False,TwoForAmount,10,2] => apples-0                            1.99
+apples-0                            4.97
+  1.99 * 2.500
+apples-1                            1.99
+apples-1                            4.97
+  1.99 * 2.500
+
+Total:                             13.93
+
+[apples,1.99,2.5,Kilo,False,TwoForAmount,10,3] => apples-0                            1.99
+apples-0                            4.97
+  1.99 * 2.500
+apples-1                            1.99
+apples-1                            4.97
+  1.99 * 2.500
+apples-2                            1.99
+apples-2                            4.97
+  1.99 * 2.500
+
+Total:                             20.89
+
+[apples,1.99,5,Each,True,TenPercentDiscount,10,1] => apples-0                            1.99
+apples-0                            9.95
+  1.99 * 5
+10% off(apples-0)                  -1.19
+
+Total:                             10.75
+
+[apples,1.99,5,Each,True,TenPercentDiscount,10,2] => apples-0                            1.99
+apples-0                            9.95
+  1.99 * 5
+apples-1                            1.99
+apples-1                            9.95
+  1.99 * 5
+10% off(apples-0)                  -1.19
+10% off(apples-1)                  -1.19
+
+Total:                             21.49
+
+[apples,1.99,5,Each,True,TenPercentDiscount,10,3] => apples-0                            1.99
+apples-0                            9.95
+  1.99 * 5
+apples-1                            1.99
+apples-1                            9.95
+  1.99 * 5
+apples-2                            1.99
+apples-2                            9.95
+  1.99 * 5
+10% off(apples-0)                  -1.19
+10% off(apples-1)                  -1.19
+10% off(apples-2)                  -1.19
+
+Total:                             32.24
+
+[apples,1.99,5,Each,True,FiveForAmount,10,1] => apples-0                            1.99
+apples-0                            9.95
+  1.99 * 5
+5 for 10(apples-0)                  0.05
+
+Total:                             11.99
+
+[apples,1.99,5,Each,True,FiveForAmount,10,2] => apples-0                            1.99
+apples-0                            9.95
+  1.99 * 5
+apples-1                            1.99
+apples-1                            9.95
+  1.99 * 5
+5 for 10(apples-0)                  0.05
+5 for 10(apples-1)                  0.05
+
+Total:                             23.98
+
+[apples,1.99,5,Each,True,FiveForAmount,10,3] => apples-0                            1.99
+apples-0                            9.95
+  1.99 * 5
+apples-1                            1.99
+apples-1                            9.95
+  1.99 * 5
+apples-2                            1.99
+apples-2                            9.95
+  1.99 * 5
+5 for 10(apples-0)                  0.05
+5 for 10(apples-1)                  0.05
+5 for 10(apples-2)                  0.05
+
+Total:                             35.97
+
+[apples,1.99,5,Each,True,ThreeForTwo,10,1] => apples-0                            1.99
+apples-0                            9.95
+  1.99 * 5
+3 for 2(apples-0)                  -3.98
+
+Total:                              7.96
+
+[apples,1.99,5,Each,True,ThreeForTwo,10,2] => apples-0                            1.99
+apples-0                            9.95
+  1.99 * 5
+apples-1                            1.99
+apples-1                            9.95
+  1.99 * 5
+3 for 2(apples-0)                  -3.98
+3 for 2(apples-1)                  -3.98
+
+Total:                             15.92
+
+[apples,1.99,5,Each,True,ThreeForTwo,10,3] => apples-0                            1.99
+apples-0                            9.95
+  1.99 * 5
+apples-1                            1.99
+apples-1                            9.95
+  1.99 * 5
+apples-2                            1.99
+apples-2                            9.95
+  1.99 * 5
+3 for 2(apples-0)                  -3.98
+3 for 2(apples-1)                  -3.98
+3 for 2(apples-2)                  -3.98
+
+Total:                             23.88
+
+[apples,1.99,5,Each,True,TwoForAmount,10,1] => apples-0                            1.99
+apples-0                            9.95
+  1.99 * 5
+2 for 10(apples-0)                 18.06
+
+Total:                             30.00
+
+[apples,1.99,5,Each,True,TwoForAmount,10,2] => apples-0                            1.99
+apples-0                            9.95
+  1.99 * 5
+apples-1                            1.99
+apples-1                            9.95
+  1.99 * 5
+2 for 10(apples-0)                 18.06
+2 for 10(apples-1)                 18.06
+
+Total:                             60.00
+
+[apples,1.99,5,Each,True,TwoForAmount,10,3] => apples-0                            1.99
+apples-0                            9.95
+  1.99 * 5
+apples-1                            1.99
+apples-1                            9.95
+  1.99 * 5
+apples-2                            1.99
+apples-2                            9.95
+  1.99 * 5
+2 for 10(apples-0)                 18.06
+2 for 10(apples-1)                 18.06
+2 for 10(apples-2)                 18.06
+
+Total:                             90.00
+
+[apples,1.99,5,Each,False,TenPercentDiscount,10,1] => apples-0                            1.99
+apples-0                            9.95
+  1.99 * 5
+
+Total:                             11.94
+
+[apples,1.99,5,Each,False,TenPercentDiscount,10,2] => apples-0                            1.99
+apples-0                            9.95
+  1.99 * 5
+apples-1                            1.99
+apples-1                            9.95
+  1.99 * 5
+
+Total:                             23.88
+
+[apples,1.99,5,Each,False,TenPercentDiscount,10,3] => apples-0                            1.99
+apples-0                            9.95
+  1.99 * 5
+apples-1                            1.99
+apples-1                            9.95
+  1.99 * 5
+apples-2                            1.99
+apples-2                            9.95
+  1.99 * 5
+
+Total:                             35.82
+
+[apples,1.99,5,Each,False,FiveForAmount,10,1] => apples-0                            1.99
+apples-0                            9.95
+  1.99 * 5
+
+Total:                             11.94
+
+[apples,1.99,5,Each,False,FiveForAmount,10,2] => apples-0                            1.99
+apples-0                            9.95
+  1.99 * 5
+apples-1                            1.99
+apples-1                            9.95
+  1.99 * 5
+
+Total:                             23.88
+
+[apples,1.99,5,Each,False,FiveForAmount,10,3] => apples-0                            1.99
+apples-0                            9.95
+  1.99 * 5
+apples-1                            1.99
+apples-1                            9.95
+  1.99 * 5
+apples-2                            1.99
+apples-2                            9.95
+  1.99 * 5
+
+Total:                             35.82
+
+[apples,1.99,5,Each,False,ThreeForTwo,10,1] => apples-0                            1.99
+apples-0                            9.95
+  1.99 * 5
+
+Total:                             11.94
+
+[apples,1.99,5,Each,False,ThreeForTwo,10,2] => apples-0                            1.99
+apples-0                            9.95
+  1.99 * 5
+apples-1                            1.99
+apples-1                            9.95
+  1.99 * 5
+
+Total:                             23.88
+
+[apples,1.99,5,Each,False,ThreeForTwo,10,3] => apples-0                            1.99
+apples-0                            9.95
+  1.99 * 5
+apples-1                            1.99
+apples-1                            9.95
+  1.99 * 5
+apples-2                            1.99
+apples-2                            9.95
+  1.99 * 5
+
+Total:                             35.82
+
+[apples,1.99,5,Each,False,TwoForAmount,10,1] => apples-0                            1.99
+apples-0                            9.95
+  1.99 * 5
+
+Total:                             11.94
+
+[apples,1.99,5,Each,False,TwoForAmount,10,2] => apples-0                            1.99
+apples-0                            9.95
+  1.99 * 5
+apples-1                            1.99
+apples-1                            9.95
+  1.99 * 5
+
+Total:                             23.88
+
+[apples,1.99,5,Each,False,TwoForAmount,10,3] => apples-0                            1.99
+apples-0                            9.95
+  1.99 * 5
+apples-1                            1.99
+apples-1                            9.95
+  1.99 * 5
+apples-2                            1.99
+apples-2                            9.95
+  1.99 * 5
+
+Total:                             35.82
+
+[apples,1.99,5,Kilo,True,TenPercentDiscount,10,1] => apples-0                            1.99
+apples-0                            9.95
+  1.99 * 5.000
+10% off(apples-0)                  -1.19
+
+Total:                             10.75
+
+[apples,1.99,5,Kilo,True,TenPercentDiscount,10,2] => apples-0                            1.99
+apples-0                            9.95
+  1.99 * 5.000
+apples-1                            1.99
+apples-1                            9.95
+  1.99 * 5.000
+10% off(apples-0)                  -1.19
+10% off(apples-1)                  -1.19
+
+Total:                             21.49
+
+[apples,1.99,5,Kilo,True,TenPercentDiscount,10,3] => apples-0                            1.99
+apples-0                            9.95
+  1.99 * 5.000
+apples-1                            1.99
+apples-1                            9.95
+  1.99 * 5.000
+apples-2                            1.99
+apples-2                            9.95
+  1.99 * 5.000
+10% off(apples-0)                  -1.19
+10% off(apples-1)                  -1.19
+10% off(apples-2)                  -1.19
+
+Total:                             32.24
+
+[apples,1.99,5,Kilo,True,FiveForAmount,10,1] => apples-0                            1.99
+apples-0                            9.95
+  1.99 * 5.000
+5 for 10(apples-0)                  0.05
+
+Total:                             11.99
+
+[apples,1.99,5,Kilo,True,FiveForAmount,10,2] => apples-0                            1.99
+apples-0                            9.95
+  1.99 * 5.000
+apples-1                            1.99
+apples-1                            9.95
+  1.99 * 5.000
+5 for 10(apples-0)                  0.05
+5 for 10(apples-1)                  0.05
+
+Total:                             23.98
+
+[apples,1.99,5,Kilo,True,FiveForAmount,10,3] => apples-0                            1.99
+apples-0                            9.95
+  1.99 * 5.000
+apples-1                            1.99
+apples-1                            9.95
+  1.99 * 5.000
+apples-2                            1.99
+apples-2                            9.95
+  1.99 * 5.000
+5 for 10(apples-0)                  0.05
+5 for 10(apples-1)                  0.05
+5 for 10(apples-2)                  0.05
+
+Total:                             35.97
+
+[apples,1.99,5,Kilo,True,ThreeForTwo,10,1] => apples-0                            1.99
+apples-0                            9.95
+  1.99 * 5.000
+3 for 2(apples-0)                  -3.98
+
+Total:                              7.96
+
+[apples,1.99,5,Kilo,True,ThreeForTwo,10,2] => apples-0                            1.99
+apples-0                            9.95
+  1.99 * 5.000
+apples-1                            1.99
+apples-1                            9.95
+  1.99 * 5.000
+3 for 2(apples-0)                  -3.98
+3 for 2(apples-1)                  -3.98
+
+Total:                             15.92
+
+[apples,1.99,5,Kilo,True,ThreeForTwo,10,3] => apples-0                            1.99
+apples-0                            9.95
+  1.99 * 5.000
+apples-1                            1.99
+apples-1                            9.95
+  1.99 * 5.000
+apples-2                            1.99
+apples-2                            9.95
+  1.99 * 5.000
+3 for 2(apples-0)                  -3.98
+3 for 2(apples-1)                  -3.98
+3 for 2(apples-2)                  -3.98
+
+Total:                             23.88
+
+[apples,1.99,5,Kilo,True,TwoForAmount,10,1] => apples-0                            1.99
+apples-0                            9.95
+  1.99 * 5.000
+2 for 10(apples-0)                 18.06
+
+Total:                             30.00
+
+[apples,1.99,5,Kilo,True,TwoForAmount,10,2] => apples-0                            1.99
+apples-0                            9.95
+  1.99 * 5.000
+apples-1                            1.99
+apples-1                            9.95
+  1.99 * 5.000
+2 for 10(apples-0)                 18.06
+2 for 10(apples-1)                 18.06
+
+Total:                             60.00
+
+[apples,1.99,5,Kilo,True,TwoForAmount,10,3] => apples-0                            1.99
+apples-0                            9.95
+  1.99 * 5.000
+apples-1                            1.99
+apples-1                            9.95
+  1.99 * 5.000
+apples-2                            1.99
+apples-2                            9.95
+  1.99 * 5.000
+2 for 10(apples-0)                 18.06
+2 for 10(apples-1)                 18.06
+2 for 10(apples-2)                 18.06
+
+Total:                             90.00
+
+[apples,1.99,5,Kilo,False,TenPercentDiscount,10,1] => apples-0                            1.99
+apples-0                            9.95
+  1.99 * 5.000
+
+Total:                             11.94
+
+[apples,1.99,5,Kilo,False,TenPercentDiscount,10,2] => apples-0                            1.99
+apples-0                            9.95
+  1.99 * 5.000
+apples-1                            1.99
+apples-1                            9.95
+  1.99 * 5.000
+
+Total:                             23.88
+
+[apples,1.99,5,Kilo,False,TenPercentDiscount,10,3] => apples-0                            1.99
+apples-0                            9.95
+  1.99 * 5.000
+apples-1                            1.99
+apples-1                            9.95
+  1.99 * 5.000
+apples-2                            1.99
+apples-2                            9.95
+  1.99 * 5.000
+
+Total:                             35.82
+
+[apples,1.99,5,Kilo,False,FiveForAmount,10,1] => apples-0                            1.99
+apples-0                            9.95
+  1.99 * 5.000
+
+Total:                             11.94
+
+[apples,1.99,5,Kilo,False,FiveForAmount,10,2] => apples-0                            1.99
+apples-0                            9.95
+  1.99 * 5.000
+apples-1                            1.99
+apples-1                            9.95
+  1.99 * 5.000
+
+Total:                             23.88
+
+[apples,1.99,5,Kilo,False,FiveForAmount,10,3] => apples-0                            1.99
+apples-0                            9.95
+  1.99 * 5.000
+apples-1                            1.99
+apples-1                            9.95
+  1.99 * 5.000
+apples-2                            1.99
+apples-2                            9.95
+  1.99 * 5.000
+
+Total:                             35.82
+
+[apples,1.99,5,Kilo,False,ThreeForTwo,10,1] => apples-0                            1.99
+apples-0                            9.95
+  1.99 * 5.000
+
+Total:                             11.94
+
+[apples,1.99,5,Kilo,False,ThreeForTwo,10,2] => apples-0                            1.99
+apples-0                            9.95
+  1.99 * 5.000
+apples-1                            1.99
+apples-1                            9.95
+  1.99 * 5.000
+
+Total:                             23.88
+
+[apples,1.99,5,Kilo,False,ThreeForTwo,10,3] => apples-0                            1.99
+apples-0                            9.95
+  1.99 * 5.000
+apples-1                            1.99
+apples-1                            9.95
+  1.99 * 5.000
+apples-2                            1.99
+apples-2                            9.95
+  1.99 * 5.000
+
+Total:                             35.82
+
+[apples,1.99,5,Kilo,False,TwoForAmount,10,1] => apples-0                            1.99
+apples-0                            9.95
+  1.99 * 5.000
+
+Total:                             11.94
+
+[apples,1.99,5,Kilo,False,TwoForAmount,10,2] => apples-0                            1.99
+apples-0                            9.95
+  1.99 * 5.000
+apples-1                            1.99
+apples-1                            9.95
+  1.99 * 5.000
+
+Total:                             23.88
+
+[apples,1.99,5,Kilo,False,TwoForAmount,10,3] => apples-0                            1.99
+apples-0                            9.95
+  1.99 * 5.000
+apples-1                            1.99
+apples-1                            9.95
+  1.99 * 5.000
+apples-2                            1.99
+apples-2                            9.95
+  1.99 * 5.000
+
+Total:                             35.82
+

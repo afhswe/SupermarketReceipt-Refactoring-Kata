@@ -17,7 +17,7 @@ namespace SupermarketReceipt
             _offers[product] = new Offer(offerType, product, argument);
         }
 
-        public Receipt ChecksOutArticlesFrom(ShoppingCart theCart)
+        public Receipt CheckOutArticlesFrom(ShoppingCart theCart)
         {
             var receipt = new Receipt();
             var productQuantities = theCart.GetItems();
