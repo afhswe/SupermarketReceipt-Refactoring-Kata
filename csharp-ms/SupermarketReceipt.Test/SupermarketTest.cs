@@ -1,12 +1,10 @@
-using System.Collections.Generic;
 using System.Text.Json;
 using ApprovalTests.Combinations;
 using ApprovalTests.Reporters;
 using System.Text.Json.Serialization;
 using Xunit;
 using FluentAssertions;
-using Newtonsoft.Json;
-using JsonSerializer = System.Text.Json.JsonSerializer;
+using Moq;
 
 namespace SupermarketReceipt.Test
 {
@@ -52,18 +50,23 @@ namespace SupermarketReceipt.Test
             SpecialOfferType specialOfferType,
             double specialOfferArgument)
         {
-            var catalog = new FakeCatalog();
-            var cart = new ShoppingCart();
-            var teller = new Teller(catalog);
-
             var product = new Product($"chocolate", productUnit);
-            catalog.AddProduct(product, 1.00);
+            var catalogStub = new Mock<ISupermarketCatalog>();
+            catalogStub.Setup(c => c.GetUnitPrice(product)).Returns(1.00);
+
+            var notificationServiceMock = new Mock<INotificationService>();
+            var teller = new Teller(catalogStub.Object, notificationServiceMock.Object);
+
+            var cart = new ShoppingCart();
             cart.AddItem(product);
             cart.AddItemQuantity(product, itemQuantity);
             teller.AddSpecialOffer(specialOfferType, product, specialOfferArgument);
 
             var receipt = teller.CheckOutArticlesFrom(cart);
             var receiptAsJson = ReceiptAsJson(receipt);
+
+            //catalogStub.Verify(c => c.GetUnitPrice(It.IsAny<Product>()), Times.Exactly(3));
+            notificationServiceMock.Verify(notificationService => notificationService.SendReceipt(receipt), Times.Once());
             return receiptAsJson;
         }
 
@@ -85,13 +88,5 @@ namespace SupermarketReceipt.Test
                     }
                 });
         }
-    }
-
-    public class ReceiptDataForPrinting
-    {
-        public double TotalPrice { get; set; }
-        public SpecialOfferType SpecialOffer { get; set; }
-        public List<Discount> Discounts { get; set; }
-        public List<ReceiptItem> Items { get; set; }
     }
 }

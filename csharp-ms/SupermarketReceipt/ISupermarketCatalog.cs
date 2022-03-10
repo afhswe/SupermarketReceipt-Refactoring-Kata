@@ -1,6 +1,6 @@
 namespace SupermarketReceipt
 {
-    public interface SupermarketCatalog
+    public interface ISupermarketCatalog
     {
         void AddProduct(Product product, double price);
 
