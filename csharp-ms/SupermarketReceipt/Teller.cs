@@ -8,6 +8,7 @@ namespace SupermarketReceipt
         private readonly ISupermarketCatalog _catalog;
         private readonly Dictionary<Product, Offer> _offers = new Dictionary<Product, Offer>();
         private INotificationService _notificationService;
+        private Dictionary<Product, double> _priceCache = new Dictionary<Product, double>();
 
         public Teller(ISupermarketCatalog catalog, INotificationService notificationService)
         {
