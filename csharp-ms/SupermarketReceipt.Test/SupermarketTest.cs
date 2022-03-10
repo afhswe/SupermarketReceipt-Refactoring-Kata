@@ -1,6 +1,12 @@
+using System.Collections.Generic;
+using System.Text.Json;
 using ApprovalTests.Combinations;
 using ApprovalTests.Reporters;
+using System.Text.Json.Serialization;
 using Xunit;
+using FluentAssertions;
+using Newtonsoft.Json;
+using JsonSerializer = System.Text.Json.JsonSerializer;
 
 namespace SupermarketReceipt.Test
 {
@@ -10,30 +16,34 @@ namespace SupermarketReceipt.Test
         [UseReporter(typeof(DiffReporter))]
         public void ApproveReceiptCalculation()
         {
-            var itemQuantities = new double[] {
+            var itemQuantities = new double[]
+            {
                 1,
                 5
             };
-            var productUnits = new[] {
+            var productUnits = new[]
+            {
                 ProductUnit.Each,
                 ProductUnit.Kilo
             };
-            var specialOfferTypes = new[] {
+            var specialOfferTypes = new[]
+            {
                 SpecialOfferType.TenPercentDiscount,
                 SpecialOfferType.FiveForAmount,
                 SpecialOfferType.ThreeForTwo,
                 SpecialOfferType.TwoForAmount
             };
-            var specialOfferArguments = new[] {
+            var specialOfferArguments = new[]
+            {
                 10.0
             };
 
             CombinationApprovals.VerifyAllCombinations(
-            CallCheckoutAndGetReceipt,
-            itemQuantities,
-            productUnits,
-            specialOfferTypes,
-            specialOfferArguments);
+                CallCheckoutAndGetReceipt,
+                itemQuantities,
+                productUnits,
+                specialOfferTypes,
+                specialOfferArguments);
         }
 
         private string CallCheckoutAndGetReceipt(
@@ -53,7 +63,35 @@ namespace SupermarketReceipt.Test
             teller.AddSpecialOffer(specialOfferType, product, specialOfferArgument);
 
             var receipt = teller.CheckOutArticlesFrom(cart);
-            return new ReceiptPrinter().PrintReceipt(receipt);
+            var receiptAsJson = ReceiptAsJson(receipt);
+            return receiptAsJson;
         }
+
+        private string ReceiptAsJson(Receipt receipt)
+        {
+            var receiptForTest = new ReceiptDataForPrinting();
+            receiptForTest.Discounts = receipt.GetDiscounts();
+            receiptForTest.TotalPrice = receipt.GetTotalPrice();
+            receiptForTest.Items = receipt.GetItems();
+            receiptForTest.SpecialOffer = SpecialOfferType.TenPercentDiscount;
+            return JsonSerializer.Serialize(
+                receiptForTest,
+                new JsonSerializerOptions()
+                {
+                    WriteIndented = true,
+                    Converters =
+                    {
+                        new JsonStringEnumConverter()
+                    }
+                });
+        }
+    }
+
+    public class ReceiptDataForPrinting
+    {
+        public double TotalPrice { get; set; }
+        public SpecialOfferType SpecialOffer { get; set; }
+        public List<Discount> Discounts { get; set; }
+        public List<ReceiptItem> Items { get; set; }
     }
 }
