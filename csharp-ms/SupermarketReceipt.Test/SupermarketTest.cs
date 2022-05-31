@@ -244,8 +244,15 @@ namespace SupermarketReceipt.Test
             var notificationService = new Mock<INotificationService>();
             var sut = new Teller(supermarketCatalog.Object, notificationService.Object);
 
-            ShoppingCart cart = new ShoppingCart();
-            cart.AddItemQuantity(productWithInvalidName, 5);
+            try
+            {
+                ShoppingCart cart = new ShoppingCart();
+                cart.AddItem(productWithInvalidName);
+            }
+            catch (Exception exception)
+            {
+                exception.Message.Should().Be("Product name ch invalid, has to be at least 2 characters");
+            }
         }
     }
 }
