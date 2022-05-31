@@ -16,7 +16,9 @@ namespace SupermarketReceipt.Test
         [Fact]
         public void TotalPrice_IsZero_ForEmptyCart()
         {
-            var sut = new Teller(null, null);
+            var supermarketCatalog = new Mock<ISupermarketCatalog>();
+            var notificationService = new Mock<INotificationService>();
+            var sut = new Teller(supermarketCatalog.Object, notificationService.Object);
             ShoppingCart cart = new ShoppingCart();
             var receipt = sut.CheckOutArticlesFrom(cart);
             receipt.GetTotalPrice().Should().Be(0.0);
@@ -50,6 +52,19 @@ namespace SupermarketReceipt.Test
 
             supermarketCatalog.Verify(catalog => catalog.GetUnitPrice(chocolate), Times.Exactly(2));
             notificationService.Verify(service => service.SendReceipt(receipt), Times.Once);
+        }
+
+        [Fact]
+        public void AddsSpecialOffer_ToOffersList()
+        {
+            var supermarketCatalog = new Mock<ISupermarketCatalog>();
+            var notificationService = new Mock<INotificationService>();
+            var sut = new Teller(supermarketCatalog.Object, notificationService.Object);
+            var coffee = new Product("coffee", ProductUnit.Kilo);
+            sut.AddSpecialOffer(SpecialOfferType.TenPercentDiscount, coffee, 0);
+
+            sut.Offers[0].OfferType.Should().Be(SpecialOfferType.TenPercentDiscount);
+            sut.Offers[0].Argument.Should().Be(0);
         }
 
         [Fact]
@@ -185,7 +200,7 @@ namespace SupermarketReceipt.Test
         }
 
         [Fact]
-        public void AppliesTenPercentDiscount_And_FiveForAmountDiscount()
+        public void AppliesSeveralDiscounts()
         {
             var supermarketCatalog = new Mock<ISupermarketCatalog>();
             Product chocolate = new Product("chocolate", ProductUnit.Each);
@@ -196,14 +211,14 @@ namespace SupermarketReceipt.Test
             var notificationService = new Mock<INotificationService>();
             var sut = new Teller(supermarketCatalog.Object, notificationService.Object);
             sut.AddSpecialOffer(SpecialOfferType.TenPercentDiscount, chocolate, 10);
-            sut.AddSpecialOffer(SpecialOfferType.FiveForAmount, beer, 1);
+            sut.AddSpecialOffer(SpecialOfferType.ThreeForTwo, beer, 1);
 
             ShoppingCart cart = new ShoppingCart();
             cart.AddItemQuantity(chocolate, 1);
             cart.AddItemQuantity(beer, 5);
 
             var receipt = sut.CheckOutArticlesFrom(cart);
-            receipt.GetTotalPrice().Should().BeInRange(1.9, 1.91);
+            receipt.GetTotalPrice().Should().Be(10.9);
             receipt.GetDiscounts().Should().HaveCount(2);
             receipt.GetItems().Should().HaveCount(2);
             receipt.GetItems()[0].Price.Should().Be(1);
@@ -220,30 +235,17 @@ namespace SupermarketReceipt.Test
         }
 
         [Fact]
-        public void AppliesTwoForAmountDiscount_ForTwoItemsOfSameProduct()
+        public void ProductNamesShorterThanTwoCharacters_AreNotAllowed()
         {
             var supermarketCatalog = new Mock<ISupermarketCatalog>();
-            Product beer = new Product("beer", ProductUnit.Each);
-            supermarketCatalog.Setup(catalog => catalog.GetUnitPrice(beer)).Returns(2.50);
+            Product productWithInvalidName = new Product("ch", ProductUnit.Each);
+            supermarketCatalog.Setup(catalog => catalog.GetUnitPrice(productWithInvalidName)).Returns(2.50);
 
             var notificationService = new Mock<INotificationService>();
             var sut = new Teller(supermarketCatalog.Object, notificationService.Object);
-            sut.AddSpecialOffer(SpecialOfferType.TwoForAmount, beer, 1);
 
             ShoppingCart cart = new ShoppingCart();
-            cart.AddItemQuantity(beer, 5);
-
-            var receipt = sut.CheckOutArticlesFrom(cart);
-            receipt.GetTotalPrice().Should().Be(4.5);
-            receipt.GetDiscounts().Should().Contain(d => d.Description == "2 for 1" && Equals(d.Product, beer) && d.DiscountAmount == -8.0);
-            receipt.GetItems().Should().HaveCount(1);
-            receipt.GetItems()[0].Price.Should().Be(2.5);
-            receipt.GetItems()[0].Quantity.Should().Be(5);
-            receipt.GetItems()[0].TotalPrice.Should().Be(12.5);
-            receipt.GetItems()[0].Product.Should().BeSameAs(beer);
-
-            supermarketCatalog.Verify(catalog => catalog.GetUnitPrice(beer), Times.Exactly(2));
-            notificationService.Verify(service => service.SendReceipt(receipt), Times.Never);
+            cart.AddItemQuantity(productWithInvalidName, 5);
         }
     }
 }

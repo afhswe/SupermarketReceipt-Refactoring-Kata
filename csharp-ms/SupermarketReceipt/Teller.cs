@@ -1,3 +1,4 @@
+using System;
 using System.Collections.Generic;
 using System.Linq;
 
@@ -6,7 +7,7 @@ namespace SupermarketReceipt
     public class Teller
     {
         private readonly ISupermarketCatalog catalog;
-        private readonly Dictionary<Product, Offer> offers = new Dictionary<Product, Offer>();
+        public readonly List<Offer> Offers = new List<Offer>();
         private readonly INotificationService notificationService;
 
         public Teller(ISupermarketCatalog catalog, INotificationService notificationService)
@@ -17,7 +18,7 @@ namespace SupermarketReceipt
 
         public void AddSpecialOffer(SpecialOfferType offerType, Product product, double argument)
         {
-            offers[product] = new Offer(offerType, product, argument);
+            Offers.Add(new Offer(offerType, argument, product));
         }
 
         public Receipt CheckOutArticlesFrom(ShoppingCart theCart)
@@ -49,9 +50,9 @@ namespace SupermarketReceipt
             {
                 var quantity = theCart.GetProductQuantities()[product];
                 var quantityAsInt = (int) quantity;
-                if (offers.ContainsKey(product))
+                if (Offers.Find(o => o.Product.Name == product.Name) != null)
                 {
-                    var offer = offers[product];
+                    var offer = Offers.Find(o => o.Product.Name == product.Name);
                     var unitPrice = catalog.GetUnitPrice(product);
                     Discount discount = null;
                     var x = 1;
@@ -59,18 +60,7 @@ namespace SupermarketReceipt
                     {
                         x = 3;
                     }
-                    else if (offer.OfferType == SpecialOfferType.TwoForAmount)
-                    {
-                        x = 2;
-                        if (quantityAsInt >= 2)
-                        {
-                            var total = offer.Argument * (quantityAsInt / x) + quantityAsInt % 2 * unitPrice;
-                            var discountN = unitPrice * quantity - total;
-                            discount = new Discount(product, "2 for " + offer.Argument, -discountN);
-                        }
-                    }
 
-                    if (offer.OfferType == SpecialOfferType.FiveForAmount) x = 5;
                     var numberOfXs = quantityAsInt / x;
                     if (offer.OfferType == SpecialOfferType.ThreeForTwo && quantityAsInt > 2)
                     {
@@ -81,12 +71,6 @@ namespace SupermarketReceipt
 
                     if (offer.OfferType == SpecialOfferType.TenPercentDiscount)
                         discount = new Discount(product, offer.Argument + "% off", -quantity * unitPrice * offer.Argument / 100.0);
-                    if (offer.OfferType == SpecialOfferType.FiveForAmount && quantityAsInt >= 5)
-                    {
-                        var discountTotal = unitPrice * quantity -
-                                            (offer.Argument * numberOfXs + quantityAsInt % 5 * unitPrice);
-                        discount = new Discount(product, x + " for " + offer.Argument, -discountTotal);
-                    }
 
                     if (discount != null)
                         receipt.AddDiscount(discount);
