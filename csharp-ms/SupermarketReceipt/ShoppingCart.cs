@@ -17,7 +17,7 @@ namespace SupermarketReceipt
         {
             if (product.Name.Length < 3)
             {
-                throw new InvalidProductException($"Product name {product.Name} invalid, has to be at least 2 characters");
+                throw new InvalidProductNameException($"Product name {product.Name} invalid, has to be at least 2 characters");
             }
             AddItemQuantity(product, 1.0);
         }

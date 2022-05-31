@@ -23,7 +23,7 @@ namespace SupermarketReceipt
 
         public List<ReceiptItem> GetItems()
         {
-            return new List<ReceiptItem>(items);
+            return items;
         }
 
         public void AddDiscount(Discount discount)

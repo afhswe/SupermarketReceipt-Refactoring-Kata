@@ -96,22 +96,30 @@ namespace SupermarketReceipt.Test
         {
             var supermarketCatalog = new Mock<ISupermarketCatalog>();
             Product chocolate = new Product("chocolate", ProductUnit.Each);
+            Product beer = new Product("beer", ProductUnit.Each);
+
             supermarketCatalog.Setup(catalog => catalog.GetUnitPrice(chocolate)).Returns(1);
+            supermarketCatalog.Setup(catalog => catalog.GetUnitPrice(beer)).Returns(1);
 
             var notificationService = new Mock<INotificationService>();
             var sut = new Teller(supermarketCatalog.Object, notificationService.Object);
             ShoppingCart cart = new ShoppingCart();
             cart.AddItem(chocolate);
+            cart.AddItem(beer);
             var receipt = sut.CheckOutArticlesFrom(cart);
-            receipt.GetTotalPrice().Should().Be(1);
+            receipt.GetTotalPrice().Should().Be(2);
             receipt.GetDiscounts().Should().HaveCount(0);
-            receipt.GetItems().Should().HaveCount(1);
+            receipt.GetItems().Should().HaveCount(2);
             receipt.GetItems()[0].Price.Should().Be(1);
             receipt.GetItems()[0].Quantity.Should().Be(1);
             receipt.GetItems()[0].TotalPrice.Should().Be(1);
             receipt.GetItems()[0].Product.Should().BeSameAs(chocolate);
+            receipt.GetItems()[1].Price.Should().Be(1);
+            receipt.GetItems()[1].Quantity.Should().Be(1);
+            receipt.GetItems()[1].TotalPrice.Should().Be(1);
+            receipt.GetItems()[1].Product.Should().BeSameAs(beer);
             supermarketCatalog.Verify(catalog => catalog.GetUnitPrice(chocolate), Times.Exactly(1));
-            notificationService.Verify(service => service.SendReceipt(receipt), Times.Never);
+            notificationService.Verify(service => service.SendReceipt(receipt), Times.Once);
         }
 
 
