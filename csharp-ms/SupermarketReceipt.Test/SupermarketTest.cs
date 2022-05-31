@@ -66,7 +66,7 @@ namespace SupermarketReceipt.Test
             sut.AddSpecialOffer(SpecialOfferType.TenPercentDiscount, chocolate, 10);
             var receipt = sut.CheckOutArticlesFrom(cart);
             receipt.GetTotalPrice().Should().Be(0.9);
-            receipt.GetDiscounts().Should().Contain(discount => discount.Description.Equals("10% off"));
+            receipt.GetDiscounts().Should().Contain(discount => discount.Description.Equals("10% off") && discount.DiscountAmount == -0.1 && discount.Product.Equals(chocolate));
             receipt.GetItems()[0].Price.Should().Be(1);
             receipt.GetItems()[0].Quantity.Should().Be(1);
             receipt.GetItems()[0].TotalPrice.Should().Be(1);
@@ -235,7 +235,7 @@ namespace SupermarketReceipt.Test
 
             var receipt = sut.CheckOutArticlesFrom(cart);
             receipt.GetTotalPrice().Should().Be(4.5);
-            receipt.GetDiscounts().Should().Contain(d => d.Description == "2 for 1");
+            receipt.GetDiscounts().Should().Contain(d => d.Description == "2 for 1" && Equals(d.Product, beer) && d.DiscountAmount == -8.0);
             receipt.GetItems().Should().HaveCount(1);
             receipt.GetItems()[0].Price.Should().Be(2.5);
             receipt.GetItems()[0].Quantity.Should().Be(5);
