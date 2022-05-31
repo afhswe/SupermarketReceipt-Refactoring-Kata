@@ -10,13 +10,13 @@ namespace SupermarketReceipt
 
     public class Offer
     {
-        private Product _product;
+        private Product product;
 
         public Offer(SpecialOfferType offerType, Product product, double argument)
         {
             OfferType = offerType;
             Argument = argument;
-            _product = product;
+            this.product = product;
         }
 
         public SpecialOfferType OfferType { get; }

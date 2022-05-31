@@ -4,13 +4,13 @@ namespace SupermarketReceipt
 {
     public class ShoppingCart
     {
-        private readonly List<ProductQuantity> _items = new List<ProductQuantity>();
-        private readonly Dictionary<Product, double> _productQuantities = new Dictionary<Product, double>();
+        private readonly List<ProductQuantity> items = new List<ProductQuantity>();
+        private readonly Dictionary<Product, double> productQuantities = new Dictionary<Product, double>();
 
 
         public List<ProductQuantity> GetItems()
         {
-            return new List<ProductQuantity>(_items);
+            return new List<ProductQuantity>(items);
         }
 
         public void AddItem(Product product)
@@ -21,21 +21,21 @@ namespace SupermarketReceipt
 
         public void AddItemQuantity(Product product, double quantity)
         {
-            _items.Add(new ProductQuantity(product, quantity));
-            if (_productQuantities.ContainsKey(product))
+            items.Add(new ProductQuantity(product, quantity));
+            if (productQuantities.ContainsKey(product))
             {
-                var newAmount = _productQuantities[product] + quantity;
-                _productQuantities[product] = newAmount;
+                var newAmount = productQuantities[product] + quantity;
+                productQuantities[product] = newAmount;
             }
             else
             {
-                _productQuantities.Add(product, quantity);
+                productQuantities.Add(product, quantity);
             }
         }
 
         public Dictionary<Product, double> GetProductQuantities()
         {
-            return _productQuantities;
+            return productQuantities;
         }
     }
 }
