@@ -61,10 +61,10 @@ namespace SupermarketReceipt.Test
             var notificationService = new Mock<INotificationService>();
             var sut = new Teller(supermarketCatalog.Object, notificationService.Object);
             var coffee = new Product("coffee", ProductUnit.Kilo);
-            sut.AddSpecialOffer(SpecialOfferType.TenPercentDiscount, coffee, 0);
+            sut.AddSpecialOffer(SpecialOfferType.TenPercentDiscount, coffee, 10);
 
             sut.Offers[0].OfferType.Should().Be(SpecialOfferType.TenPercentDiscount);
-            sut.Offers[0].Argument.Should().Be(0);
+            sut.Offers[0].Argument.Should().Be(10);
         }
 
         [Fact]
