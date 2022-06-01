@@ -69,7 +69,7 @@ namespace SupermarketReceipt
                         discount = new Discount(product, "3 for 2", -discountAmount);
                     }
 
-                    if (offer.OfferType == SpecialOfferType.TenPercentDiscount)
+                    if (offer.OfferType == SpecialOfferType.PercentageDiscount)
                         discount = new Discount(product, offer.Argument + "% off", -quantity * unitPrice * offer.Argument / 100.0);
 
                     if (discount != null)

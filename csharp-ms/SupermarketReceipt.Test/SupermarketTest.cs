@@ -61,14 +61,14 @@ namespace SupermarketReceipt.Test
             var notificationService = new Mock<INotificationService>();
             var sut = new Teller(supermarketCatalog.Object, notificationService.Object);
             var coffee = new Product("coffee", ProductUnit.Kilo);
-            sut.AddSpecialOffer(SpecialOfferType.TenPercentDiscount, coffee, 10);
+            sut.AddSpecialOffer(SpecialOfferType.PercentageDiscount, coffee, 10);
 
-            sut.Offers[0].OfferType.Should().Be(SpecialOfferType.TenPercentDiscount);
+            sut.Offers[0].OfferType.Should().Be(SpecialOfferType.PercentageDiscount);
             sut.Offers[0].Argument.Should().Be(10);
         }
 
         [Fact]
-        public void AppliesTenPercentDiscount()
+        public void AppliesPercentageDiscount()
         {
             var supermarketCatalog = new Mock<ISupermarketCatalog>();
             Product chocolate = new Product("chocolate", ProductUnit.Each);
@@ -78,7 +78,7 @@ namespace SupermarketReceipt.Test
             var sut = new Teller(supermarketCatalog.Object, notificationService.Object);
             ShoppingCart cart = new ShoppingCart();
             cart.AddItem(chocolate);
-            sut.AddSpecialOffer(SpecialOfferType.TenPercentDiscount, chocolate, 10);
+            sut.AddSpecialOffer(SpecialOfferType.PercentageDiscount, chocolate, 10);
             var receipt = sut.CheckOutArticlesFrom(cart);
             receipt.GetTotalPrice().Should().Be(0.9);
             receipt.GetDiscounts().Should().Contain(discount => discount.Description.Equals("10% off") && discount.DiscountAmount == -0.1 && discount.Product.Equals(chocolate));
@@ -218,7 +218,7 @@ namespace SupermarketReceipt.Test
 
             var notificationService = new Mock<INotificationService>();
             var sut = new Teller(supermarketCatalog.Object, notificationService.Object);
-            sut.AddSpecialOffer(SpecialOfferType.TenPercentDiscount, chocolate, 10);
+            sut.AddSpecialOffer(SpecialOfferType.PercentageDiscount, chocolate, 10);
             sut.AddSpecialOffer(SpecialOfferType.ThreeForTwo, beer, 1);
 
             ShoppingCart cart = new ShoppingCart();
