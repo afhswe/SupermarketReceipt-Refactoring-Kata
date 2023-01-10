@@ -1,3 +1,4 @@
+using System;
 using ApprovalTests.Combinations;
 using ApprovalTests.Reporters;
 using Xunit;
@@ -53,7 +54,12 @@ namespace SupermarketReceipt.Test
             teller.AddSpecialOffer(specialOfferType, product, specialOfferArgument);
 
             var receipt = teller.CheckOutArticlesFrom(cart);
-            return new ReceiptPrinter().PrintReceipt(receipt);
+            var receiptPrinter = new ReceiptPrinter();
+            receiptPrinter.StartWithNewLine();
+            receiptPrinter.WrapReceiptOutputWith("-");
+
+            var receiptOutput = receiptPrinter.PrintReceipt(receipt);
+            return receiptOutput;
         }
     }
 }
